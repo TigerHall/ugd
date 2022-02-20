@@ -195,7 +195,7 @@ function enableNightReading() {
   }
 }
 
-// 网页小标题
+// 网页小图标
 (function () {
   var link = document.createElement("link");
   link.type = "image/x-icon";
@@ -217,3 +217,29 @@ document.addEventListener("visibilitychange", function () {
   }
   document.getElementsByTagName("head")[0].appendChild(link);
 });
+
+// 阅读时间
+var c = 1;
+OriginTitle = document.title;
+function showLogin() {
+  if (document.visibilityState == "hidden") {
+  } else {
+    c++;
+    t = "测试";
+    if (c > 3600) {
+      h = parseInt(c / 3600);
+      m = parseInt((c - h * 3600) / 60);
+      s = c - h * 3600 - m * 60;
+      t = h + "小时 - " + m + "分钟 - " + s + "秒";
+    } else if (c > 60) {
+      m = parseInt(c / 60);
+      s = c - m * 60;
+      t = m + "分钟 - " + s + "秒";
+    } else {
+      s = c;
+      t = s + "秒";
+    }
+    document.title = OriginTitle + " 已阅读 " + t;
+  }
+}
+setInterval("showLogin()", "1000");
