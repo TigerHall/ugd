@@ -1,0 +1,2413 @@
+<?xml version="1.0" encoding="UTF-8"?><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+   <head>
+      <meta name="dtb:uid" content="9781108745840"/>
+      <meta name="dtb:depth" content="todo"/>
+      <meta name="dtb:totalPageCount" content="358"/>
+      <meta name="dtb:maxPageNumber" content="346"/>
+   </head>
+   <docTitle>
+      <text/>
+   </docTitle>
+   <navMap>
+      <navPoint id="cover1" playOrder="1">
+         <navLabel>
+            <text>Coverpage</text>
+         </navLabel>
+         <content src="Text/coverpage.xhtml"/>
+      </navPoint>
+      <navPoint id="HT-fnmp-1" playOrder="2">
+         <navLabel>
+            <text>Half title</text>
+         </navLabel>
+         <content src="Text/front-matter-part1.xhtml#HT-fnmp-1"/>
+      </navPoint>
+      <navPoint id="FMT-fnmp-1" playOrder="3">
+         <navLabel>
+            <text>Reviews</text>
+         </navLabel>
+         <content src="Text/front-matter-part2.xhtml"/>
+      </navPoint>
+      <navPoint id="TPT-fnmp-1" playOrder="4">
+         <navLabel>
+            <text>Title page</text>
+         </navLabel>
+         <content src="Text/front-matter-part3.xhtml"/>
+      </navPoint>
+      <navPoint id="IMP-fnmp-1" playOrder="5">
+         <navLabel>
+            <text>Imprints page</text>
+         </navLabel>
+         <content src="Text/front-matter-part4.xhtml"/>
+      </navPoint>
+      <navPoint id="FMT-toc-1" playOrder="6">
+         <navLabel>
+            <text>Contents</text>
+         </navLabel>
+         <content src="Text/toc.xhtml"/>
+      </navPoint>
+      <navPoint id="FMT-prf-1" playOrder="7">
+         <navLabel>
+            <text>Preface to the Second Edition</text>
+         </navLabel>
+         <content src="Text/preface1.xhtml"/>
+      </navPoint>
+      <navPoint id="FMT-prf-2" playOrder="8">
+         <navLabel>
+            <text>Preface to the First Edition</text>
+         </navLabel>
+         <content src="Text/preface2.xhtml"/>
+      </navPoint>
+      <navPoint id="FMT-gls-1" playOrder="9">
+         <navLabel>
+            <text>Abbreviations</text>
+         </navLabel>
+         <content src="Text/glossary.xhtml"/>
+      </navPoint>
+      <navPoint id="CN-bp-1" playOrder="10">
+         <navLabel>
+            <text>1 Geochemical Data</text>
+         </navLabel>
+         <content src="Text/book-part1.xhtml"/>
+         <navPoint id="A-sec-1" playOrder="11">
+            <navLabel>
+               <text>1.1 Introduction</text>
+            </navLabel>
+            <content src="Text/book-part1.xhtml#A-sec-1"/>
+         </navPoint>
+         <navPoint id="A-sec-2" playOrder="12">
+            <navLabel>
+               <text>1.2 Geological Processes and Their Geochemical Signatures</text>
+            </navLabel>
+            <content src="Text/book-part1.xhtml#A-sec-2"/>
+            <navPoint id="B-sec-1" playOrder="13">
+               <navLabel>
+                  <text>1.2.1 Processes Which Control the Formation and Differentiation of Planetary Bodies</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-1"/>
+            </navPoint>
+            <navPoint id="B-sec-2" playOrder="14">
+               <navLabel>
+                  <text>1.2.2 Processes Which Control the Chemical Composition of Igneous Rocks</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-2"/>
+               <navPoint id="C-sec-1" playOrder="15">
+                  <navLabel>
+                     <text>1.2.2.1 Processes Which Take Place in the Mantle Source</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-1"/>
+               </navPoint>
+               <navPoint id="C-sec-2" playOrder="16">
+                  <navLabel>
+                     <text>1.2.2.2 Partial Melting Processes</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-2"/>
+               </navPoint>
+               <navPoint id="C-sec-3" playOrder="17">
+                  <navLabel>
+                     <text>1.2.2.3 Magma Chamber Processes</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-3"/>
+               </navPoint>
+               <navPoint id="C-sec-4" playOrder="18">
+                  <navLabel>
+                     <text>1.2.2.4 Post-solidus Processes</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-4"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-3" playOrder="19">
+               <navLabel>
+                  <text>1.2.3 Processes Which Control the Chemical Composition of Metamorphic Rocks</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-3"/>
+            </navPoint>
+            <navPoint id="B-sec-4" playOrder="20">
+               <navLabel>
+                  <text>1.2.4 Low-Temperature Processes in the Earth’s Surficial Environment</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-4"/>
+               <navPoint id="C-sec-5" playOrder="21">
+                  <navLabel>
+                     <text>1.2.4.1 Atmospheric Processes</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-5"/>
+               </navPoint>
+               <navPoint id="C-sec-6" playOrder="22">
+                  <navLabel>
+                     <text>1.2.4.2 Weathering Processes</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-6"/>
+               </navPoint>
+               <navPoint id="C-sec-7" playOrder="23">
+                  <navLabel>
+                     <text>1.2.4.3 Water Chemistry</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-7"/>
+               </navPoint>
+               <navPoint id="C-sec-8" playOrder="24">
+                  <navLabel>
+                     <text>1.2.4.4 The Impact of Human Activity on the Earth’s Surface Environment</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-8"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-5" playOrder="25">
+               <navLabel>
+                  <text>1.2.5 Processes Which Control the Chemical Composition of Sedimentary Rocks</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-5"/>
+               <navPoint id="C-sec-9" playOrder="26">
+                  <navLabel>
+                     <text>1.2.5.1 Provenance</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-9"/>
+               </navPoint>
+               <navPoint id="C-sec-10" playOrder="27">
+                  <navLabel>
+                     <text>1.2.5.2 Weathering</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-10"/>
+               </navPoint>
+               <navPoint id="C-sec-11" playOrder="28">
+                  <navLabel>
+                     <text>1.2.5.3 Processes in the Depositional Environment</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-11"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-6" playOrder="29">
+               <navLabel>
+                  <text>1.2.6 Biogeochemical Processes</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-6"/>
+               <navPoint id="C-sec-12" playOrder="30">
+                  <navLabel>
+                     <text>1.2.6.1 The Search for Early Life on Earth</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-12"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-3" playOrder="31">
+            <navLabel>
+               <text>1.3 Geological Controls on Geochemical Data</text>
+            </navLabel>
+            <content src="Text/book-part1.xhtml#A-sec-3"/>
+            <navPoint id="B-sec-7" playOrder="32">
+               <navLabel>
+                  <text>1.3.1 Sample Collection</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-7"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-4" playOrder="33">
+            <navLabel>
+               <text>1.4 Analytical Methods in Geochemistry</text>
+            </navLabel>
+            <content src="Text/book-part1.xhtml#A-sec-4"/>
+            <navPoint id="B-sec-8" playOrder="34">
+               <navLabel>
+                  <text>1.4.1 Sample Preparation</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-8"/>
+            </navPoint>
+            <navPoint id="B-sec-9" playOrder="35">
+               <navLabel>
+                  <text>1.4.2 Sample Dissolution</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-9"/>
+            </navPoint>
+            <navPoint id="B-sec-10" playOrder="36">
+               <navLabel>
+                  <text>1.4.3 X-Ray Fluorescence (XRF)</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-10"/>
+               <navPoint id="C-sec-13" playOrder="37">
+                  <navLabel>
+                     <text>1.4.3.1 Wavelength Dispersive X-Ray Fluorescence Spectrometry (WDXRF)</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-13"/>
+               </navPoint>
+               <navPoint id="C-sec-14" playOrder="38">
+                  <navLabel>
+                     <text>1.4.3.2 Energy Dispersive X-Ray Fluorescence (EDXRF)</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-14"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-11" playOrder="39">
+               <navLabel>
+                  <text>1.4.4 Instrumental Neutron Activation Analysis (INAA)</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-11"/>
+            </navPoint>
+            <navPoint id="B-sec-12" playOrder="40">
+               <navLabel>
+                  <text>1.4.5 Atomic Absorption Spectrophotometry (AAS)</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-12"/>
+            </navPoint>
+            <navPoint id="B-sec-13" playOrder="41">
+               <navLabel>
+                  <text>1.4.6 Mass Spectrometry</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-13"/>
+               <navPoint id="C-sec-15" playOrder="42">
+                  <navLabel>
+                     <text>1.4.6.1 Thermal Ionisation Mass Spectrometry (TIMS)</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-15"/>
+               </navPoint>
+               <navPoint id="C-sec-16" playOrder="43">
+                  <navLabel>
+                     <text>1.4.6.2 Gas Source Mass Spectrometry</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-16"/>
+               </navPoint>
+               <navPoint id="C-sec-17" playOrder="44">
+                  <navLabel>
+                     <text>1.4.6.3 Laser Fluorination Gas Source Mass Spectrometry</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-17"/>
+               </navPoint>
+               <navPoint id="C-sec-18" playOrder="45">
+                  <navLabel>
+                     <text>1.4.6.4 Isotope Dilution Mass Spectrometry</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-18"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-14" playOrder="46">
+               <navLabel>
+                  <text>1.4.7 Inductively Coupled Plasma (ICP) Spectrometry</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-14"/>
+               <navPoint id="C-sec-19" playOrder="47">
+                  <navLabel>
+                     <text>1.4.7.1 ICP-Optical Emission Spectrometry (ICP-OES)</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-19"/>
+               </navPoint>
+               <navPoint id="C-sec-20" playOrder="48">
+                  <navLabel>
+                     <text>1.4.7.2 ICP-Mass Spectrometry (ICP-MS)</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-20"/>
+               </navPoint>
+               <navPoint id="C-sec-21" playOrder="49">
+                  <navLabel>
+                     <text>1.4.7.3 Laser Ablation ICP Mass Spectrometry (LA-ICP-MS)</text>
+                  </navLabel>
+                  <content src="Text/book-part1.xhtml#C-sec-21"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-15" playOrder="50">
+               <navLabel>
+                  <text>1.4.8 Electron Probe Micro-analysis (EPMA)</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-15"/>
+            </navPoint>
+            <navPoint id="B-sec-16" playOrder="51">
+               <navLabel>
+                  <text>1.4.9 The Ion Microprobe (SIMS)</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-16"/>
+            </navPoint>
+            <navPoint id="B-sec-17" playOrder="52">
+               <navLabel>
+                  <text>1.4.10 Synchrotron X-Ray Spectroscopic Analysis</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-17"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-5" playOrder="53">
+            <navLabel>
+               <text>1.5 Selecting an Appropriate Analytical Technique</text>
+            </navLabel>
+            <content src="Text/book-part1.xhtml#A-sec-5"/>
+         </navPoint>
+         <navPoint id="A-sec-6" playOrder="54">
+            <navLabel>
+               <text>1.6 Sources of Error in Geochemical Analysis</text>
+            </navLabel>
+            <content src="Text/book-part1.xhtml#A-sec-6"/>
+            <navPoint id="B-sec-18" playOrder="55">
+               <navLabel>
+                  <text>1.6.1 Contamination</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-18"/>
+            </navPoint>
+            <navPoint id="B-sec-19" playOrder="56">
+               <navLabel>
+                  <text>1.6.2 Calibration</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-19"/>
+            </navPoint>
+            <navPoint id="B-sec-20" playOrder="57">
+               <navLabel>
+                  <text>1.6.3 Peak Overlap</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-20"/>
+            </navPoint>
+            <navPoint id="B-sec-21" playOrder="58">
+               <navLabel>
+                  <text>1.6.4 Detecting Errors in Geochemical Data</text>
+               </navLabel>
+               <content src="Text/book-part1.xhtml#B-sec-21"/>
+            </navPoint>
+         </navPoint>
+      </navPoint>
+      <navPoint id="CN-bp-2" playOrder="59">
+         <navLabel>
+            <text>2 Analysing Geochemical Data</text>
+         </navLabel>
+         <content src="Text/book-part2.xhtml"/>
+         <navPoint id="A-sec-7" playOrder="60">
+            <navLabel>
+               <text>2.1 Introduction</text>
+            </navLabel>
+            <content src="Text/book-part2.xhtml#A-sec-7"/>
+         </navPoint>
+         <navPoint id="A-sec-8" playOrder="61">
+            <navLabel>
+               <text>2.2 A Statistical Approach?</text>
+            </navLabel>
+            <content src="Text/book-part2.xhtml#A-sec-8"/>
+            <navPoint id="B-sec-22" playOrder="62">
+               <navLabel>
+                  <text>2.2.1 Geochemical Investigation versus Statistical Trials</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-22"/>
+            </navPoint>
+            <navPoint id="B-sec-23" playOrder="63">
+               <navLabel>
+                  <text>2.2.2 Statistical Limitations Associated with Geochemical Data</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-23"/>
+               <navPoint id="C-sec-22" playOrder="64">
+                  <navLabel>
+                     <text>2.2.2.1 Constrained or Closed Data and the Constant Sum Problem</text>
+                  </navLabel>
+                  <content src="Text/book-part2.xhtml#C-sec-22"/>
+               </navPoint>
+               <navPoint id="C-sec-23" playOrder="65">
+                  <navLabel>
+                     <text>2.2.2.2 Non-uniform Errors (Heteroscedasticity)</text>
+                  </navLabel>
+                  <content src="Text/book-part2.xhtml#C-sec-23"/>
+               </navPoint>
+               <navPoint id="C-sec-24" playOrder="66">
+                  <navLabel>
+                     <text>2.2.2.3 Small n</text>
+                  </navLabel>
+                  <content src="Text/book-part2.xhtml#C-sec-24"/>
+               </navPoint>
+               <navPoint id="C-sec-25" playOrder="67">
+                  <navLabel>
+                     <text>2.2.2.4 Outliers</text>
+                  </navLabel>
+                  <content src="Text/book-part2.xhtml#C-sec-25"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-24" playOrder="68">
+               <navLabel>
+                  <text>2.2.3 Can We Address These Limitations?</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-24"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-9" playOrder="69">
+            <navLabel>
+               <text>2.3 Histograms, Averages and Probability Functions</text>
+            </navLabel>
+            <content src="Text/book-part2.xhtml#A-sec-9"/>
+            <navPoint id="B-sec-25" playOrder="70">
+               <navLabel>
+                  <text>2.3.1 Histograms</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-25"/>
+            </navPoint>
+            <navPoint id="B-sec-26" playOrder="71">
+               <navLabel>
+                  <text>2.3.2 Averages</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-26"/>
+            </navPoint>
+            <navPoint id="B-sec-27" playOrder="72">
+               <navLabel>
+                  <text>2.3.3 Probability Functions and Kernel Density Estimates</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-27"/>
+            </navPoint>
+            <navPoint id="B-sec-28" playOrder="73">
+               <navLabel>
+                  <text>2.3.4 Cumulative Distribution Function</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-28"/>
+            </navPoint>
+            <navPoint id="B-sec-29" playOrder="74">
+               <navLabel>
+                  <text>2.3.5 Chi-Square (χ2) ‘Goodness of Fit’ Test</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-29"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-10" playOrder="75">
+            <navLabel>
+               <text>2.4 Correlation</text>
+            </navLabel>
+            <content src="Text/book-part2.xhtml#A-sec-10"/>
+            <navPoint id="B-sec-30" playOrder="76">
+               <navLabel>
+                  <text>2.4.1 The Pearson Linear Correlation Coefficient (r)</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-30"/>
+               <navPoint id="C-sec-26" playOrder="77">
+                  <navLabel>
+                     <text>2.4.1.1 The Significance of the Correlation Coefficient</text>
+                  </navLabel>
+                  <content src="Text/book-part2.xhtml#C-sec-26"/>
+               </navPoint>
+               <navPoint id="C-sec-27" playOrder="78">
+                  <navLabel>
+                     <text>2.4.1.2 Assumptions Associated with the Correlation Coefficient</text>
+                  </navLabel>
+                  <content src="Text/book-part2.xhtml#C-sec-27"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-31" playOrder="79">
+               <navLabel>
+                  <text>2.4.2 Rank Correlation Coefficients</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-31"/>
+               <navPoint id="C-sec-28" playOrder="80">
+                  <navLabel>
+                     <text>2.4.2.1 Spearman Rank Correlation</text>
+                  </navLabel>
+                  <content src="Text/book-part2.xhtml#C-sec-28"/>
+               </navPoint>
+               <navPoint id="C-sec-29" playOrder="81">
+                  <navLabel>
+                     <text>2.4.2.2 Kendall Rank Correlation</text>
+                  </navLabel>
+                  <content src="Text/book-part2.xhtml#C-sec-29"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-32" playOrder="82">
+               <navLabel>
+                  <text>2.4.3 The Strength of a Correlation</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-32"/>
+            </navPoint>
+            <navPoint id="B-sec-33" playOrder="83">
+               <navLabel>
+                  <text>2.4.4 Correlation and Non-homogeneous Data</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-33"/>
+            </navPoint>
+            <navPoint id="B-sec-34" playOrder="84">
+               <navLabel>
+                  <text>2.4.5 Correlation Matrices</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-34"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-11" playOrder="85">
+            <navLabel>
+               <text>2.5 Regression Analysis</text>
+            </navLabel>
+            <content src="Text/book-part2.xhtml#A-sec-11"/>
+            <navPoint id="B-sec-35" playOrder="86">
+               <navLabel>
+                  <text>2.5.1 Ordinary Least Squares (OLS) Regression</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-35"/>
+            </navPoint>
+            <navPoint id="B-sec-36" playOrder="87">
+               <navLabel>
+                  <text>2.5.2 Orthogonal Regression</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-36"/>
+            </navPoint>
+            <navPoint id="B-sec-37" playOrder="88">
+               <navLabel>
+                  <text>2.5.3 Reduced Major Axis Regression</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-37"/>
+            </navPoint>
+            <navPoint id="B-sec-38" playOrder="89">
+               <navLabel>
+                  <text>2.5.4 Weighted Least Squares Regression</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-38"/>
+            </navPoint>
+            <navPoint id="B-sec-39" playOrder="90">
+               <navLabel>
+                  <text>2.5.5 Robust Regression</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-39"/>
+            </navPoint>
+            <navPoint id="B-sec-40" playOrder="91">
+               <navLabel>
+                  <text>2.5.6 Some Problems with Traditional Approaches to Correlation and Regression</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-40"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-12" playOrder="92">
+            <navLabel>
+               <text>2.6 Ratio Correlation</text>
+            </navLabel>
+            <content src="Text/book-part2.xhtml#A-sec-12"/>
+            <navPoint id="B-sec-41" playOrder="93">
+               <navLabel>
+                  <text>2.6.1 The Improper Use of Ratio Correlation: Pearce Element Ratio Diagrams</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-41"/>
+            </navPoint>
+            <navPoint id="B-sec-42" playOrder="94">
+               <navLabel>
+                  <text>2.6.2 Application to Trace Element Diagrams</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-42"/>
+            </navPoint>
+            <navPoint id="B-sec-43" playOrder="95">
+               <navLabel>
+                  <text>2.6.3 Ratio Correlation in Isotope Geology</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-43"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-13" playOrder="96">
+            <navLabel>
+               <text>2.7 Compositional Data Analysis</text>
+            </navLabel>
+            <content src="Text/book-part2.xhtml#A-sec-13"/>
+            <navPoint id="B-sec-44" playOrder="97">
+               <navLabel>
+                  <text>2.7.1 Aitchison’s Approach to Constrained Compositional Data</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-44"/>
+            </navPoint>
+            <navPoint id="B-sec-45" playOrder="98">
+               <navLabel>
+                  <text>2.7.2 The Biplot</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-45"/>
+            </navPoint>
+            <navPoint id="B-sec-46" playOrder="99">
+               <navLabel>
+                  <text>2.7.3 Some Geochemical Applications of the Log-Ratio Approach</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-46"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-14" playOrder="100">
+            <navLabel>
+               <text>2.8 Multivariate Data Analysis</text>
+            </navLabel>
+            <content src="Text/book-part2.xhtml#A-sec-14"/>
+            <navPoint id="B-sec-47" playOrder="101">
+               <navLabel>
+                  <text>2.8.1 Principal Component and Factor Analysis</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-47"/>
+            </navPoint>
+            <navPoint id="B-sec-48" playOrder="102">
+               <navLabel>
+                  <text>2.8.2 Discriminant Analysis</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-48"/>
+               <navPoint id="C-sec-30" playOrder="103">
+                  <navLabel>
+                     <text>2.8.2.1 Limitations of Discriminant Analysis</text>
+                  </navLabel>
+                  <content src="Text/book-part2.xhtml#C-sec-30"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-49" playOrder="104">
+               <navLabel>
+                  <text>2.8.3 Multidimensional Scaling (MDS)</text>
+               </navLabel>
+               <content src="Text/book-part2.xhtml#B-sec-49"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-15" playOrder="105">
+            <navLabel>
+               <text>2.9 Statistics and Ternary Plots</text>
+            </navLabel>
+            <content src="Text/book-part2.xhtml#A-sec-15"/>
+         </navPoint>
+         <navPoint id="A-sec-16" playOrder="106">
+            <navLabel>
+               <text>2.10 Geochemical Data and Statistical Analysis</text>
+            </navLabel>
+            <content src="Text/book-part2.xhtml#A-sec-16"/>
+         </navPoint>
+      </navPoint>
+      <navPoint id="CN-bp-3" playOrder="107">
+         <navLabel>
+            <text>3 Using Major Element Data</text>
+         </navLabel>
+         <content src="Text/book-part3.xhtml"/>
+         <navPoint id="A-sec-17" playOrder="108">
+            <navLabel>
+               <text>3.1 Introduction</text>
+            </navLabel>
+            <content src="Text/book-part3.xhtml#A-sec-17"/>
+            <navPoint id="B-sec-50" playOrder="109">
+               <navLabel>
+                  <text>3.1.1 Processing Major Element Data</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-50"/>
+            </navPoint>
+            <navPoint id="B-sec-51" playOrder="110">
+               <navLabel>
+                  <text>3.1.2 Major Element Mobility</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-51"/>
+            </navPoint>
+            <navPoint id="B-sec-52" playOrder="111">
+               <navLabel>
+                  <text>3.1.3 The Compositions of Some Major Earth Reservoirs</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-52"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-18" playOrder="112">
+            <navLabel>
+               <text>3.2 Rock Classification</text>
+            </navLabel>
+            <content src="Text/book-part3.xhtml#A-sec-18"/>
+            <navPoint id="B-sec-53" playOrder="113">
+               <navLabel>
+                  <text>3.2.1 Classifying Igneous Rocks Using Oxide-Oxide Plots</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-53"/>
+               <navPoint id="C-sec-31" playOrder="114">
+                  <navLabel>
+                     <text>3.2.1.1 The Total Alkalis-Silica Diagram (TAS) for Volcanic Rocks</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-31"/>
+               </navPoint>
+               <navPoint id="C-sec-32" playOrder="115">
+                  <navLabel>
+                     <text>3.2.1.2 A TAS Diagram for Plutonic Rocks</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-32"/>
+               </navPoint>
+               <navPoint id="C-sec-33" playOrder="116">
+                  <navLabel>
+                     <text>3.2.1.3 Discrimination between the Alkalic and Sub-alkalic Rock Series Using TAS</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-33"/>
+               </navPoint>
+               <navPoint id="C-sec-34" playOrder="117">
+                  <navLabel>
+                     <text>3.2.1.4 The K2O versus SiO2 Diagram for the Sub-division of the Sub-alkalic Series</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-34"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-54" playOrder="118">
+               <navLabel>
+                  <text>3.2.2 Classifying Igneous Rocks Using Normative Mineralogy</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-54"/>
+               <navPoint id="C-sec-35" playOrder="119">
+                  <navLabel>
+                     <text>3.2.2.1 CIPW Norm</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-35"/>
+               </navPoint>
+               <navPoint id="C-sec-36" playOrder="120">
+                  <navLabel>
+                     <text>3.2.2.2 The Cation Norm</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-36"/>
+               </navPoint>
+               <navPoint id="C-sec-37" playOrder="121">
+                  <navLabel>
+                     <text>3.2.2.3 Normative Mineralogy and the Oxidation State of Iron</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-37"/>
+               </navPoint>
+               <navPoint id="C-sec-38" playOrder="122">
+                  <navLabel>
+                     <text>3.2.2.4 Normative Mineralogy and Basalt Classification</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-38"/>
+               </navPoint>
+               <navPoint id="C-sec-39" playOrder="123">
+                  <navLabel>
+                     <text>3.2.2.5 Normative Mineralogy and Granite Classification</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-39"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-55" playOrder="124">
+               <navLabel>
+                  <text>3.2.3 Classifying Igneous Rocks Using Cations</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-55"/>
+               <navPoint id="C-sec-40" playOrder="125">
+                  <navLabel>
+                     <text>3.2.3.1 The Jensen Plot</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-40"/>
+               </navPoint>
+               <navPoint id="C-sec-41" playOrder="126">
+                  <navLabel>
+                     <text>3.2.3.2 The Hanski Plot</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-41"/>
+               </navPoint>
+               <navPoint id="C-sec-42" playOrder="127">
+                  <navLabel>
+                     <text>3.2.3.3 Classification of High-Mg Rocks on the TAS Diagram</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-42"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-56" playOrder="128">
+               <navLabel>
+                  <text>3.2.4 A Combined Major Element Oxide and Cation Classification for Granitoids</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-56"/>
+            </navPoint>
+            <navPoint id="B-sec-57" playOrder="129">
+               <navLabel>
+                  <text>3.2.5 The Chemical Classification of Sedimentary Rocks</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-57"/>
+               <navPoint id="C-sec-43" playOrder="130">
+                  <navLabel>
+                     <text>3.2.5.1 Sandstones</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-43"/>
+               </navPoint>
+               <navPoint id="C-sec-44" playOrder="131">
+                  <navLabel>
+                     <text>3.2.5.2 Mudrocks</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-44"/>
+               </navPoint>
+               <navPoint id="C-sec-45" playOrder="132">
+                  <navLabel>
+                     <text>3.2.5.3 Limestones</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-45"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-58" playOrder="133">
+               <navLabel>
+                  <text>3.2.6 Discussion</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-58"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-19" playOrder="134">
+            <navLabel>
+               <text>3.3 Variation Diagrams</text>
+            </navLabel>
+            <content src="Text/book-part3.xhtml#A-sec-19"/>
+            <navPoint id="B-sec-59" playOrder="135">
+               <navLabel>
+                  <text>3.3.1 Recognising Geochemical Processes on a Major Element Variation Diagram</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-59"/>
+               <navPoint id="C-sec-46" playOrder="136">
+                  <navLabel>
+                     <text>3.3.1.1 Fractional Crystallisation</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-46"/>
+               </navPoint>
+               <navPoint id="C-sec-47" playOrder="137">
+                  <navLabel>
+                     <text>3.3.1.2 Assimilation and Fractional Crystallisation</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-47"/>
+               </navPoint>
+               <navPoint id="C-sec-48" playOrder="138">
+                  <navLabel>
+                     <text>3.3.1.3 Partial Melting</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-48"/>
+               </navPoint>
+               <navPoint id="C-sec-49" playOrder="139">
+                  <navLabel>
+                     <text>3.3.1.4 Mixing Lines in Sedimentary Rocks</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-49"/>
+               </navPoint>
+               <navPoint id="C-sec-50" playOrder="140">
+                  <navLabel>
+                     <text>3.3.1.5 The Identification of Former Weathering Conditions in Sedimentary Rocks</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-50"/>
+               </navPoint>
+               <navPoint id="C-sec-51" playOrder="141">
+                  <navLabel>
+                     <text>3.3.1.6 Artificial Trends</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-51"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-60" playOrder="142">
+               <navLabel>
+                  <text>3.3.2 Selecting a Variation Diagram</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-60"/>
+               <navPoint id="C-sec-52" playOrder="143">
+                  <navLabel>
+                     <text>3.3.2.1 Bivariate Plots</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-52"/>
+               </navPoint>
+               <navPoint id="C-sec-53" playOrder="144">
+                  <navLabel>
+                     <text>3.3.2.2 Compositional Data and Bivariate Diagrams</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-53"/>
+               </navPoint>
+               <navPoint id="C-sec-54" playOrder="145">
+                  <navLabel>
+                     <text>3.3.2.3 So Why Do Bivariate Plots Appear to Work?</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-54"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-61" playOrder="146">
+               <navLabel>
+                  <text>3.3.3 Ternary Diagrams</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-61"/>
+               <navPoint id="C-sec-55" playOrder="147">
+                  <navLabel>
+                     <text>3.3.3.1 The AFM Diagram</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-55"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-62" playOrder="148">
+               <navLabel>
+                  <text>3.3.4 Interpreting Trends on Variation Diagrams</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-62"/>
+               <navPoint id="C-sec-56" playOrder="149">
+                  <navLabel>
+                     <text>3.3.4.1 Extract Calculations</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-56"/>
+               </navPoint>
+               <navPoint id="C-sec-57" playOrder="150">
+                  <navLabel>
+                     <text>3.3.4.2 Addition–Subtraction Diagrams</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-57"/>
+               </navPoint>
+               <navPoint id="C-sec-58" playOrder="151">
+                  <navLabel>
+                     <text>3.3.4.3 Limitations to the Application of Extract Calculations</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-58"/>
+               </navPoint>
+               <navPoint id="C-sec-59" playOrder="152">
+                  <navLabel>
+                     <text>3.3.4.4 Trends Showing an Inflection</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-59"/>
+               </navPoint>
+               <navPoint id="C-sec-60" playOrder="153">
+                  <navLabel>
+                     <text>3.3.4.5 Scattered Trends</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-60"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-63" playOrder="154">
+               <navLabel>
+                  <text>3.3.5 Modelling Major Element Processes in Igneous Rocks</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-63"/>
+               <navPoint id="C-sec-61" playOrder="155">
+                  <navLabel>
+                     <text>3.3.5.1 Modelling Fractional Crystallisation</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-61"/>
+               </navPoint>
+               <navPoint id="C-sec-62" playOrder="156">
+                  <navLabel>
+                     <text>3.3.5.2 Modelling Fractional Crystallisation and Assimilation</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-62"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-20" playOrder="157">
+            <navLabel>
+               <text>3.4 Diagrams on Which Rock Chemistry and Experimentally and Thermodynamically Determined Phase Boundaries Are Plotted Together</text>
+            </navLabel>
+            <content src="Text/book-part3.xhtml#A-sec-20"/>
+            <navPoint id="B-sec-64" playOrder="158">
+               <navLabel>
+                  <text>3.4.1 Melting the Mantle</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-64"/>
+               <navPoint id="C-sec-63" playOrder="159">
+                  <navLabel>
+                     <text>3.4.1.1 The Yoder and Tilley CIPW Normative Tetrahedron</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-63"/>
+               </navPoint>
+               <navPoint id="C-sec-64" playOrder="160">
+                  <navLabel>
+                     <text>3.4.1.2 CMAS Diagrams</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-64"/>
+               </navPoint>
+               <navPoint id="C-sec-65" playOrder="161">
+                  <navLabel>
+                     <text>3.4.1.3 FeO–MgO Plots</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-65"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-65" playOrder="162">
+               <navLabel>
+                  <text>3.4.2 Melting Mafic Crust</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-65"/>
+            </navPoint>
+            <navPoint id="B-sec-66" playOrder="163">
+               <navLabel>
+                  <text>3.4.3 Melting Felsic (Continental) Crust</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-66"/>
+               <navPoint id="C-sec-66" playOrder="164">
+                  <navLabel>
+                     <text>3.4.3.1 The Normative Albite–Orthoclase–Quartz Diagram: The ‘Granite System’</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-66"/>
+               </navPoint>
+               <navPoint id="C-sec-67" playOrder="165">
+                  <navLabel>
+                     <text>3.4.3.2 Partial Melting of Crustal Rocks</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-67"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-67" playOrder="166">
+               <navLabel>
+                  <text>3.4.4 What Melted?</text>
+               </navLabel>
+               <content src="Text/book-part3.xhtml#B-sec-67"/>
+               <navPoint id="C-sec-68" playOrder="167">
+                  <navLabel>
+                     <text>3.4.4.1 The Aluminium Saturation Index (ASI)</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-68"/>
+               </navPoint>
+               <navPoint id="C-sec-69" playOrder="168">
+                  <navLabel>
+                     <text>3.4.4.2 Al–Fe–Mg–Ti–Ca Diagrams</text>
+                  </navLabel>
+                  <content src="Text/book-part3.xhtml#C-sec-69"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+      </navPoint>
+      <navPoint id="CN-bp-4" playOrder="169">
+         <navLabel>
+            <text>4 Using Trace Element Data</text>
+         </navLabel>
+         <content src="Text/book-part4.xhtml"/>
+         <navPoint id="A-sec-21" playOrder="170">
+            <navLabel>
+               <text>4.1 Introduction</text>
+            </navLabel>
+            <content src="Text/book-part4.xhtml#A-sec-21"/>
+            <navPoint id="B-sec-68" playOrder="171">
+               <navLabel>
+                  <text>4.1.1 The Classification of Trace Elements According to Their Geochemical Behaviour</text>
+               </navLabel>
+               <content src="Text/book-part4.xhtml#B-sec-68"/>
+               <navPoint id="C-sec-70" playOrder="172">
+                  <navLabel>
+                     <text>4.1.1.1 Trace Element Groupings in the Periodic Table</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-70"/>
+               </navPoint>
+               <navPoint id="C-sec-71" playOrder="173">
+                  <navLabel>
+                     <text>4.1.1.2 Trace Element Behaviour in Magmatic Systems</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-71"/>
+               </navPoint>
+               <navPoint id="C-sec-72" playOrder="174">
+                  <navLabel>
+                     <text>4.1.1.3 Trace Elements of Economic Significance</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-72"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-22" playOrder="175">
+            <navLabel>
+               <text>4.2 Physical Controls on Trace Element Distribution</text>
+            </navLabel>
+            <content src="Text/book-part4.xhtml#A-sec-22"/>
+            <navPoint id="B-sec-69" playOrder="176">
+               <navLabel>
+                  <text>4.2.1 Partition Coefficients</text>
+               </navLabel>
+               <content src="Text/book-part4.xhtml#B-sec-69"/>
+               <navPoint id="C-sec-73" playOrder="177">
+                  <navLabel>
+                     <text>4.2.1.1 Measuring Partition Coefficients</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-73"/>
+               </navPoint>
+               <navPoint id="C-sec-74" playOrder="178">
+                  <navLabel>
+                     <text>4.2.1.2 Calculating Partition Coefficients Using Lattice Strain Theory</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-74"/>
+               </navPoint>
+               <navPoint id="C-sec-75" playOrder="179">
+                  <navLabel>
+                     <text>4.2.1.3 Physical Controls on the Value of Partition Coefficients in Mineral-Melt Systems</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-75"/>
+               </navPoint>
+               <navPoint id="C-sec-76" playOrder="180">
+                  <navLabel>
+                     <text>4.2.1.4 Selecting an Appropriate Partition Coefficient</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-76"/>
+               </navPoint>
+               <navPoint id="C-sec-77" playOrder="181">
+                  <navLabel>
+                     <text>4.2.1.5 Partition Coefficients in Basalts</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-77"/>
+               </navPoint>
+               <navPoint id="C-sec-78" playOrder="182">
+                  <navLabel>
+                     <text>4.2.1.6 Partition Coefficients in Andesites</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-78"/>
+               </navPoint>
+               <navPoint id="C-sec-79" playOrder="183">
+                  <navLabel>
+                     <text>4.2.1.7 Partition Coefficients in Dacites and Rhyolites</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-79"/>
+               </navPoint>
+               <navPoint id="C-sec-80" playOrder="184">
+                  <navLabel>
+                     <text>4.2.1.8 Partition Coefficients in Accessory Minerals</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-80"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-70" playOrder="185">
+               <navLabel>
+                  <text>4.2.2 Geological Controls on the Distribution of Trace Elements</text>
+               </navLabel>
+               <content src="Text/book-part4.xhtml#B-sec-70"/>
+               <navPoint id="C-sec-81" playOrder="186">
+                  <navLabel>
+                     <text>4.2.2.1 Element Mobility</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-81"/>
+               </navPoint>
+               <navPoint id="C-sec-82" playOrder="187">
+                  <navLabel>
+                     <text>4.2.2.2 Partial Melting</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-82"/>
+               </navPoint>
+               <navPoint id="C-sec-83" playOrder="188">
+                  <navLabel>
+                     <text>4.2.2.3 Crystal Fractionation</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-83"/>
+               </navPoint>
+               <navPoint id="C-sec-84" playOrder="189">
+                  <navLabel>
+                     <text>4.2.2.4 Sedimentary Processes</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-84"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-23" playOrder="190">
+            <navLabel>
+               <text>4.3 The Rare Earth Elements (REE)</text>
+            </navLabel>
+            <content src="Text/book-part4.xhtml#A-sec-23"/>
+            <navPoint id="B-sec-71" playOrder="191">
+               <navLabel>
+                  <text>4.3.1 The Chemistry of the REE</text>
+               </navLabel>
+               <content src="Text/book-part4.xhtml#B-sec-71"/>
+            </navPoint>
+            <navPoint id="B-sec-72" playOrder="192">
+               <navLabel>
+                  <text>4.3.2 Presenting REE Data</text>
+               </navLabel>
+               <content src="Text/book-part4.xhtml#B-sec-72"/>
+               <navPoint id="C-sec-85" playOrder="193">
+                  <navLabel>
+                     <text>4.3.2.1 Difficulties with Chondrite Normalisation</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-85"/>
+               </navPoint>
+               <navPoint id="C-sec-86" playOrder="194">
+                  <navLabel>
+                     <text>4.3.2.2 Choosing a Set of Normalising Values</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-86"/>
+               </navPoint>
+               <navPoint id="C-sec-87" playOrder="195">
+                  <navLabel>
+                     <text>4.3.2.3 REE Ratio Diagrams</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-87"/>
+               </navPoint>
+               <navPoint id="C-sec-88" playOrder="196">
+                  <navLabel>
+                     <text>4.3.2.4 Shale Normalisation for Sediments</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-88"/>
+               </navPoint>
+               <navPoint id="C-sec-89" playOrder="197">
+                  <navLabel>
+                     <text>4.3.2.5 Rock Normalisation</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-89"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-73" playOrder="198">
+               <navLabel>
+                  <text>4.3.3 Interpreting REE Patterns</text>
+               </navLabel>
+               <content src="Text/book-part4.xhtml#B-sec-73"/>
+               <navPoint id="C-sec-90" playOrder="199">
+                  <navLabel>
+                     <text>4.3.3.1 REE Patterns in Igneous Rocks</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-90"/>
+               </navPoint>
+               <navPoint id="C-sec-91" playOrder="200">
+                  <navLabel>
+                     <text>4.3.3.2 REE Patterns in Seawater and River Water</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-91"/>
+               </navPoint>
+               <navPoint id="C-sec-92" playOrder="201">
+                  <navLabel>
+                     <text>4.3.3.3 REE Patterns in Sediment</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-92"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-24" playOrder="202">
+            <navLabel>
+               <text>4.4 Normalised Multi-element Diagrams or Incompatible Element Diagrams</text>
+            </navLabel>
+            <content src="Text/book-part4.xhtml#A-sec-24"/>
+            <navPoint id="B-sec-74" playOrder="203">
+               <navLabel>
+                  <text>4.4.1 Multi-element Diagrams for Igneous Rocks</text>
+               </navLabel>
+               <content src="Text/book-part4.xhtml#B-sec-74"/>
+               <navPoint id="C-sec-93" playOrder="204">
+                  <navLabel>
+                     <text>4.4.1.1 Chondrite-Normalised Multi-element Diagrams</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-93"/>
+               </navPoint>
+               <navPoint id="C-sec-94" playOrder="205">
+                  <navLabel>
+                     <text>4.4.1.2 Primordial (Primitive) Mantle Normalised Multi-element Diagrams</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-94"/>
+               </navPoint>
+               <navPoint id="C-sec-95" playOrder="206">
+                  <navLabel>
+                     <text>4.4.1.3 MORB-Normalised Multi-element Diagrams</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-95"/>
+               </navPoint>
+               <navPoint id="C-sec-96" playOrder="207">
+                  <navLabel>
+                     <text>4.4.1.4 Interpreting Multi-element Diagrams for Igneous Rocks</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-96"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-75" playOrder="208">
+               <navLabel>
+                  <text>4.4.2 Multi-element Diagrams for Clastic Sediments</text>
+               </navLabel>
+               <content src="Text/book-part4.xhtml#B-sec-75"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-25" playOrder="209">
+            <navLabel>
+               <text>4.5 Diagrams Displaying Highly Siderophile Elements (HSE) and Platinum Group Elements (PGE)</text>
+            </navLabel>
+            <content src="Text/book-part4.xhtml#A-sec-25"/>
+            <navPoint id="B-sec-76" playOrder="210">
+               <navLabel>
+                  <text>4.5.1 The Application of the HSE in Cosmochemistry</text>
+               </navLabel>
+               <content src="Text/book-part4.xhtml#B-sec-76"/>
+            </navPoint>
+            <navPoint id="B-sec-77" playOrder="211">
+               <navLabel>
+                  <text>4.5.2 The Application of the HSE in Mantle Geochemistry</text>
+               </navLabel>
+               <content src="Text/book-part4.xhtml#B-sec-77"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-26" playOrder="212">
+            <navLabel>
+               <text>4.6 Bivariate Trace Element and Trace Element Ratio Plots</text>
+            </navLabel>
+            <content src="Text/book-part4.xhtml#A-sec-26"/>
+            <navPoint id="B-sec-78" playOrder="213">
+               <navLabel>
+                  <text>4.6.1 The Selection of Trace Elements to Plot on Bivariate Graphs for Igneous Rocks</text>
+               </navLabel>
+               <content src="Text/book-part4.xhtml#B-sec-78"/>
+               <navPoint id="C-sec-97" playOrder="214">
+                  <navLabel>
+                     <text>4.6.1.1 The Behaviour of the Highly Incompatible Elements</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-97"/>
+               </navPoint>
+               <navPoint id="C-sec-98" playOrder="215">
+                  <navLabel>
+                     <text>4.6.1.2 Estimation of Partition Coefficients from Trace Element Concentration Plots</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-98"/>
+               </navPoint>
+               <navPoint id="C-sec-99" playOrder="216">
+                  <navLabel>
+                     <text>4.6.1.3 Identification of Igneous Source Characteristics from Incompatible Element Ratio Plots</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-99"/>
+               </navPoint>
+               <navPoint id="C-sec-100" playOrder="217">
+                  <navLabel>
+                     <text>4.6.1.4 Some Important Trace Element Ratios</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-100"/>
+               </navPoint>
+               <navPoint id="C-sec-101" playOrder="218">
+                  <navLabel>
+                     <text>4.6.1.5 Applications to Felsic Rocks</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-101"/>
+               </navPoint>
+               <navPoint id="C-sec-102" playOrder="219">
+                  <navLabel>
+                     <text>4.6.1.6 Compatible Element Plots</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-102"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-79" playOrder="220">
+               <navLabel>
+                  <text>4.6.2 Bivariate Plots in Sedimentary Rocks</text>
+               </navLabel>
+               <content src="Text/book-part4.xhtml#B-sec-79"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-27" playOrder="221">
+            <navLabel>
+               <text>4.7 Enrichment–Depletion Diagrams</text>
+            </navLabel>
+            <content src="Text/book-part4.xhtml#A-sec-27"/>
+         </navPoint>
+         <navPoint id="A-sec-28" playOrder="222">
+            <navLabel>
+               <text>4.8 Modelling Trace Element Processes in Igneous Rocks</text>
+            </navLabel>
+            <content src="Text/book-part4.xhtml#A-sec-28"/>
+            <navPoint id="B-sec-80" playOrder="223">
+               <navLabel>
+                  <text>4.8.1 Vector Diagrams</text>
+               </navLabel>
+               <content src="Text/book-part4.xhtml#B-sec-80"/>
+            </navPoint>
+            <navPoint id="B-sec-81" playOrder="224">
+               <navLabel>
+                  <text>4.8.2 Modelling on Multivariate Diagrams</text>
+               </navLabel>
+               <content src="Text/book-part4.xhtml#B-sec-81"/>
+               <navPoint id="C-sec-103" playOrder="225">
+                  <navLabel>
+                     <text>4.8.2.1 Partial Melting</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-103"/>
+               </navPoint>
+               <navPoint id="C-sec-104" playOrder="226">
+                  <navLabel>
+                     <text>4.8.2.2 Crystal Fractionation</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-104"/>
+               </navPoint>
+               <navPoint id="C-sec-105" playOrder="227">
+                  <navLabel>
+                     <text>4.8.2.3 Crustal Contamination and AFC Processes</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-105"/>
+               </navPoint>
+               <navPoint id="C-sec-106" playOrder="228">
+                  <navLabel>
+                     <text>4.8.2.4 Open System Processes</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-106"/>
+               </navPoint>
+               <navPoint id="C-sec-107" playOrder="229">
+                  <navLabel>
+                     <text>4.8.2.5 Magma and Source Mixing</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-107"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-82" playOrder="230">
+               <navLabel>
+                  <text>4.8.3 Inversion Techniques Using Trace Elements</text>
+               </navLabel>
+               <content src="Text/book-part4.xhtml#B-sec-82"/>
+               <navPoint id="C-sec-108" playOrder="231">
+                  <navLabel>
+                     <text>4.8.3.1 Inverting Mineral Compositions to Estimate the Composition of a Melt</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-108"/>
+               </navPoint>
+               <navPoint id="C-sec-109" playOrder="232">
+                  <navLabel>
+                     <text>4.8.3.2 Inverting Melt Compositions to Estimate the Melting Process and the Nature of the Source</text>
+                  </navLabel>
+                  <content src="Text/book-part4.xhtml#C-sec-109"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-83" playOrder="233">
+               <navLabel>
+                  <text>4.8.4 A Final Comment on Geochemical Modelling</text>
+               </navLabel>
+               <content src="Text/book-part4.xhtml#B-sec-83"/>
+            </navPoint>
+         </navPoint>
+      </navPoint>
+      <navPoint id="CN-bp-5" playOrder="234">
+         <navLabel>
+            <text>5 Using Geochemical Data to Identify Tectonic Environments</text>
+         </navLabel>
+         <content src="Text/book-part5.xhtml"/>
+         <navPoint id="A-sec-29" playOrder="235">
+            <navLabel>
+               <text>5.1 Introduction</text>
+            </navLabel>
+            <content src="Text/book-part5.xhtml#A-sec-29"/>
+            <navPoint id="B-sec-84" playOrder="236">
+               <navLabel>
+                  <text>5.1.1 Tectonic Environments</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-84"/>
+            </navPoint>
+            <navPoint id="B-sec-85" playOrder="237">
+               <navLabel>
+                  <text>5.1.2 The Current Approach to Discrimination Diagrams</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-85"/>
+            </navPoint>
+            <navPoint id="B-sec-86" playOrder="238">
+               <navLabel>
+                  <text>5.1.3 Immobile Trace Elements</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-86"/>
+            </navPoint>
+            <navPoint id="B-sec-87" playOrder="239">
+               <navLabel>
+                  <text>5.1.4 Using Discrimination Diagrams</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-87"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-30" playOrder="240">
+            <navLabel>
+               <text>5.2 Elemental Discrimination Diagrams for Ultramafic and Mafic Volcanic Rocks</text>
+            </navLabel>
+            <content src="Text/book-part5.xhtml#A-sec-30"/>
+            <navPoint id="B-sec-88" playOrder="241">
+               <navLabel>
+                  <text>5.2.1 Nb/Y–Ti/Y, NbN–ThN, and Ce, Dy, Yb Diagrams</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-88"/>
+            </navPoint>
+            <navPoint id="B-sec-89" playOrder="242">
+               <navLabel>
+                  <text>5.2.2 Ti/Y–Zr/Y</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-89"/>
+            </navPoint>
+            <navPoint id="B-sec-90" playOrder="243">
+               <navLabel>
+                  <text>5.2.3 Ti/1000–V</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-90"/>
+            </navPoint>
+            <navPoint id="B-sec-91" playOrder="244">
+               <navLabel>
+                  <text>5.2.4 Zr–Ti</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-91"/>
+            </navPoint>
+            <navPoint id="B-sec-92" playOrder="245">
+               <navLabel>
+                  <text>5.2.5 Na/100–25Nb–Sr</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-92"/>
+            </navPoint>
+            <navPoint id="B-sec-93" playOrder="246">
+               <navLabel>
+                  <text>5.2.6 Si/1000–Ti/40–Sr</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-93"/>
+            </navPoint>
+            <navPoint id="B-sec-94" playOrder="247">
+               <navLabel>
+                  <text>5.2.7 100Eu–500Lu–Sr</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-94"/>
+            </navPoint>
+            <navPoint id="B-sec-95" playOrder="248">
+               <navLabel>
+                  <text>5.2.8 V–Ti/50–5Sc</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-95"/>
+            </navPoint>
+            <navPoint id="B-sec-96" playOrder="249">
+               <navLabel>
+                  <text>5.2.9 50Sm–Ti/50–V</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-96"/>
+            </navPoint>
+            <navPoint id="B-sec-97" playOrder="250">
+               <navLabel>
+                  <text>5.2.10 Th–Hf/3–Ta</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-97"/>
+            </navPoint>
+            <navPoint id="B-sec-98" playOrder="251">
+               <navLabel>
+                  <text>5.2.11 La/10–Y/15–Nb/8</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-98"/>
+            </navPoint>
+            <navPoint id="B-sec-99" playOrder="252">
+               <navLabel>
+                  <text>5.2.12 Major Elements</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-99"/>
+            </navPoint>
+            <navPoint id="B-sec-100" playOrder="253">
+               <navLabel>
+                  <text>5.2.13 TiO2, Zr, Y, Sr</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-100"/>
+            </navPoint>
+            <navPoint id="B-sec-101" playOrder="254">
+               <navLabel>
+                  <text>5.2.14 TiO2, Nb, V, Y, Zr</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-101"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-31" playOrder="255">
+            <navLabel>
+               <text>5.3 Elemental Discrimination Diagrams for Intermediate Volcanic Rocks</text>
+            </navLabel>
+            <content src="Text/book-part5.xhtml#A-sec-31"/>
+         </navPoint>
+         <navPoint id="A-sec-32" playOrder="256">
+            <navLabel>
+               <text>5.4 Elemental Discrimination Diagrams for Acid Plutonic Rocks</text>
+            </navLabel>
+            <content src="Text/book-part5.xhtml#A-sec-32"/>
+            <navPoint id="B-sec-102" playOrder="257">
+               <navLabel>
+                  <text>5.4.1 The Yb–Ta and Y–Nb Discrimination Diagrams</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-102"/>
+            </navPoint>
+            <navPoint id="B-sec-103" playOrder="258">
+               <navLabel>
+                  <text>5.4.2 Major Element Diagrams</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-103"/>
+            </navPoint>
+            <navPoint id="B-sec-104" playOrder="259">
+               <navLabel>
+                  <text>5.4.3 Some Words of Caution</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-104"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-33" playOrder="260">
+            <navLabel>
+               <text>5.5 Discrimination Diagrams for Clastic Sediments</text>
+            </navLabel>
+            <content src="Text/book-part5.xhtml#A-sec-33"/>
+            <navPoint id="B-sec-105" playOrder="261">
+               <navLabel>
+                  <text>5.5.1 A Discrimination Diagram for Sand-Sized Clastic Sediment</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-105"/>
+            </navPoint>
+            <navPoint id="B-sec-106" playOrder="262">
+               <navLabel>
+                  <text>5.5.2 Discrimination Diagrams for Fine-Grained Clastic Sediment</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-106"/>
+            </navPoint>
+            <navPoint id="B-sec-107" playOrder="263">
+               <navLabel>
+                  <text>5.5.3 Provenance Studies</text>
+               </navLabel>
+               <content src="Text/book-part5.xhtml#B-sec-107"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-34" playOrder="264">
+            <navLabel>
+               <text>5.6 Tectonic Controls on Magmatic and Sedimentary Geochemistry</text>
+            </navLabel>
+            <content src="Text/book-part5.xhtml#A-sec-34"/>
+         </navPoint>
+      </navPoint>
+      <navPoint id="CN-bp-6" playOrder="265">
+         <navLabel>
+            <text>6 Using Radiogenic Isotope Data</text>
+         </navLabel>
+         <content src="Text/book-part6.xhtml"/>
+         <navPoint id="A-sec-35" playOrder="266">
+            <navLabel>
+               <text>6.1 Introduction</text>
+            </navLabel>
+            <content src="Text/book-part6.xhtml#A-sec-35"/>
+         </navPoint>
+         <navPoint id="A-sec-36" playOrder="267">
+            <navLabel>
+               <text>6.2 Radiogenic Isotopes in Geochronology</text>
+            </navLabel>
+            <content src="Text/book-part6.xhtml#A-sec-36"/>
+            <navPoint id="B-sec-108" playOrder="268">
+               <navLabel>
+                  <text>6.2.1 Isochron Calculations</text>
+               </navLabel>
+               <content src="Text/book-part6.xhtml#B-sec-108"/>
+               <navPoint id="C-sec-110" playOrder="269">
+                  <navLabel>
+                     <text>6.2.1.1 Pb Isotope Isochrons</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-110"/>
+               </navPoint>
+               <navPoint id="C-sec-111" playOrder="270">
+                  <navLabel>
+                     <text>6.2.1.2 Fitting an Isochron</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-111"/>
+               </navPoint>
+               <navPoint id="C-sec-112" playOrder="271">
+                  <navLabel>
+                     <text>6.2.1.3 Errorchrons</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-112"/>
+               </navPoint>
+               <navPoint id="C-sec-113" playOrder="272">
+                  <navLabel>
+                     <text>6.2.1.4 The Geochron</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-113"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-109" playOrder="273">
+               <navLabel>
+                  <text>6.2.2 Model Ages</text>
+               </navLabel>
+               <content src="Text/book-part6.xhtml#B-sec-109"/>
+               <navPoint id="C-sec-114" playOrder="274">
+                  <navLabel>
+                     <text>6.2.2.1 CHUR Model Ages</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-114"/>
+               </navPoint>
+               <navPoint id="C-sec-115" playOrder="275">
+                  <navLabel>
+                     <text>6.2.2.2 Depleted Mantle Model Ages (TDM)</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-115"/>
+               </navPoint>
+               <navPoint id="C-sec-116" playOrder="276">
+                  <navLabel>
+                     <text>6.2.2.3 Hf Depleted Mantle Model Ages Calculated for Zircon</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-116"/>
+               </navPoint>
+               <navPoint id="C-sec-117" playOrder="277">
+                  <navLabel>
+                     <text>6.2.2.4 Assumptions in the Calculation of Model Ages</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-117"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-110" playOrder="278">
+               <navLabel>
+                  <text>6.2.3 Important Concepts in Geochronology</text>
+               </navLabel>
+               <content src="Text/book-part6.xhtml#B-sec-110"/>
+               <navPoint id="C-sec-118" playOrder="279">
+                  <navLabel>
+                     <text>6.2.3.1 Closure Temperature (Tc)</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-118"/>
+               </navPoint>
+               <navPoint id="C-sec-119" playOrder="280">
+                  <navLabel>
+                     <text>6.2.3.2 What Is an ‘Age’?</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-119"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-111" playOrder="281">
+               <navLabel>
+                  <text>6.2.4 Whole-Rock versus Mineral Age?</text>
+               </navLabel>
+               <content src="Text/book-part6.xhtml#B-sec-111"/>
+            </navPoint>
+            <navPoint id="B-sec-112" playOrder="282">
+               <navLabel>
+                  <text>6.2.5 Isotopic Systems Used in Geochronology</text>
+               </navLabel>
+               <content src="Text/book-part6.xhtml#B-sec-112"/>
+               <navPoint id="C-sec-120" playOrder="283">
+                  <navLabel>
+                     <text>6.2.5.1 The K–Ar and Ar–Ar Systems</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-120"/>
+               </navPoint>
+               <navPoint id="C-sec-121" playOrder="284">
+                  <navLabel>
+                     <text>6.2.5.2 The Rb–Sr System</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-121"/>
+               </navPoint>
+               <navPoint id="C-sec-122" playOrder="285">
+                  <navLabel>
+                     <text>6.2.5.3 The U–Th–Pb/He System</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-122"/>
+               </navPoint>
+               <navPoint id="C-sec-123" playOrder="286">
+                  <navLabel>
+                     <text>6.2.5.4 The Sm–Nd System</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-123"/>
+               </navPoint>
+               <navPoint id="C-sec-124" playOrder="287">
+                  <navLabel>
+                     <text>6.2.5.5 The Lu–Hf System</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-124"/>
+               </navPoint>
+               <navPoint id="C-sec-125" playOrder="288">
+                  <navLabel>
+                     <text>6.2.5.6 The Re–Os System</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-125"/>
+               </navPoint>
+               <navPoint id="C-sec-126" playOrder="289">
+                  <navLabel>
+                     <text>6.2.5.7 Data Reduction Software Used in Geochronology</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-126"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-113" playOrder="290">
+               <navLabel>
+                  <text>6.2.6 The Interpretation of Model Ages</text>
+               </navLabel>
+               <content src="Text/book-part6.xhtml#B-sec-113"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-37" playOrder="291">
+            <navLabel>
+               <text>6.3 Using Radiogenic Isotopes in Petrogenesis</text>
+            </navLabel>
+            <content src="Text/book-part6.xhtml#A-sec-37"/>
+            <navPoint id="B-sec-114" playOrder="292">
+               <navLabel>
+                  <text>6.3.1 The Role of the Different Isotope Systems in Identifying Reservoirs and Processes</text>
+               </navLabel>
+               <content src="Text/book-part6.xhtml#B-sec-114"/>
+               <navPoint id="C-sec-127" playOrder="293">
+                  <navLabel>
+                     <text>6.3.1.1 Sm–Nd Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-127"/>
+               </navPoint>
+               <navPoint id="C-sec-128" playOrder="294">
+                  <navLabel>
+                     <text>6.3.1.2 Lu–Hf Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-128"/>
+               </navPoint>
+               <navPoint id="C-sec-129" playOrder="295">
+                  <navLabel>
+                     <text>6.3.1.3 U–Th–Pb Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-129"/>
+               </navPoint>
+               <navPoint id="C-sec-130" playOrder="296">
+                  <navLabel>
+                     <text>6.3.1.4 Rb–Sr Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-130"/>
+               </navPoint>
+               <navPoint id="C-sec-131" playOrder="297">
+                  <navLabel>
+                     <text>6.3.1.5 Re–Os Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-131"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-115" playOrder="298">
+               <navLabel>
+                  <text>6.3.2 Recognising Isotopic Reservoirs</text>
+               </navLabel>
+               <content src="Text/book-part6.xhtml#B-sec-115"/>
+               <navPoint id="C-sec-132" playOrder="299">
+                  <navLabel>
+                     <text>6.3.2.1 Oceanic Mantle Sources</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-132"/>
+               </navPoint>
+               <navPoint id="C-sec-133" playOrder="300">
+                  <navLabel>
+                     <text>6.3.2.2 Continental Crustal Sources</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-133"/>
+               </navPoint>
+               <navPoint id="C-sec-134" playOrder="301">
+                  <navLabel>
+                     <text>6.3.2.3 Seawater</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-134"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-116" playOrder="302">
+               <navLabel>
+                  <text>6.3.3 Mantle Evolution Diagrams and the Isotopic Evolution of the Mantle with Time</text>
+               </navLabel>
+               <content src="Text/book-part6.xhtml#B-sec-116"/>
+               <navPoint id="C-sec-135" playOrder="303">
+                  <navLabel>
+                     <text>6.3.3.1 The Evolution of Nd Isotopes with Time</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-135"/>
+               </navPoint>
+               <navPoint id="C-sec-136" playOrder="304">
+                  <navLabel>
+                     <text>6.3.3.2 The Evolution of Hf Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-136"/>
+               </navPoint>
+               <navPoint id="C-sec-137" playOrder="305">
+                  <navLabel>
+                     <text>6.3.3.3 The Evolution of Os Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-137"/>
+               </navPoint>
+               <navPoint id="C-sec-138" playOrder="306">
+                  <navLabel>
+                     <text>6.3.3.4 The Evolution of Pb Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-138"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-117" playOrder="307">
+               <navLabel>
+                  <text>6.3.4 Epsilon, Gamma and Mu Notations</text>
+               </navLabel>
+               <content src="Text/book-part6.xhtml#B-sec-117"/>
+               <navPoint id="C-sec-139" playOrder="308">
+                  <navLabel>
+                     <text>6.3.4.1 Calculating Epsilon Values</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-139"/>
+               </navPoint>
+               <navPoint id="C-sec-140" playOrder="309">
+                  <navLabel>
+                     <text>6.3.4.2 Epsilon Values for Sr Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-140"/>
+               </navPoint>
+               <navPoint id="C-sec-141" playOrder="310">
+                  <navLabel>
+                     <text>6.3.4.3 Calculating Gamma Values for Os Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-141"/>
+               </navPoint>
+               <navPoint id="C-sec-142" playOrder="311">
+                  <navLabel>
+                     <text>6.3.4.4 Reducing Epsilon Uncertainties on Isochron Diagrams</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-142"/>
+               </navPoint>
+               <navPoint id="C-sec-143" playOrder="312">
+                  <navLabel>
+                     <text>6.3.4.5 The Significance of Epsilon Values</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-143"/>
+               </navPoint>
+               <navPoint id="C-sec-144" playOrder="313">
+                  <navLabel>
+                     <text>6.3.4.6 The Fractionation Factor fSm/Nd</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-144"/>
+               </navPoint>
+               <navPoint id="C-sec-145" playOrder="314">
+                  <navLabel>
+                     <text>6.3.4.7 Epsilon Nd Time Plots</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-145"/>
+               </navPoint>
+               <navPoint id="C-sec-146" playOrder="315">
+                  <navLabel>
+                     <text>6.3.4.8 Short-Lived Isotopes and the μ Notation</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-146"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-118" playOrder="316">
+               <navLabel>
+                  <text>6.3.5 Isotope Correlation Diagrams</text>
+               </navLabel>
+               <content src="Text/book-part6.xhtml#B-sec-118"/>
+               <navPoint id="C-sec-147" playOrder="317">
+                  <navLabel>
+                     <text>6.3.5.1 Using Isotope Correlation Diagrams and Epsilon Plots to Recognise Processes</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-147"/>
+               </navPoint>
+               <navPoint id="C-sec-148" playOrder="318">
+                  <navLabel>
+                     <text>6.3.5.2 Crustal Contamination</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-148"/>
+               </navPoint>
+               <navPoint id="C-sec-149" playOrder="319">
+                  <navLabel>
+                     <text>6.3.5.3 Isotope versus Element Plots</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-149"/>
+               </navPoint>
+               <navPoint id="C-sec-150" playOrder="320">
+                  <navLabel>
+                     <text>6.3.5.4 Coupled versus Decoupled Isotope Behaviour</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-150"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-119" playOrder="321">
+               <navLabel>
+                  <text>6.3.6 Crust–Mantle Geodynamics</text>
+               </navLabel>
+               <content src="Text/book-part6.xhtml#B-sec-119"/>
+               <navPoint id="C-sec-151" playOrder="322">
+                  <navLabel>
+                     <text>6.3.6.1 The Secular Variation of the Mantle</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-151"/>
+               </navPoint>
+               <navPoint id="C-sec-152" playOrder="323">
+                  <navLabel>
+                     <text>6.3.6.2 The Genesis of the Continental Crust</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-152"/>
+               </navPoint>
+               <navPoint id="C-sec-153" playOrder="324">
+                  <navLabel>
+                     <text>6.3.6.3 Crust and Mantle Mass-Balance Models</text>
+                  </navLabel>
+                  <content src="Text/book-part6.xhtml#C-sec-153"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+      </navPoint>
+      <navPoint id="CN-bp-7" playOrder="325">
+         <navLabel>
+            <text>7 Using Stable Isotope Data</text>
+         </navLabel>
+         <content src="Text/book-part7.xhtml"/>
+         <navPoint id="A-sec-38" playOrder="326">
+            <navLabel>
+               <text>7.1 Introduction</text>
+            </navLabel>
+            <content src="Text/book-part7.xhtml#A-sec-38"/>
+         </navPoint>
+         <navPoint id="A-sec-39" playOrder="327">
+            <navLabel>
+               <text>7.2 Principles of Stable Isotope Geochemistry</text>
+            </navLabel>
+            <content src="Text/book-part7.xhtml#A-sec-39"/>
+            <navPoint id="B-sec-120" playOrder="328">
+               <navLabel>
+                  <text>7.2.1 Notation</text>
+               </navLabel>
+               <content src="Text/book-part7.xhtml#B-sec-120"/>
+               <navPoint id="C-sec-154" playOrder="329">
+                  <navLabel>
+                     <text>7.2.1.1 Isotope Ratios: The δ Value</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-154"/>
+               </navPoint>
+               <navPoint id="C-sec-155" playOrder="330">
+                  <navLabel>
+                     <text>7.2.1.2 The Fractionation Factor α</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-155"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-121" playOrder="331">
+               <navLabel>
+                  <text>7.2.2 Equilibrium Stable Isotope Fractionation</text>
+               </navLabel>
+               <content src="Text/book-part7.xhtml#B-sec-121"/>
+            </navPoint>
+            <navPoint id="B-sec-122" playOrder="332">
+               <navLabel>
+                  <text>7.2.3 Kinetic Controls on Stable Isotope Fractionation</text>
+               </navLabel>
+               <content src="Text/book-part7.xhtml#B-sec-122"/>
+            </navPoint>
+            <navPoint id="B-sec-123" playOrder="333">
+               <navLabel>
+                  <text>7.2.4 Mass-Independent Stable Isotope Fractionations</text>
+               </navLabel>
+               <content src="Text/book-part7.xhtml#B-sec-123"/>
+            </navPoint>
+            <navPoint id="B-sec-124" playOrder="334">
+               <navLabel>
+                  <text>7.2.5 Clumped Isotopes</text>
+               </navLabel>
+               <content src="Text/book-part7.xhtml#B-sec-124"/>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-40" playOrder="335">
+            <navLabel>
+               <text>7.3 Traditional Stable Isotopes</text>
+            </navLabel>
+            <content src="Text/book-part7.xhtml#A-sec-40"/>
+            <navPoint id="B-sec-125" playOrder="336">
+               <navLabel>
+                  <text>7.3.1 Oxygen</text>
+               </navLabel>
+               <content src="Text/book-part7.xhtml#B-sec-125"/>
+               <navPoint id="C-sec-156" playOrder="337">
+                  <navLabel>
+                     <text>7.3.1.1 Variations of δ18O in Nature</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-156"/>
+               </navPoint>
+               <navPoint id="C-sec-157" playOrder="338">
+                  <navLabel>
+                     <text>7.3.1.2 Oxygen Isotope Thermometry.</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-157"/>
+               </navPoint>
+               <navPoint id="C-sec-158" playOrder="339">
+                  <navLabel>
+                     <text>7.3.1.3 Oxygen Isotope–Radiogenic Isotope Correlation Diagrams</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-158"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-126" playOrder="340">
+               <navLabel>
+                  <text>7.3.2 Hydrogen Isotopes and the Stable Isotope Geochemistry of Water and Hydrothermal Fluids</text>
+               </navLabel>
+               <content src="Text/book-part7.xhtml#B-sec-126"/>
+               <navPoint id="C-sec-159" playOrder="341">
+                  <navLabel>
+                     <text>7.3.2.1 Hydrogen Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-159"/>
+               </navPoint>
+               <navPoint id="C-sec-160" playOrder="342">
+                  <navLabel>
+                     <text>7.3.2.2 The Distribution of Hydrogen Isotopes in the Solar System</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-160"/>
+               </navPoint>
+               <navPoint id="C-sec-161" playOrder="343">
+                  <navLabel>
+                     <text>7.3.2.3 The Distribution of Hydrogen Isotopes in Natural Waters</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-161"/>
+               </navPoint>
+               <navPoint id="C-sec-162" playOrder="344">
+                  <navLabel>
+                     <text>7.3.2.4 The Distribution of Hydrogen Isotopes in Terrestrial Reservoirs</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-162"/>
+               </navPoint>
+               <navPoint id="C-sec-163" playOrder="345">
+                  <navLabel>
+                     <text>7.3.2.5 Calculating the Isotopic Composition of Hydrothermal Fluids from Mineral Compositions</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-163"/>
+               </navPoint>
+               <navPoint id="C-sec-164" playOrder="346">
+                  <navLabel>
+                     <text>7.3.2.6 Quantifying Water–Rock Ratios</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-164"/>
+               </navPoint>
+               <navPoint id="C-sec-165" playOrder="347">
+                  <navLabel>
+                     <text>7.3.2.7 Examples of Water–Rock Interaction</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-165"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-127" playOrder="348">
+               <navLabel>
+                  <text>7.3.3 Carbon Isotopes</text>
+               </navLabel>
+               <content src="Text/book-part7.xhtml#B-sec-127"/>
+               <navPoint id="C-sec-166" playOrder="349">
+                  <navLabel>
+                     <text>7.3.3.1 Controls on the Fractionation of Carbon Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-166"/>
+               </navPoint>
+               <navPoint id="C-sec-167" playOrder="350">
+                  <navLabel>
+                     <text>7.3.3.2 Carbon Isotopes in Meteorites</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-167"/>
+               </navPoint>
+               <navPoint id="C-sec-168" playOrder="351">
+                  <navLabel>
+                     <text>7.3.3.3 Carbon Isotopes in the Mantle</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-168"/>
+               </navPoint>
+               <navPoint id="C-sec-169" playOrder="352">
+                  <navLabel>
+                     <text>7.3.3.4 Carbon Isotopes in Igneous Rocks</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-169"/>
+               </navPoint>
+               <navPoint id="C-sec-170" playOrder="353">
+                  <navLabel>
+                     <text>7.3.3.5 Carbon Isotopes in Carbon-Bearing Sediments</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-170"/>
+               </navPoint>
+               <navPoint id="C-sec-171" playOrder="354">
+                  <navLabel>
+                     <text>7.3.3.6 Biologically Derived (Organic) Carbon</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-171"/>
+               </navPoint>
+               <navPoint id="C-sec-172" playOrder="355">
+                  <navLabel>
+                     <text>7.3.3.7 Carbon Isotopes and the Search for Early Life on Earth.</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-172"/>
+               </navPoint>
+               <navPoint id="C-sec-173" playOrder="356">
+                  <navLabel>
+                     <text>7.3.3.8 Carbon Isotopes in Crustal Fluids</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-173"/>
+               </navPoint>
+               <navPoint id="C-sec-174" playOrder="357">
+                  <navLabel>
+                     <text>7.3.3.9 Combined Oxygen and Carbon Isotope Studies of Carbonates: δ18O–δ13C Plots</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-174"/>
+               </navPoint>
+               <navPoint id="C-sec-175" playOrder="358">
+                  <navLabel>
+                     <text>7.3.3.10 Carbon Isotope Thermometry</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-175"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-128" playOrder="359">
+               <navLabel>
+                  <text>7.3.4 Sulphur Isotopes</text>
+               </navLabel>
+               <content src="Text/book-part7.xhtml#B-sec-128"/>
+               <navPoint id="C-sec-176" playOrder="360">
+                  <navLabel>
+                     <text>7.3.4.1 The Distribution of Sulphur Isotopes in Nature</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-176"/>
+               </navPoint>
+               <navPoint id="C-sec-177" playOrder="361">
+                  <navLabel>
+                     <text>7.3.4.2 Controls on the Fractionation of Sulphur Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-177"/>
+               </navPoint>
+               <navPoint id="C-sec-178" playOrder="362">
+                  <navLabel>
+                     <text>7.3.4.3 Using Sulphur Isotopes to Identify Multiple Sources in Igneous Rocks and Hydrothermal Mineral Deposits</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-178"/>
+               </navPoint>
+               <navPoint id="C-sec-179" playOrder="363">
+                  <navLabel>
+                     <text>7.3.4.4 Using Sulphur Isotopes to Understand the Evolution of the Earth’s Atmosphere</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-179"/>
+               </navPoint>
+               <navPoint id="C-sec-180" playOrder="364">
+                  <navLabel>
+                     <text>7.3.4.5 Using Sulphur Isotopes to Understand the Development of Early Life on Earth</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-180"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-129" playOrder="365">
+               <navLabel>
+                  <text>7.3.5 Nitrogen Isotopes</text>
+               </navLabel>
+               <content src="Text/book-part7.xhtml#B-sec-129"/>
+               <navPoint id="C-sec-181" playOrder="366">
+                  <navLabel>
+                     <text>7.3.5.1 The Distribution of Nitrogen Isotopes in Nature</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-181"/>
+               </navPoint>
+               <navPoint id="C-sec-182" playOrder="367">
+                  <navLabel>
+                     <text>7.3.5.2 Controls on the Fractionation of Nitrogen Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-182"/>
+               </navPoint>
+               <navPoint id="C-sec-183" playOrder="368">
+                  <navLabel>
+                     <text>7.3.5.3 Using Nitrogen Isotopes as a Tracer in Geological and Biological Processes</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-183"/>
+               </navPoint>
+               <navPoint id="C-sec-184" playOrder="369">
+                  <navLabel>
+                     <text>7.3.5.4 Using Nitrogen Isotopes to Understand Processes in the Early Earth</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-184"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint id="A-sec-41" playOrder="370">
+            <navLabel>
+               <text>7.4 Non-traditional Stable Isotopes</text>
+            </navLabel>
+            <content src="Text/book-part7.xhtml#A-sec-41"/>
+            <navPoint id="B-sec-130" playOrder="371">
+               <navLabel>
+                  <text>7.4.1 Lithium Isotopes</text>
+               </navLabel>
+               <content src="Text/book-part7.xhtml#B-sec-130"/>
+               <navPoint id="C-sec-185" playOrder="372">
+                  <navLabel>
+                     <text>7.4.1.1 The Distribution of Lithium Isotopes in Nature</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-185"/>
+               </navPoint>
+               <navPoint id="C-sec-186" playOrder="373">
+                  <navLabel>
+                     <text>7.4.1.2 Controls on the Fractionation of Lithium Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-186"/>
+               </navPoint>
+               <navPoint id="C-sec-187" playOrder="374">
+                  <navLabel>
+                     <text>7.4.1.3 Using Lithium Isotopes as a Tracer in Geological Processes</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-187"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-131" playOrder="375">
+               <navLabel>
+                  <text>7.4.2 Magnesium Isotopes</text>
+               </navLabel>
+               <content src="Text/book-part7.xhtml#B-sec-131"/>
+               <navPoint id="C-sec-188" playOrder="376">
+                  <navLabel>
+                     <text>7.4.2.1 The Distribution of Magnesium Isotopes in Nature</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-188"/>
+               </navPoint>
+               <navPoint id="C-sec-189" playOrder="377">
+                  <navLabel>
+                     <text>7.4.2.2 Controls on the Fractionation of Magnesium Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-189"/>
+               </navPoint>
+               <navPoint id="C-sec-190" playOrder="378">
+                  <navLabel>
+                     <text>7.4.2.3 Using Magnesium Isotopes as a Tracer in Geological and Biological Processes</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-190"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-132" playOrder="379">
+               <navLabel>
+                  <text>7.4.3 Silicon Isotopes</text>
+               </navLabel>
+               <content src="Text/book-part7.xhtml#B-sec-132"/>
+               <navPoint id="C-sec-191" playOrder="380">
+                  <navLabel>
+                     <text>7.4.3.1 The Distribution of Silicon Isotopes in Nature</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-191"/>
+               </navPoint>
+               <navPoint id="C-sec-192" playOrder="381">
+                  <navLabel>
+                     <text>7.4.3.2 Controls on the Fractionation of Silicon Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-192"/>
+               </navPoint>
+               <navPoint id="C-sec-193" playOrder="382">
+                  <navLabel>
+                     <text>7.4.3.3 Using Silicon Isotopes as a Tracer in Geological and Biological Processes</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-193"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-133" playOrder="383">
+               <navLabel>
+                  <text>7.4.4 Chromium Isotopes</text>
+               </navLabel>
+               <content src="Text/book-part7.xhtml#B-sec-133"/>
+               <navPoint id="C-sec-194" playOrder="384">
+                  <navLabel>
+                     <text>7.4.4.1 The Distribution of Chromium Isotopes in Nature</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-194"/>
+               </navPoint>
+               <navPoint id="C-sec-195" playOrder="385">
+                  <navLabel>
+                     <text>7.4.4.2 Controls on the Fractionation of Chromium Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-195"/>
+               </navPoint>
+               <navPoint id="C-sec-196" playOrder="386">
+                  <navLabel>
+                     <text>7.4.4.3 Using Chromium Isotopes as a Tracer in Cosmological and Geological Processes</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-196"/>
+               </navPoint>
+            </navPoint>
+            <navPoint id="B-sec-134" playOrder="387">
+               <navLabel>
+                  <text>7.4.5 Iron Isotopes</text>
+               </navLabel>
+               <content src="Text/book-part7.xhtml#B-sec-134"/>
+               <navPoint id="C-sec-197" playOrder="388">
+                  <navLabel>
+                     <text>7.4.5.1 The Distribution of Iron Isotopes in Nature</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-197"/>
+               </navPoint>
+               <navPoint id="C-sec-198" playOrder="389">
+                  <navLabel>
+                     <text>7.4.5.2 Controls on the Fractionation of Iron Isotopes</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-198"/>
+               </navPoint>
+               <navPoint id="C-sec-199" playOrder="390">
+                  <navLabel>
+                     <text>7.4.5.3 Using Iron Isotopes as a Tracer in Geological and Biological Processes</text>
+                  </navLabel>
+                  <content src="Text/book-part7.xhtml#C-sec-199"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+      </navPoint>
+      <navPoint id="AT-appg-1" playOrder="391">
+         <navLabel>
+            <text>Appendices</text>
+         </navLabel>
+         <content src="Text/app-group.xhtml"/>
+         <navPoint id="AT-app-1" playOrder="392">
+            <navLabel>
+               <text>Appendix 3.1 The CIPW Norm Calculation (after Kelsey, 1965, and Cox et al., 1979)</text>
+            </navLabel>
+            <content src="Text/app1.xhtml"/>
+         </navPoint>
+         <navPoint id="AT-app-2" playOrder="393">
+            <navLabel>
+               <text>Appendix 5.1 Discriminant Function Equations for Tectonic Discrimination Diagrams</text>
+            </navLabel>
+            <content src="Text/app2.xhtml"/>
+            <navPoint id="A-sec-42" playOrder="394">
+               <navLabel>
+                  <text>Axes for Figure 5.5, Oceanic Basalts (Vermeesch, 2006a)</text>
+               </navLabel>
+               <content src="Text/app2.xhtml#A-sec-42"/>
+            </navPoint>
+            <navPoint id="A-sec-43" playOrder="395">
+               <navLabel>
+                  <text>Axes for Figure 5.6, Ultramafic and Mafic Rocks (Verma and Agrawal, 2011)</text>
+               </navLabel>
+               <content src="Text/app2.xhtml#A-sec-43"/>
+            </navPoint>
+            <navPoint id="A-sec-44" playOrder="396">
+               <navLabel>
+                  <text>Axes for Figure 5.7, Intermediate Rocks (Verma and Verma, 2013)</text>
+               </navLabel>
+               <content src="Text/app2.xhtml#A-sec-44"/>
+            </navPoint>
+            <navPoint id="A-sec-45" playOrder="397">
+               <navLabel>
+                  <text>Axes for Figure 5.9, Acid Rocks (Verma et al., 2012)</text>
+               </navLabel>
+               <content src="Text/app2.xhtml#A-sec-45"/>
+            </navPoint>
+            <navPoint id="A-sec-46" playOrder="398">
+               <navLabel>
+                  <text>Axes for Figure 5.10, Sedimentary Rocks (Verma and Armstrong-Altrin, 2013)</text>
+               </navLabel>
+               <content src="Text/app2.xhtml#A-sec-46"/>
+            </navPoint>
+         </navPoint>
+      </navPoint>
+      <navPoint id="EMT-rl-1" playOrder="399">
+         <navLabel>
+            <text>References</text>
+         </navLabel>
+         <content src="Text/ref-list.xhtml"/>
+      </navPoint>
+      <navPoint id="EMT-idx-1" playOrder="400">
+         <navLabel>
+            <text>Index</text>
+         </navLabel>
+         <content src="Text/index.xhtml"/>
+      </navPoint>
+   </navMap>
+</ncx>

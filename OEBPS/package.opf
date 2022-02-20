@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?><package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="p9781108745840">
+   <metadata>
+      <dc:title>Using Geochemical Data</dc:title>
+      <dc:creator>Rollinson, Hugh</dc:creator>
+      <dc:creator>Pease, Victoria</dc:creator>
+      <dc:date>2021-03-02</dc:date>
+      <dc:format>358 pages</dc:format>
+      <dc:type>Text</dc:type>
+      <dc:language>en</dc:language>
+      <dc:rights>© Hugh Rollinson and Victoria Pease 2021</dc:rights>
+      <dc:publisher>Cambridge University Press</dc:publisher>
+      <meta content="cover-image" name="cover"/>
+      <meta content="created by bits2epub version 1.0.24" name="origin"/>
+      <meta property="dcterms:modified">2021-03-02T11:47:27Z</meta>
+   <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/" id="p9781108745840">urn:uuid:e8442fcd-043e-4e57-b3b0-c9f9744f0719</dc:identifier></metadata>
+   <manifest>
+      <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+      <item href="Text/coverpage.xhtml" id="coverpage" media-type="application/xhtml+xml"/>
+      <item href="Images/cover.jpg" id="cover-image" media-type="image/jpeg"/>
+      <item href="Text/nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
+      <item id="pages" href="oebps-page-map.xml" media-type="application/oebps-page-map+xml"/>
+      <item id="doc1" href="Text/front-matter-part1.xhtml" media-type="application/xhtml+xml"/>
+      <item id="doc2" href="Text/front-matter-part2.xhtml" media-type="application/xhtml+xml"/>
+      <item id="doc3" href="Text/front-matter-part3.xhtml" media-type="application/xhtml+xml"/>
+      <item id="doc4" href="Text/front-matter-part4.xhtml" media-type="application/xhtml+xml"/>
+      <item id="doc5" href="Text/toc.xhtml" media-type="application/xhtml+xml"/>
+      <item id="doc6" href="Text/preface1.xhtml" media-type="application/xhtml+xml"/>
+      <item id="doc7" href="Text/preface2.xhtml" media-type="application/xhtml+xml"/>
+      <item id="doc8" href="Text/glossary.xhtml" media-type="application/xhtml+xml"/>
+      <item id="doc9" href="Text/book-part1.xhtml" media-type="application/xhtml+xml"/>
+      <item id="doc10" href="Text/book-part2.xhtml" media-type="application/xhtml+xml" properties="mathml switch scripted"/>
+      <item id="doc11" href="Text/book-part3.xhtml" media-type="application/xhtml+xml" properties="mathml switch scripted"/>
+      <item id="doc12" href="Text/book-part4.xhtml" media-type="application/xhtml+xml" properties="mathml switch scripted"/>
+      <item id="doc13" href="Text/book-part5.xhtml" media-type="application/xhtml+xml"/>
+      <item id="doc14" href="Text/book-part6.xhtml" media-type="application/xhtml+xml" properties="mathml switch scripted"/>
+      <item id="doc15" href="Text/book-part7.xhtml" media-type="application/xhtml+xml" properties="mathml switch scripted"/>
+      <item id="doc16" href="Text/app-group.xhtml" media-type="application/xhtml+xml"/>
+      <item id="doc17" href="Text/app1.xhtml" media-type="application/xhtml+xml" properties="mathml switch scripted"/>
+      <item id="doc18" href="Text/app2.xhtml" media-type="application/xhtml+xml"/>
+      <item id="doc19" href="Text/ref-list.xhtml" media-type="application/xhtml+xml"/>
+      <item id="doc20" href="Text/index.xhtml" media-type="application/xhtml+xml"/>
+      <item href="Styles/cup-bits-epub3.css" id="style" media-type="text/css"/>
+      <item href="Images/icon_animation_32x32.png" id="img1" media-type="image/png"/>
+      <item href="Images/icon_assessment_32x32.png" id="img2" media-type="image/png"/>
+      <item href="Images/icon_audio_32x32.png" id="img3" media-type="image/png"/>
+      <item href="Images/icon_popup_32x32.png" id="img4" media-type="image/png"/>
+      <item href="Images/icon_qanda_32x32.png" id="img5" media-type="image/png"/>
+      <item href="Images/icon_slideshow_32x32.png" id="img6" media-type="image/png"/>
+      <item href="Images/icon_video_32x32.png" id="img7" media-type="image/png"/>
+      <item href="Images/logo.png" id="img8" media-type="image/png"/>
+      <item href="Images/logo1.png" id="img9" media-type="image/png"/>
+      <item href="Images/74584fig1_1.png" id="img10" media-type="image/png"/>
+      <item href="Images/74584fig1_2.png" id="img11" media-type="image/png"/>
+      <item href="Images/74584fig1_3.png" id="img12" media-type="image/png"/>
+      <item href="Images/74584fig1_4.png" id="img13" media-type="image/png"/>
+      <item href="Images/74584fig1_5.png" id="img14" media-type="image/png"/>
+      <item href="Images/74584inline2_1.png" id="img15" media-type="image/png"/>
+      <item href="Images/74584inline2_2.png" id="img16" media-type="image/png"/>
+      <item href="Images/74584inline2_3.png" id="img17" media-type="image/png"/>
+      <item href="Images/74584inline2_4.png" id="img18" media-type="image/png"/>
+      <item href="Images/74584inline2_5.png" id="img19" media-type="image/png"/>
+      <item href="Images/74584inline2_6.png" id="img20" media-type="image/png"/>
+      <item href="Images/74584tblu2_1.png" id="img21" media-type="image/png"/>
+      <item href="Images/74584fig2_1.png" id="img22" media-type="image/png"/>
+      <item href="Images/74584eqn2_1.png" id="img23" media-type="image/png"/>
+      <item href="Images/74584eqnu2_1.png" id="img24" media-type="image/png"/>
+      <item href="Images/74584eqn2_4.png" id="img25" media-type="image/png"/>
+      <item href="Images/74584eqn2_5.png" id="img26" media-type="image/png"/>
+      <item href="Images/74584fig2_2.png" id="img27" media-type="image/png"/>
+      <item href="Images/74584fig2_3.png" id="img28" media-type="image/png"/>
+      <item href="Images/74584fig2_4.png" id="img29" media-type="image/png"/>
+      <item href="Images/74584fig2_5.png" id="img30" media-type="image/png"/>
+      <item href="Images/74584fig2_6.png" id="img31" media-type="image/png"/>
+      <item href="Images/74584fig2_7.png" id="img32" media-type="image/png"/>
+      <item href="Images/74584fig2_8.png" id="img33" media-type="image/png"/>
+      <item href="Images/74584fig3_1.png" id="img34" media-type="image/png"/>
+      <item href="Images/74584fig3_2.png" id="img35" media-type="image/png"/>
+      <item href="Images/74584fig3_3.png" id="img36" media-type="image/png"/>
+      <item href="Images/74584fig3_4.png" id="img37" media-type="image/png"/>
+      <item href="Images/74584fig3_5.png" id="img38" media-type="image/png"/>
+      <item href="Images/74584fig3_6.png" id="img39" media-type="image/png"/>
+      <item href="Images/74584fig3_7.png" id="img40" media-type="image/png"/>
+      <item href="Images/74584fig3_8.png" id="img41" media-type="image/png"/>
+      <item href="Images/74584fig3_9.png" id="img42" media-type="image/png"/>
+      <item href="Images/74584fig3_10.png" id="img43" media-type="image/png"/>
+      <item href="Images/74584fig3_11.png" id="img44" media-type="image/png"/>
+      <item href="Images/74584fig3_12.png" id="img45" media-type="image/png"/>
+      <item href="Images/74584fig3_13.png" id="img46" media-type="image/png"/>
+      <item href="Images/74584fig3_14.png" id="img47" media-type="image/png"/>
+      <item href="Images/74584fig3_15.png" id="img48" media-type="image/png"/>
+      <item href="Images/74584fig3_16.png" id="img49" media-type="image/png"/>
+      <item href="Images/74584fig3_17.png" id="img50" media-type="image/png"/>
+      <item href="Images/74584fig3_18.png" id="img51" media-type="image/png"/>
+      <item href="Images/74584fig3_19.png" id="img52" media-type="image/png"/>
+      <item href="Images/74584fig3_20.png" id="img53" media-type="image/png"/>
+      <item href="Images/74584fig3_21.png" id="img54" media-type="image/png"/>
+      <item href="Images/74584fig3_22.png" id="img55" media-type="image/png"/>
+      <item href="Images/74584fig3_23.png" id="img56" media-type="image/png"/>
+      <item href="Images/74584fig3_24.png" id="img57" media-type="image/png"/>
+      <item href="Images/74584fig3_25.png" id="img58" media-type="image/png"/>
+      <item href="Images/74584fig3_26.png" id="img59" media-type="image/png"/>
+      <item href="Images/74584eqnu3_1.png" id="img60" media-type="image/png"/>
+      <item href="Images/74584eqnu3_2.png" id="img61" media-type="image/png"/>
+      <item href="Images/74584fig3_27.png" id="img62" media-type="image/png"/>
+      <item href="Images/74584fig3_28.png" id="img63" media-type="image/png"/>
+      <item href="Images/74584fig3_29.png" id="img64" media-type="image/png"/>
+      <item href="Images/74584fig3_30.png" id="img65" media-type="image/png"/>
+      <item href="Images/74584fig3_31.png" id="img66" media-type="image/png"/>
+      <item href="Images/74584fig3_32.png" id="img67" media-type="image/png"/>
+      <item href="Images/74584fig4_1.png" id="img68" media-type="image/png"/>
+      <item href="Images/74584fig4_2.png" id="img69" media-type="image/png"/>
+      <item href="Images/74584eqnu4_1.png" id="img70" media-type="image/png"/>
+      <item href="Images/74584fig4_3.png" id="img71" media-type="image/png"/>
+      <item href="Images/74584fig4_4.png" id="img72" media-type="image/png"/>
+      <item href="Images/74584inline4_1.png" id="img73" media-type="image/png"/>
+      <item href="Images/74584fig4_5.png" id="img74" media-type="image/png"/>
+      <item href="Images/74584fig4_6.png" id="img75" media-type="image/png"/>
+      <item href="Images/74584fig4_7.png" id="img76" media-type="image/png"/>
+      <item href="Images/74584fig4_8.png" id="img77" media-type="image/png"/>
+      <item href="Images/74584inline4_2.png" id="img78" media-type="image/png"/>
+      <item href="Images/74584fig4_9.png" id="img79" media-type="image/png"/>
+      <item href="Images/74584inline4_3.png" id="img80" media-type="image/png"/>
+      <item href="Images/74584fig4_10.png" id="img81" media-type="image/png"/>
+      <item href="Images/74584eqn4_14.png" id="img82" media-type="image/png"/>
+      <item href="Images/74584inline4_4.png" id="img83" media-type="image/png"/>
+      <item href="Images/74584eqn4_15.png" id="img84" media-type="image/png"/>
+      <item href="Images/74584fig4_11.png" id="img85" media-type="image/png"/>
+      <item href="Images/74584fig4_12.png" id="img86" media-type="image/png"/>
+      <item href="Images/74584inline4_5.png" id="img87" media-type="image/png"/>
+      <item href="Images/74584eqn4_22.png" id="img88" media-type="image/png"/>
+      <item href="Images/74584fig4_13.png" id="img89" media-type="image/png"/>
+      <item href="Images/74584inline4_6.png" id="img90" media-type="image/png"/>
+      <item href="Images/74584fig4_14.png" id="img91" media-type="image/png"/>
+      <item href="Images/74584fig4_15.png" id="img92" media-type="image/png"/>
+      <item href="Images/74584fig4_16.png" id="img93" media-type="image/png"/>
+      <item href="Images/74584fig4_17.png" id="img94" media-type="image/png"/>
+      <item href="Images/74584fig4_18.png" id="img95" media-type="image/png"/>
+      <item href="Images/74584fig4_19.png" id="img96" media-type="image/png"/>
+      <item href="Images/74584fig4_20.png" id="img97" media-type="image/png"/>
+      <item href="Images/74584fig4_21.png" id="img98" media-type="image/png"/>
+      <item href="Images/74584fig4_22.png" id="img99" media-type="image/png"/>
+      <item href="Images/74584fig4_23.png" id="img100" media-type="image/png"/>
+      <item href="Images/74584fig4_24.png" id="img101" media-type="image/png"/>
+      <item href="Images/74584fig4_25.png" id="img102" media-type="image/png"/>
+      <item href="Images/74584fig4_26.png" id="img103" media-type="image/png"/>
+      <item href="Images/74584fig4_27.png" id="img104" media-type="image/png"/>
+      <item href="Images/74584fig4_28.png" id="img105" media-type="image/png"/>
+      <item href="Images/74584fig4_29.png" id="img106" media-type="image/png"/>
+      <item href="Images/74584fig5_1.png" id="img107" media-type="image/png"/>
+      <item href="Images/74584fig5_2.png" id="img108" media-type="image/png"/>
+      <item href="Images/74584fig5_3.png" id="img109" media-type="image/png"/>
+      <item href="Images/74584fig5_4.png" id="img110" media-type="image/png"/>
+      <item href="Images/74584fig5_5.png" id="img111" media-type="image/png"/>
+      <item href="Images/74584fig5_6.png" id="img112" media-type="image/png"/>
+      <item href="Images/74584fig5_7.png" id="img113" media-type="image/png"/>
+      <item href="Images/74584fig5_8.png" id="img114" media-type="image/png"/>
+      <item href="Images/74584fig5_9.png" id="img115" media-type="image/png"/>
+      <item href="Images/74584fig5_10.png" id="img116" media-type="image/png"/>
+      <item href="Images/74584fig5_11.png" id="img117" media-type="image/png"/>
+      <item href="Images/74584fig5_12.png" id="img118" media-type="image/png"/>
+      <item href="Images/74584tblu6_1.png" id="img119" media-type="image/png"/>
+      <item href="Images/74584eqn6_2.png" id="img120" media-type="image/png"/>
+      <item href="Images/74584fig6_1.png" id="img121" media-type="image/png"/>
+      <item href="Images/74584fig6_2.png" id="img122" media-type="image/png"/>
+      <item href="Images/74584eqn6_4.png" id="img123" media-type="image/png"/>
+      <item href="Images/74584eqn6_5.png" id="img124" media-type="image/png"/>
+      <item href="Images/74584fig6_3.png" id="img125" media-type="image/png"/>
+      <item href="Images/74584inline6_1.png" id="img126" media-type="image/png"/>
+      <item href="Images/74584inline6_2.png" id="img127" media-type="image/png"/>
+      <item href="Images/74584inline6_3.png" id="img128" media-type="image/png"/>
+      <item href="Images/74584inline6_4.png" id="img129" media-type="image/png"/>
+      <item href="Images/74584inline5.png" id="img130" media-type="image/png"/>
+      <item href="Images/74584inline6.png" id="img131" media-type="image/png"/>
+      <item href="Images/74584inline7.png" id="img132" media-type="image/png"/>
+      <item href="Images/74584inline8.png" id="img133" media-type="image/png"/>
+      <item href="Images/74584inline9.png" id="img134" media-type="image/png"/>
+      <item href="Images/74584inline10.png" id="img135" media-type="image/png"/>
+      <item href="Images/74584eqn6_6.png" id="img136" media-type="image/png"/>
+      <item href="Images/74584eqn6_7.png" id="img137" media-type="image/png"/>
+      <item href="Images/74584inline6_5.png" id="img138" media-type="image/png"/>
+      <item href="Images/74584inline6_6.png" id="img139" media-type="image/png"/>
+      <item href="Images/74584fig6_4.png" id="img140" media-type="image/png"/>
+      <item href="Images/74584fig6_5.png" id="img141" media-type="image/png"/>
+      <item href="Images/74584fig6_6.png" id="img142" media-type="image/png"/>
+      <item href="Images/74584fig6_7.png" id="img143" media-type="image/png"/>
+      <item href="Images/74584fig6_8.png" id="img144" media-type="image/png"/>
+      <item href="Images/74584fig6_9.png" id="img145" media-type="image/png"/>
+      <item href="Images/74584fig6_10.png" id="img146" media-type="image/png"/>
+      <item href="Images/74584fig6_11.png" id="img147" media-type="image/png"/>
+      <item href="Images/74584fig6_12.png" id="img148" media-type="image/png"/>
+      <item href="Images/74584fig6_13.png" id="img149" media-type="image/png"/>
+      <item href="Images/74584fig6_14.png" id="img150" media-type="image/png"/>
+      <item href="Images/74584eqn6_14.png" id="img151" media-type="image/png"/>
+      <item href="Images/74584eqn6_18.png" id="img152" media-type="image/png"/>
+      <item href="Images/74584eqn6_20.png" id="img153" media-type="image/png"/>
+      <item href="Images/74584fig6_15.png" id="img154" media-type="image/png"/>
+      <item href="Images/74584fig6_16.png" id="img155" media-type="image/png"/>
+      <item href="Images/74584fig6_17.png" id="img156" media-type="image/png"/>
+      <item href="Images/74584eqn6_16.png" id="img157" media-type="image/png"/>
+      <item href="Images/74584eqn6_19.png" id="img158" media-type="image/png"/>
+      <item href="Images/74584eqn6_21.png" id="img159" media-type="image/png"/>
+      <item href="Images/74584eqn6_22.png" id="img160" media-type="image/png"/>
+      <item href="Images/74584fig6_18.png" id="img161" media-type="image/png"/>
+      <item href="Images/74584fig6_19.png" id="img162" media-type="image/png"/>
+      <item href="Images/74584fig6_20.png" id="img163" media-type="image/png"/>
+      <item href="Images/74584fig6_21.png" id="img164" media-type="image/png"/>
+      <item href="Images/74584fig6_22.png" id="img165" media-type="image/png"/>
+      <item href="Images/74584fig6_23.png" id="img166" media-type="image/png"/>
+      <item href="Images/74584fig6_24.png" id="img167" media-type="image/png"/>
+      <item href="Images/74584fig6_25.png" id="img168" media-type="image/png"/>
+      <item href="Images/74584eqnu7_1.png" id="img169" media-type="image/png"/>
+      <item href="Images/74584fig7_1.png" id="img170" media-type="image/png"/>
+      <item href="Images/74584fig7_2.png" id="img171" media-type="image/png"/>
+      <item href="Images/74584fig7_3.png" id="img172" media-type="image/png"/>
+      <item href="Images/74584fig7_4.png" id="img173" media-type="image/png"/>
+      <item href="Images/74584fig7_5.png" id="img174" media-type="image/png"/>
+      <item href="Images/74584fig7_6.png" id="img175" media-type="image/png"/>
+      <item href="Images/74584fig7_7.png" id="img176" media-type="image/png"/>
+      <item href="Images/74584fig7_8.png" id="img177" media-type="image/png"/>
+      <item href="Images/74584fig7_9.png" id="img178" media-type="image/png"/>
+      <item href="Images/74584eqn7_18.png" id="img179" media-type="image/png"/>
+      <item href="Images/74584fig7_10.png" id="img180" media-type="image/png"/>
+      <item href="Images/74584eqnu7_2.png" id="img181" media-type="image/png"/>
+      <item href="Images/74584fig7_11.png" id="img182" media-type="image/png"/>
+      <item href="Images/74584fig7_12.png" id="img183" media-type="image/png"/>
+      <item href="Images/74584fig7_13.png" id="img184" media-type="image/png"/>
+      <item href="Images/74584fig7_14.png" id="img185" media-type="image/png"/>
+      <item href="Images/74584fig7_15.png" id="img186" media-type="image/png"/>
+      <item href="Images/74584fig7_16.png" id="img187" media-type="image/png"/>
+      <item href="Images/74584fig7_17.png" id="img188" media-type="image/png"/>
+      <item href="Images/74584fig7_18.png" id="img189" media-type="image/png"/>
+      <item href="Images/74584fig7_19.png" id="img190" media-type="image/png"/>
+      <item href="Images/74584fig7_20.png" id="img191" media-type="image/png"/>
+      <item href="Images/74584fig7_21.png" id="img192" media-type="image/png"/>
+      <item href="Images/74584fig7_22.png" id="img193" media-type="image/png"/>
+      <item href="Images/74584fig7_23.png" id="img194" media-type="image/png"/>
+      <item href="Images/74584fig7_24.png" id="img195" media-type="image/png"/>
+      <item href="Images/74584fig7_25.png" id="img196" media-type="image/png"/>
+      <item href="Images/74584fig7_26.png" id="img197" media-type="image/png"/>
+      <item href="Images/74584fig7_27.png" id="img198" media-type="image/png"/>
+      <item href="Images/74584fig7_28.png" id="img199" media-type="image/png"/>
+      <item href="Images/74584fig7_29.png" id="img200" media-type="image/png"/>
+      <item href="Images/74584fig7_30.png" id="img201" media-type="image/png"/>
+      <item href="Images/74584fig7_31.png" id="img202" media-type="image/png"/>
+      <item href="Images/74584fig7_32.png" id="img203" media-type="image/png"/>
+      <item href="Images/74584fig7_33.png" id="img204" media-type="image/png"/>
+      <item href="Images/74584fig7_34.png" id="img205" media-type="image/png"/>
+      <item href="Images/74584fig7_35.png" id="img206" media-type="image/png"/>
+      <item href="Images/74584fig7_36.png" id="img207" media-type="image/png"/>
+      <item href="Styles/fixmathml.js" id="id194" media-type="application/x-javascript"/>
+      <item href="Styles/cup-bits-epub3-math.css" id="style2" media-type="text/css"/>
+      <item href="Fonts/CUPFreeSerif-Bold.ttf" id="font1" media-type="application/font-sfnt"/>
+      <item href="Fonts/CUPFreeSerif-BoldItalic.ttf" id="font2" media-type="application/font-sfnt"/>
+      <item href="Fonts/CUPFreeSerif-Italic.ttf" id="font3" media-type="application/font-sfnt"/>
+      <item href="Fonts/CUPFreeSerif.ttf" id="font4" media-type="application/font-sfnt"/>
+      <item href="Fonts/DejaVuSans-Bold.ttf" id="font5" media-type="application/font-sfnt"/>
+      <item href="Fonts/DejaVuSans-BoldItalic.ttf" id="font6" media-type="application/font-sfnt"/>
+      <item href="Fonts/DejaVuSans-Italic.ttf" id="font7" media-type="application/font-sfnt"/>
+      <item href="Fonts/DejaVuSans.ttf" id="font8" media-type="application/font-sfnt"/>
+      <item href="Fonts/GFSNeohellenicStd-Bold.otf" id="font9" media-type="application/font-sfnt"/>
+      <item href="Fonts/GFSNeohellenicStd-BoldItalic.otf" id="font10" media-type="application/font-sfnt"/>
+      <item href="Fonts/GFSNeohellenicStd-Italic.otf" id="font11" media-type="application/font-sfnt"/>
+      <item href="Fonts/GFSNeohellenicStd.otf" id="font12" media-type="application/font-sfnt"/>
+      <item href="Fonts/PT_Serif-Web-Bold.ttf" id="font13" media-type="application/font-sfnt"/>
+      <item href="Fonts/PT_Serif-Web-BoldItalic.ttf" id="font14" media-type="application/font-sfnt"/>
+      <item href="Fonts/PT_Serif-Web-Italic.ttf" id="font15" media-type="application/font-sfnt"/>
+      <item href="Fonts/PT_Serif-Web-Regular.ttf" id="font16" media-type="application/font-sfnt"/>
+   <item id="js-kobo.js" href="../js/kobo.js" media-type="application/javascript"/></manifest>
+   <spine toc="ncx">
+      <itemref idref="coverpage" linear="no"/>
+      <itemref idref="doc1"/>
+      <itemref idref="doc2"/>
+      <itemref idref="doc3"/>
+      <itemref idref="doc4"/>
+      <itemref idref="doc5"/>
+      <itemref idref="doc6"/>
+      <itemref idref="doc7"/>
+      <itemref idref="doc8"/>
+      <itemref idref="doc9"/>
+      <itemref idref="doc10"/>
+      <itemref idref="doc11"/>
+      <itemref idref="doc12"/>
+      <itemref idref="doc13"/>
+      <itemref idref="doc14"/>
+      <itemref idref="doc15"/>
+      <itemref idref="doc16"/>
+      <itemref idref="doc17"/>
+      <itemref idref="doc18"/>
+      <itemref idref="doc19"/>
+      <itemref idref="doc20"/>
+   </spine>
+   <guide>
+      <reference type="text" title="Begin reading" href="Text/front-matter-part3.xhtml"/>
+      <reference type="cover" title="Cover" href="Text/coverpage.xhtml"/>
+      <reference type="toc" title="Table of Contents" href="Text/toc.xhtml"/>
+      <reference type="index" title="Index" href="Text/index.xhtml"/>
+   </guide>
+</package>

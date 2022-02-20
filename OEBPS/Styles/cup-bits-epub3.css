@@ -1,0 +1,4331 @@
+@charset "UTF-8";
+/* CSS written by Academic Design
+
+Version 2.54
+07/02/2020
+
+*/
+/*------------------------------------*\
+ BITS EPUB3 REVISIONS
+\*------------------------------------*/
+/*
+*
+07/02/2020 v2.54
+------------------------------------
+CSM-2670: epubcheck 4.2.2: fix ERROR(CSS-020).
+          - Modified font-size value (under .dictionary-letter > .dictionary-entry > .title) from 'initial' to 'medium' in modules/_16-dictionaries.scss
+*
+13/12/2019 v2.53
+------------------------------------
+CSM-2744: Add CSS styling for p element that placed immediately after sec-meta within boxed-text
+ *
+21/11/2019 v2.52
+------------------------------------
+CSM-2720: Add CSS styling for h3 title inside boxed-text/sec
+
+15/11/2019 v2.51
+------------------------------------
+CSM-2658: add indention on the nested ordered list within displayed-quote for normal book
+
+14/11/2019 v2.50
+------------------------------------
+CSM-2647: Amend the bits2epub CSS to make the inline headings appear correctly
+
+11/11/2019 v2.49
+------------------------------------
+CSM-2614: CSS improvement for fig-group
+
+25/04/2019 v2.48
+------------------------------------
+CSM-2432: add CSS styling for book-part/book-part-meta/abstract/title
+
+17/04/2019 v2.47
+------------------------------------
+CSM-2372: Add a line-break's worth of white space above the run-in title
+
+15/04/2019 v2.46
+------------------------------------
+CSM-2372: Add a line-break's worth of white space above the run-in title
+
+15/04/2019 v2.45
+------------------------------------
+CSM-2418: add CSS style for disp-formula label within bulleted list.
+
+03/04/2019 v2.44
+------------------------------------
+CSM-2347: Amend BITS2Epub CSS to display title[@content-type='run-in'] properly..
+
+20/03/2019 v2.43
+------------------------------------
+CSM-2347: Amend BITS2Epub CSS to display title[@content-type='run-in'] properly..
+
+26/02/2019 v2.42
+------------------------------------
+CSM-2340: Bottom margin of displayed formulas adjustment for mobi.
+
+21/02/2019 v2.41
+------------------------------------
+CSM-2228: Put a box around every instance of sec @sec-type='case-study'.
+
+14/02/2019 v2.40
+------------------------------------
+CSM-2304: Width adjustment for disp-formula label for mobi
+
+25/01/2019 v2.39
+------------------------------------
+CSM-2303: Left margin for toc-entry within subpart in main TOC
+CSM-2231: misaligned bullet list
+
+03/01/2019 v2.38
+------------------------------------
+CSM-2239: .abstract-page styles added
+
+27/07/2018 v2.37
+------------------------------------
+CSM-2043: .para-number style added
+ET-973: .edition in ref-list not bold, .sc not bold
+
+20/07/2018 v2.36
+------------------------------------
+CSM-2014: Align right for contrib-group.
+
+
+21/03/2018 v2.35
+------------------------
+CSM-1566: Added indent for speech inside boxed content
+CSM-1530: Centred and spaced <author-comment> on chapter openings
+
+09/02/2018 v2.34
+------------------------
+CSM-1580: Add highlight class styles
+
+08/02/2018 v2.33
+------------------------
+CSM-1599: Spacing for multiple questions in question-wrap
+CSM-1612: Dictionary letter styling
+CSM-1617: Added extra top margin for adjacent .question-wrap
+CSM-1542: Ref-list in boxed-text
+
+19/01/2018 v2.32
+------------------------
+CSM-1696: add a style for table-wrap-group caption to remove background color in caption and adjust top/bottom margin.
+
+17/01/2018 v2.31
+------------------------
+CSM-1547: marginal-number margin to match line-number.
+
+17/11/2017 v2.30
+------------------------
+CBT-1167: addded style for chemical equation label to appear on the right side.
+
+17/07/2017 v2.29
+------------------------
+CBT-1149: addded style for contrib-group within boxed-text to appear as left-aligned.
+
+13/07/2017 v2.28
+------------------------
+CBT-1151: addded style for p[@content-type eq 'source'] the same as 01.20 Source.
+
+12/05/2017 v2.27
+------------------------
+CBT-1110: addded style for subtitle inside "chronology".
+CBT-1115: added style for h5.EMT.
+
+------------------------
+------------------------
+Changed history to reflect the recent ones starting at v2.27
+------------------------
+------------------------
+
+25/09/2015 v2.0
+------------------------
+Changed versioning system. BITS2EPUB now starting at version 2.0.
+Fix for CBT-476: Inline graphics needed setting to display: inline when within .fig
+
+25/09/2015 v2.1
+------------------------
+Fix for CSM-767: Contrib-group in Appendix.
+
+14/10/2015 v2.2
+------------------------
+Fix for CBT-505: Justification in lists in tables.
+
+15/10/2015 v2.3
+------------------------
+Fix for CSM-743: <source> in <citation> to be italic.
+
+15/10/2015 v2.3
+------------------------
+Fix for CSM-883: Improvement in layout of Appendix openers.
+
+26/10/2015 v2.4
+------------------------
+Fix for CBT-380: Improvement in layout of Afterword.
+
+12/11/2015 v2.5
+------------------------
+Fix for CSM-818: Chapter ToC - "C-level" Nesting - ROBERTS, Food Law in the United States (9781107117600)
+
+16/11/2015 v2.6
+------------------------
+Fix for CSM-759: display: none; on label in bullet lists causes problems with Kindlegen. replaced by width: 0; height: 0;
+
+24/11/2015 v2.7
+------------------------
+Fix for CBT-396.
+
+26/11/2015 v2.8
+------------------------
+Fix for CSM-940
+
+27/11/2015 v2.9
+------------------------
+Fixes for CBT-371, CBT-410 and CBT-642
+
+16/12/2015 v2.10
+------------------------
+Fixes for CBT-698
+
+04/02/2016 v2.11
+------------------------
+General improvements
+
+16/02/2016 v2.12
+------------------------
+Added Ed Mackenzie's bodge fix for index spacing into the SASS.
+
+26/02/2016 v2.13
+------------------------
+Fixes for CBT-406 and CSM-1037
+
+14/03/2016 v2.14
+------------------------
+Removed Ed Mackenzie's bodge fix for index spacing into the SASS.
+
+14/03/2016 v2.15
+------------------------
+Fixes for CBT-807, CBT-809
+
+16/03/2016 v2.16
+------------------------
+Further fix for CBT-807
+
+08/04/2016 v2.17
+------------------------
+CBT-836, CBT-823, CBT-830, CBT-820, CBT-819
+
+14/04/2016 v2.18
+------------------------
+CBT-589, CBT-852
+
+19/05/2016 v2.19
+------------------------
+CBT-861, CBT-903, CBT-894, CBT-901. With an additional fix for the large logo on ePub title pages.
+
+24/05/2016 v2.20
+------------------------
+CBT-910, CSM-975
+
+24/05/2016 v2.21
+------------------------
+CSM-1069
+
+16/06/2016 v2.22
+------------------------
+CBT-924
+
+21/06/2016 v2.23
+------------------------
+CSM-1059
+
+23/06/2016 v2.24
+------------------------
+CBT-940
+
+07/07/2016 v2.25
+------------------------
+CBT-965, CBT-852
+
+29/07/2016 v2.26
+------------------------
+CBT-988,
+*/
+/* Basic styles
+========================================================================== */
+/* RESET - Defaults.
+========================================================================== */
+/*------------------------------------*\
+ RESET STYLES
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 10, sass/base/_normalize.scss */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 30, sass/base/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* line 34, sass/base/_normalize.scss */
+body {
+  line-height: 1;
+}
+
+/* line 37, sass/base/_normalize.scss */
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 40, sass/base/_normalize.scss */
+blockquote,
+q {
+  quotes: none;
+}
+
+/* line 43, sass/base/_normalize.scss */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+/* line 48, sass/base/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* End of RESET */
+/* BASE - Base Variable file along with starting point Mixins and Placeholders.
+========================================================================== */
+/*------------------------------------*\
+ VARIABLES
+\*------------------------------------*/
+/*------------------------------------*\
+ MIXINS
+\*------------------------------------*/
+/*------------------------------------*\
+ PLACEHOLDERS
+\*------------------------------------*/
+/* MODULES - Re-usable site elements.
+========================================================================== */
+/*------------------------------------*\
+ GLOBAL
+\*------------------------------------*/
+/* line 5, sass/modules/_global.scss */
+body {
+  font-size: 1em;
+}
+
+/* line 9, sass/modules/_global.scss */
+sup {
+  font-size: 0.75em;
+  line-height: 0.75em !important;
+  vertical-align: super !important;
+}
+
+/* line 15, sass/modules/_global.scss */
+sub {
+  font-size: 0.75em;
+  line-height: 0.75em !important;
+  vertical-align: sub !important;
+}
+
+/* line 21, sass/modules/_global.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em;
+  line-height: 1.3;
+  page-break-after: avoid;
+  text-align: left;
+}
+
+/* line 28, sass/modules/_global.scss */
+em,
+.italic {
+  /* Italic shouldn’t be a class. It’s stylistic -- should use <em> */
+  font-style: italic;
+}
+
+/* line 33, sass/modules/_global.scss */
+strong,
+.bold {
+  /* Bold shouldn’t be a class. It’s stylistic -- should use <strong> */
+  font-weight: bold;
+}
+
+/* line 38, sass/modules/_global.scss */
+.roman {
+  font-style: normal !important;
+}
+
+/* line 42, sass/modules/_global.scss */
+abbr {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.9444em;
+}
+
+/* line 48, sass/modules/_global.scss */
+.sc {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+/* line 55, sass/modules/_global.scss */
+.underline {
+  text-decoration: underline;
+}
+
+/* line 59, sass/modules/_global.scss */
+.dotted-underline {
+  text-decoration: none;
+  border-bottom: 1px dotted #000;
+}
+
+/* line 64, sass/modules/_global.scss */
+.double-underline {
+  text-decoration: none;
+  border-bottom: 3px double #000;
+}
+
+/* line 69, sass/modules/_global.scss */
+.triple-underline {
+  text-decoration: underline;
+  border-bottom: 3px double #000;
+}
+
+/* line 74, sass/modules/_global.scss */
+.overline {
+  text-decoration: overline;
+}
+
+/* line 78, sass/modules/_global.scss */
+.strike {
+  text-decoration: line-through;
+}
+
+/* line 82, sass/modules/_global.scss */
+a {
+  text-decoration: underline;
+}
+
+/* line 86, sass/modules/_global.scss */
+.noindent {
+  text-indent: 0 !important;
+}
+
+/* line 94, sass/modules/_global.scss */
+.highlight {
+  background-color: #dddddd;
+  padding: 0 0.25em;
+}
+
+/*------------------------------------*\
+01 BASIC TEXT STYLES
+\*------------------------------------*/
+/* line 40, sass/modules/_01-basic-text-styles.scss */
+p,
+.p {
+  font-size: 1em;
+  line-height: 1.6;
+  text-indent: 2em;
+  -ms-word-break: normal;
+  word-break: normal;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -epub-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  text-align: justify;
+  widows: 2;
+  orphans: 2;
+}
+
+/* line 53, sass/modules/_01-basic-text-styles.scss */
+h1 + p,
+h1 + .p,
+h2 + p,
+h2 + .p,
+h3 + p,
+h3 + .p,
+h4 + p,
+h4 + .p,
+h5 + p,
+h5 + .p,
+h6 + p,
+h6 + .p,
+header + p,
+header + .p,
+.header + p,
+.header + .p {
+  text-indent: 0;
+}
+
+/* line 61, sass/modules/_01-basic-text-styles.scss */
+.named-book-part-body p:first-child,
+.body p:first-child {
+  text-indent: 0;
+}
+
+/* line 72, sass/modules/_01-basic-text-styles.scss */
+.disp-quote {
+  margin: 1em 1em 1em 1em;
+}
+/* line 75, sass/modules/_01-basic-text-styles.scss */
+.disp-quote p,
+.disp-quote .p {
+  font-size: 0.9375em;
+  line-height: 1.6;
+  text-align: left;
+  text-indent: 0;
+  -ms-word-break: normal;
+  word-break: normal;
+  word-break: break-word;
+  -webkit-hyphens: none;
+  -epub-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+/* line 82, sass/modules/_01-basic-text-styles.scss */
+.disp-quote p + p,
+.disp-quote p + .p,
+.disp-quote .p + p,
+.disp-quote .p + .p {
+  text-indent: 1em;
+}
+/* line 88, sass/modules/_01-basic-text-styles.scss */
+.disp-quote.epigraph + p,
+.disp-quote.epigraph + .p {
+  text-indent: 0;
+}
+/* line 93, sass/modules/_01-basic-text-styles.scss */
+.disp-quote .attrib {
+  text-align: right;
+  margin: 0.5em 1em 0 0;
+  font-size: 0.9375em;
+  line-height: 1.6;
+}
+/* line 101, sass/modules/_01-basic-text-styles.scss */
+.disp-quote .disp-quote {
+  margin: 1em 0 1em 1em;
+}
+
+/* line 108, sass/modules/_01-basic-text-styles.scss */
+.verse-group {
+  margin: 1em 0 1em 1em;
+}
+/* line 112, sass/modules/_01-basic-text-styles.scss */
+.verse-group .verse-line {
+  font-size: 0.9375em;
+  margin: 0 1em 0 1em;
+  text-indent: -1em;
+  line-height: 1.6;
+  padding: 0 1em 0 0;
+  white-space: pre-wrap;
+}
+/* line 121, sass/modules/_01-basic-text-styles.scss */
+.verse-group .attrib {
+  font-size: 0.9375em;
+  text-align: right;
+  margin-right: 1em;
+}
+
+/* line 129, sass/modules/_01-basic-text-styles.scss */
+.marginal-number,
+.line-number {
+  float: right;
+  display: block;
+  width: 6em;
+  text-align: right;
+}
+
+/* line 136, sass/modules/_01-basic-text-styles.scss */
+.marginal-number {
+  margin: 0 -1.95em 0 1em;
+}
+
+/* line 141, sass/modules/_01-basic-text-styles.scss */
+.line-number {
+  margin: 0 0 0 1em;
+}
+
+/* line 151, sass/modules/_01-basic-text-styles.scss */
+.speech {
+  margin: 0.5em 0 0.5em 0;
+  text-align: left;
+}
+/* line 155, sass/modules/_01-basic-text-styles.scss */
+.speech p,
+.speech .p {
+  margin: 0 0 0 2em;
+  text-indent: 0;
+  text-align: left;
+  -ms-word-break: normal;
+  word-break: normal;
+  word-break: break-word;
+  -webkit-hyphens: none;
+  -epub-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+/* line 162, sass/modules/_01-basic-text-styles.scss */
+.speech p:first-child,
+.speech .p:first-child {
+  text-indent: -2em;
+}
+/* line 166, sass/modules/_01-basic-text-styles.scss */
+.speech p + p,
+.speech p + .p,
+.speech .p + p,
+.speech .p + .p {
+  text-indent: 1em;
+}
+/* line 177, sass/modules/_01-basic-text-styles.scss */
+.speech .speaker {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 0.2em;
+  padding: 0 0.29em 0 0;
+}
+/* line 181, sass/modules/_01-basic-text-styles.scss */
+.speech .speaker .sc {
+  font-size: 1em;
+}
+
+/* line 187, sass/modules/_01-basic-text-styles.scss */
+.part-line-middle {
+  padding: 0 0 0 10em !important;
+}
+
+/* line 191, sass/modules/_01-basic-text-styles.scss */
+.part-line-end {
+  padding: 0 0 0 14em !important;
+}
+
+/* line 195, sass/modules/_01-basic-text-styles.scss */
+.hidden {
+  display: none;
+}
+
+/* line 201, sass/modules/_01-basic-text-styles.scss */
+.stage-direction,
+.stage-direction-enter,
+.stage-direction-exit {
+  font-style: italic;
+  line-height: 1.6;
+  text-indent: 0;
+  margin: 0.5em 0 0.5em 0;
+}
+
+/* line 210, sass/modules/_01-basic-text-styles.scss */
+.stage-direction,
+.stage-direction-enter {
+  text-align: center !important;
+}
+
+/* line 215, sass/modules/_01-basic-text-styles.scss */
+.stage-direction-exit {
+  text-align: right !important;
+}
+
+/* line 220, sass/modules/_01-basic-text-styles.scss */
+.explanation {
+  text-align: left;
+  text-indent: 0;
+  margin: 1em;
+  font-size: 0.9375em;
+}
+
+/* line 229, sass/modules/_01-basic-text-styles.scss */
+.question {
+  text-align: left;
+  margin: 0.5em 0 0.5em 0;
+}
+/* line 233, sass/modules/_01-basic-text-styles.scss */
+.question p,
+.question .p {
+  text-align: left;
+  text-indent: 0;
+}
+/* line 238, sass/modules/_01-basic-text-styles.scss */
+.question p + p,
+.question p + .p,
+.question .p + p,
+.question .p + .p {
+  text-indent: 1em;
+}
+
+/* line 245, sass/modules/_01-basic-text-styles.scss */
+.question-wrap {
+  margin: 1em 0 0 0;
+}
+/* line 250, sass/modules/_01-basic-text-styles.scss */
+.question-wrap .question + .question {
+  margin: 1.25em 1em 1.25em 1em;
+}
+/* line 254, sass/modules/_01-basic-text-styles.scss */
+.question-wrap .question .question {
+  margin: 0.5em 0 0.5em 1em;
+}
+/* line 259, sass/modules/_01-basic-text-styles.scss */
+.question-wrap + .question-wrap {
+  margin: 2em 0 0 0;
+}
+
+/* line 265, sass/modules/_01-basic-text-styles.scss */
+.answer {
+  text-align: left;
+  margin: 0.5em 0 1em 1em;
+}
+/* line 269, sass/modules/_01-basic-text-styles.scss */
+.answer p,
+.answer .p {
+  text-align: left;
+  text-indent: 0;
+}
+/* line 274, sass/modules/_01-basic-text-styles.scss */
+.answer p + p,
+.answer p + .p,
+.answer .p + p,
+.answer .p + .p {
+  text-indent: 1em;
+}
+
+/* line 283, sass/modules/_01-basic-text-styles.scss */
+.attrib {
+  text-align: right;
+  margin: 0.5em 1em 0 0;
+}
+
+/* line 289, sass/modules/_01-basic-text-styles.scss */
+.end-author {
+  font-weight: bold;
+}
+
+/* line 295, sass/modules/_01-basic-text-styles.scss */
+.end-author-loc,
+.end-author-date {
+  font-style: italic;
+  margin: 0 0 0 0 !important;
+}
+
+/* line 302, sass/modules/_01-basic-text-styles.scss */
+.trans {
+  font-style: italic;
+}
+/* line 305, sass/modules/_01-basic-text-styles.scss */
+.trans .italic {
+  font-style: normal;
+}
+/* line 309, sass/modules/_01-basic-text-styles.scss */
+.trans .line-number,
+.trans .marginal-number {
+  font-style: normal;
+}
+
+/* line 315, sass/modules/_01-basic-text-styles.scss */
+.sig-block {
+  margin: 1em 1em 1em 1em;
+}
+/* line 318, sass/modules/_01-basic-text-styles.scss */
+.sig-block .sig {
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/*------------------------------------*\
+02 HEADINGS
+\*------------------------------------*/
+/* line 22, sass/modules/_02-headings.scss */
+.A,
+.A-plus,
+.def-list h1,
+h1.list-title {
+  text-align: center;
+  margin: 2em 1em 0.5em 1em;
+  font-weight: bold;
+  font-weight: 900;
+  font-size: 1.375em;
+}
+
+/* line 31, sass/modules/_02-headings.scss */
+.A-plus {
+  font-size: 1.5em;
+}
+
+/* line 37, sass/modules/_02-headings.scss */
+.B,
+.def-list h2,
+h2.list-title {
+  text-align: center;
+  margin: 2em 1em 0.5em 1em;
+  font-weight: bold;
+}
+
+/* line 43, sass/modules/_02-headings.scss */
+.sec .A + .sec .B,
+.sec .A-plus + .sec .B {
+  margin: 1em 1em 0.5em 1em;
+}
+
+/* line 48, sass/modules/_02-headings.scss */
+.C,
+.def-list h3,
+h3.list-title {
+  text-align: center;
+  margin: 2em 1em 0.5em 1em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* line 55, sass/modules/_02-headings.scss */
+.sec .B + .sec .C {
+  margin: 1em 1em 0.5em 1em;
+}
+
+/* line 60, sass/modules/_02-headings.scss */
+.D,
+.def-list h4,
+h4.list-title {
+  text-align: center;
+  font-weight: normal;
+  margin: 1em 0 0.25em 0;
+}
+
+/* line 69, sass/modules/_02-headings.scss */
+.E,
+.def-list h5,
+h5.list-title {
+  text-align: center;
+  margin: 2em 1em 0.5em 1em;
+  font-weight: bold;
+  font-style: italic;
+  font-weight: normal;
+  margin: 1em 0 0.25em 0;
+}
+
+/* line 79, sass/modules/_02-headings.scss */
+.F,
+.def-list h6,
+h6.list-title {
+  font-style: italic;
+  font-weight: normal;
+  margin: 1em 0 0.25em 0;
+}
+
+/* line 89, sass/modules/_02-headings.scss */
+.G {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 0.2em;
+  margin: 1.5em 0 0.5em 0;
+}
+
+/* line 95, sass/modules/_02-headings.scss */
+.H {
+  font-weight: bold;
+  margin: 0.5em 0 0 0;
+}
+
+/* line 101, sass/modules/_02-headings.scss */
+.I {
+  font-style: italic;
+  margin: 0.5em 0 0 0;
+}
+
+/* line 107, sass/modules/_02-headings.scss */
+.title.NHS {
+  margin: 1em 1em 1em 1em;
+  display: block;
+  text-align: center;
+}
+
+/* line 114, sass/modules/_02-headings.scss */
+.title {
+  font-weight: bold;
+  margin: 1em 0 0 1em;
+  text-indent: 0;
+  line-height: 1.3;
+  text-align: left;
+}
+
+/* line 123, sass/modules/_02-headings.scss */
+.kwd-group .title {
+  margin: 0 0 0 0;
+}
+
+/* line 128, sass/modules/_02-headings.scss */
+.title.run-in:after {
+  display: inline;
+  content: " ·";
+  /* UTF8 &middot; \a0\b7 ( \b7 is a middot, \a0 is a space ) */
+}
+
+/* line 134, sass/modules/_02-headings.scss */
+.break {
+  text-indent: 0 !important;
+  text-align: center;
+  border: 0;
+  margin: 0.7em 0 1em 0;
+  padding: 0;
+  height: 1em;
+  page-break-before: avoid;
+  line-height: 1.6;
+}
+/* line 144, sass/modules/_02-headings.scss */
+.break + p {
+  text-indent: 0 !important;
+}
+
+/* line 150, sass/modules/_02-headings.scss */
+.label {
+  font-weight: bold;
+}
+
+/* line 155, sass/modules/_02-headings.scss */
+.kwd {
+  font-weight: bold;
+}
+
+/*------------------------------------*\
+03 LISTS
+\*------------------------------------*/
+/* line 17, sass/modules/_03-lists.scss */
+.list {
+  margin: 0.5em 1em 0.5em 1em;
+}
+/* line 20, sass/modules/_03-lists.scss */
+.list .list {
+  margin: 0.5em 0 0.5em 1em;
+}
+/* line 24, sass/modules/_03-lists.scss */
+.list + .list {
+  margin: 1.25em 1em 1.25em 1em;
+}
+
+/* line 30, sass/modules/_03-lists.scss */
+.list-item {
+  line-height: 1.6;
+  margin: 0.5em 0 0.5em 0;
+  text-align: left;
+}
+/* line 35, sass/modules/_03-lists.scss */
+.list-item p,
+.list-item .p {
+  text-align: left;
+  text-indent: 0;
+}
+/* line 40, sass/modules/_03-lists.scss */
+.list-item p + p,
+.list-item p + .p,
+.list-item .p + p,
+.list-item .p + .p {
+  text-indent: 1em;
+}
+
+/* line 51, sass/modules/_03-lists.scss */
+.bullet {
+  padding-left: 1em;
+  text-indent: 0;
+  margin: 0.5em 1em 0.5em 0;
+}
+/* line 56, sass/modules/_03-lists.scss */
+.bullet .list-item {
+  position: relative;
+}
+/* line 59, sass/modules/_03-lists.scss */
+.bullet .list-item p,
+.bullet .list-item .p {
+  text-align: left;
+}
+/* line 64, sass/modules/_03-lists.scss */
+.bullet .list-item:before {
+  content: "·";
+  position: absolute;
+  top: 0;
+  left: -0.5em;
+  font-weight: bold;
+}
+/* line 72, sass/modules/_03-lists.scss */
+.bullet .list-item .label {
+  width: 0;
+  height: 0;
+}
+
+/* line 86, sass/modules/_03-lists.scss */
+.def-list {
+  text-align: left;
+  margin: 1em 0 1em 0;
+}
+/* line 90, sass/modules/_03-lists.scss */
+.def-list .term {
+  font-weight: bold;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 0.9375em;
+  padding: 0.5em 0.5em 0 0.5em;
+}
+/* line 98, sass/modules/_03-lists.scss */
+.def-list .def {
+  text-align: left;
+  line-height: 1.6;
+  font-size: 0.9375em;
+  padding: 0 0.5em 0.5em 0.5em;
+}
+/* line 104, sass/modules/_03-lists.scss */
+.def-list .def:last-child {
+  border-bottom: 0;
+}
+/* line 109, sass/modules/_03-lists.scss */
+.def-list .def .p,
+.def-list .def p {
+  text-align: left;
+  font-size: 1em;
+  text-indent: 0;
+}
+/* line 116, sass/modules/_03-lists.scss */
+.def-list .def .p + .p,
+.def-list .def p + p {
+  text-indent: 1em;
+}
+/* line 123, sass/modules/_03-lists.scss */
+.def-list .def-list .term {
+  font-size: 1em;
+}
+/* line 127, sass/modules/_03-lists.scss */
+.def-list .def-list .def {
+  font-size: 1em;
+}
+/* line 130, sass/modules/_03-lists.scss */
+.def-list .def-list .def:last-child {
+  border-bottom: 0;
+}
+
+/*------------------------------------*\
+04 NOTES
+\*------------------------------------*/
+/* line 19, sass/modules/_04-notes.scss */
+.fn-group {
+  margin: 0.5em 0 1em 0;
+}
+
+/* line 23, sass/modules/_04-notes.scss */
+.fn {
+  margin: 0 0 0 0;
+  padding: 0.5em 0 0.5em 0;
+}
+/* line 27, sass/modules/_04-notes.scss */
+.fn:first-child {
+  border-top: 0;
+}
+/* line 31, sass/modules/_04-notes.scss */
+.fn p {
+  padding: 0 0.5em 0 0.5em;
+  text-indent: 0;
+  font-size: 0.9375em;
+  line-height: 1.6;
+  text-align: left;
+}
+/* line 38, sass/modules/_04-notes.scss */
+.fn p + p {
+  text-indent: 1em;
+}
+/* line 42, sass/modules/_04-notes.scss */
+.fn p a.xref.fn {
+  vertical-align: baseline;
+  font-size: 1em;
+  font-weight: normal;
+  border-top: 0;
+}
+/* line 50, sass/modules/_04-notes.scss */
+.fn .list {
+  margin: 0.5em 1.5em 0.5em 1.5em;
+}
+/* line 53, sass/modules/_04-notes.scss */
+.fn .list .list-item {
+  font-size: 0.9375em;
+  margin: 0.25em 0 0.25em 0;
+}
+/* line 57, sass/modules/_04-notes.scss */
+.fn .list .list-item p {
+  font-size: 1em;
+  padding: 0 0 0 0;
+}
+/* line 63, sass/modules/_04-notes.scss */
+.fn .list .list {
+  margin: 0.5em 1em 0.5em 1em;
+}
+/* line 66, sass/modules/_04-notes.scss */
+.fn .list .list .list-item {
+  font-size: 1em;
+}
+/* line 72, sass/modules/_04-notes.scss */
+.fn .verse-group {
+  margin: 1em 0 1em 1.5em;
+}
+
+/* line 84, sass/modules/_04-notes.scss */
+.textual-notes .textual-note .title {
+  margin: 0 0 0 0;
+}
+/* line 89, sass/modules/_04-notes.scss */
+.textual-notes .margin-note {
+  float: right;
+  width: 30%;
+  padding: 0 0 0.5em 0;
+  margin: 0 0 0 1em;
+  border-bottom: 0;
+}
+/* line 96, sass/modules/_04-notes.scss */
+.textual-notes .margin-note p {
+  line-height: 1.3;
+}
+
+/* line 103, sass/modules/_04-notes.scss */
+.boxed-text.admonishment {
+  background-color: transparent;
+}
+/* line 108, sass/modules/_04-notes.scss */
+.boxed-text.admonishment p:first-child {
+  text-indent: 0;
+}
+
+/* line 115, sass/modules/_04-notes.scss */
+.boxed-text.update {
+  background-color: transparent;
+  border: 0;
+  margin: 1em 1em 1em 1em;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+/* line 123, sass/modules/_04-notes.scss */
+.boxed-text.update p:first-child {
+  text-indent: 0;
+}
+
+/* line 130, sass/modules/_04-notes.scss */
+.ack-fn {
+  border-bottom: 0;
+}
+
+/*------------------------------------*\
+05 FIGURES AND IMAGES
+\*------------------------------------*/
+/* line 20, sass/modules/_05-figures-and-images.scss */
+.fig {
+  margin: 1em 0 1em 0;
+  padding: 0 0.5em 0 0.5em;
+  page-break-inside: avoid;
+}
+/* line 25, sass/modules/_05-figures-and-images.scss */
+.fig .label {
+  font-size: 0.9375em;
+}
+/* line 29, sass/modules/_05-figures-and-images.scss */
+.fig img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* line 35, sass/modules/_05-figures-and-images.scss */
+.fig p {
+  font-size: 0.9375em;
+  text-align: left;
+  line-height: 1.5;
+  text-indent: 0;
+}
+/* line 42, sass/modules/_05-figures-and-images.scss */
+.fig .attrib {
+  font-size: 0.9375em;
+  line-height: 1.5;
+}
+/* line 47, sass/modules/_05-figures-and-images.scss */
+.fig .fn {
+  border-bottom: 0;
+}
+/* line 51, sass/modules/_05-figures-and-images.scss */
+.fig .inline-graphic {
+  height: 1em;
+  width: auto;
+  display: inline;
+}
+
+/* line 59, sass/modules/_05-figures-and-images.scss */
+.caption {
+  font-size: 0.9375em;
+  text-indent: 0;
+  line-height: 1.5;
+  margin: 0.5em 0 0.5em 0;
+  text-align: left;
+}
+/* line 66, sass/modules/_05-figures-and-images.scss */
+.caption p {
+  font-size: 1em;
+  text-indent: 0;
+  text-align: left;
+}
+/* line 72, sass/modules/_05-figures-and-images.scss */
+.caption .label {
+  font-size: 1em;
+}
+/* line 76, sass/modules/_05-figures-and-images.scss */
+.caption .label + p,
+.caption .label + .p {
+  display: inline;
+}
+/* line 82, sass/modules/_05-figures-and-images.scss */
+.caption .title {
+  margin: 0 0 0 0;
+  line-height: 1.5;
+}
+/* line 87, sass/modules/_05-figures-and-images.scss */
+.caption .attrib {
+  font-size: 1em;
+  text-align: right;
+}
+/* line 92, sass/modules/_05-figures-and-images.scss */
+.caption + .attrib {
+  margin: 0 1em 0 0;
+}
+
+/* line 98, sass/modules/_05-figures-and-images.scss */
+.fig-group {
+  padding: 0 0.5em 0 0.5em;
+  page-break-inside: avoid;
+}
+/* line 102, sass/modules/_05-figures-and-images.scss */
+.fig-group .fig {
+  padding: 0 0 0 0;
+}
+
+/* line 112, sass/modules/_05-figures-and-images.scss */
+.inline-graphic {
+  height: 1em;
+  width: auto;
+}
+
+/* line 119, sass/modules/_05-figures-and-images.scss */
+.inline-formula img {
+  height: auto;
+  width: auto;
+  display: inline;
+}
+
+/*------------------------------------*\
+06 TABLES
+\*------------------------------------*/
+/* line 23, sass/modules/_06-tables.scss */
+.table-wrap {
+  margin: 1em 0;
+}
+/* line 29, sass/modules/_06-tables.scss */
+.table-wrap .caption .title {
+  font-weight: normal;
+  font-size: inherit;
+}
+/* line 35, sass/modules/_06-tables.scss */
+.table-wrap table {
+  margin: 0 0;
+}
+/* line 39, sass/modules/_06-tables.scss */
+.table-wrap table p,
+.table-wrap table .p {
+  font-size: 1em;
+  text-align: inherit !important;
+  text-indent: 0;
+}
+/* line 45, sass/modules/_06-tables.scss */
+.table-wrap table p + p,
+.table-wrap table .p + p {
+  text-indent: 1em;
+}
+/* line 51, sass/modules/_06-tables.scss */
+.table-wrap .attrib {
+  font-size: 0.9375em;
+  margin: 0.5em 1em;
+  text-align: right;
+  text-indent: 0;
+  line-height: 1.5;
+}
+
+/* line 60, sass/modules/_06-tables.scss */
+table {
+  width: 100%;
+  margin: 1em 0;
+  border-top: 0.0625em solid #000000 !important;
+  border-bottom: 0.0625em solid #000000 !important;
+}
+/* line 70, sass/modules/_06-tables.scss */
+table th,
+table td {
+  font-size: 0.9375em;
+  line-height: 1.3 !important;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+/* line 76, sass/modules/_06-tables.scss */
+table th.stub,
+table td.stub {
+  font-weight: bold;
+}
+/* line 83, sass/modules/_06-tables.scss */
+table th .list .list-item p,
+table td .list .list-item p {
+  line-height: 1.3;
+}
+/* line 88, sass/modules/_06-tables.scss */
+table th.char,
+table td.char {
+  width: auto;
+}
+/* line 91, sass/modules/_06-tables.scss */
+table th.char .char-left,
+table td.char .char-left {
+  float: left;
+  text-align: right;
+  width: 50%;
+}
+/* line 97, sass/modules/_06-tables.scss */
+table th.char .char-right,
+table td.char .char-right {
+  float: right;
+  text-align: left;
+  width: 50%;
+}
+/* line 106, sass/modules/_06-tables.scss */
+table th {
+  font-weight: bold;
+}
+/* line 115, sass/modules/_06-tables.scss */
+table thead tr + tr th {
+  /*font-weight: normal;*/
+}
+/* line 124, sass/modules/_06-tables.scss */
+table td .title {
+  font-weight: bold;
+  margin: 0 0 0 0;
+}
+/* line 133, sass/modules/_06-tables.scss */
+table tfoot th,
+table tfoot td {
+  font-style: italic;
+}
+
+/* line 142, sass/modules/_06-tables.scss */
+.table-wrap-foot .fn-group {
+  margin: 0.5em 0.5em 1em 0.5em;
+}
+/* line 146, sass/modules/_06-tables.scss */
+.table-wrap-foot .fn p,
+.table-wrap-foot .fn .p,
+.table-wrap-foot p,
+.table-wrap-foot .p {
+  font-size: 0.9375em;
+  margin: 0 0 0 0;
+  text-align: left;
+  line-height: 1.5;
+  text-indent: 0;
+}
+/* line 156, sass/modules/_06-tables.scss */
+.table-wrap-foot .fn p + p,
+.table-wrap-foot .fn .p + p,
+.table-wrap-foot p + p,
+.table-wrap-foot .p + p {
+  text-indent: 1em;
+}
+
+/* line 165, sass/modules/_06-tables.scss */
+.informal table {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+}
+/* line 169, sass/modules/_06-tables.scss */
+.informal table th,
+.informal table td {
+  background-color: transparent;
+  border-bottom: 0;
+}
+
+/* line 176, sass/modules/_06-tables.scss */
+table.array {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  width: auto;
+}
+/* line 181, sass/modules/_06-tables.scss */
+table.array th,
+table.array td {
+  background-color: initial;
+  border-bottom: 0;
+}
+
+/*------------------------------------*\
+07 MATHS, LOGIC, LINGUISTICS AND PHILOSOPHY
+\*------------------------------------*/
+/* line 23, sass/modules/_07-maths-logic-linguistics-and-philosophy.scss */
+.disp-formula {
+  margin: 1em 4em 1em 1em;
+}
+/* line 26, sass/modules/_07-maths-logic-linguistics-and-philosophy.scss */
+.disp-formula p {
+  text-indent: 0;
+  margin: 0 2em 0 0;
+}
+/* line 32, sass/modules/_07-maths-logic-linguistics-and-philosophy.scss */
+.disp-formula .label {
+  float: right;
+  font-weight: normal;
+  display: block;
+  width: 6em;
+  margin: 0 -4em 0 1em;
+  text-align: right;
+}
+
+/* line 47, sass/modules/_07-maths-logic-linguistics-and-philosophy.scss */
+.chem-struct {
+  margin: 1em 0 1em 0;
+}
+
+/* line 51, sass/modules/_07-maths-logic-linguistics-and-philosophy.scss */
+.chem-struct-wrap {
+  margin: 1em 0 1em 0;
+}
+
+/* line 57, sass/modules/_07-maths-logic-linguistics-and-philosophy.scss */
+.theorem,
+.definition,
+.proof {
+  padding: 0 1em 0 1em;
+}
+
+/* line 65, sass/modules/_07-maths-logic-linguistics-and-philosophy.scss */
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre-wrap;
+  margin: 1em 0 1em 0;
+}
+
+/* line 72, sass/modules/_07-maths-logic-linguistics-and-philosophy.scss */
+.monospace,
+.code {
+  font-family: monospace;
+  text-align: left;
+  font-size: 1.125em;
+}
+
+/* line 78, sass/modules/_07-maths-logic-linguistics-and-philosophy.scss */
+.code {
+  white-space: pre-wrap;
+  /* CSM-1037 */
+}
+
+/* line 92, sass/modules/_07-maths-logic-linguistics-and-philosophy.scss */
+.disp-quote .example {
+  margin: 1em 1em 1em 1em;
+}
+
+/* line 98, sass/modules/_07-maths-logic-linguistics-and-philosophy.scss */
+.statement {
+  margin: 1em 0 1em 0;
+}
+/* line 101, sass/modules/_07-maths-logic-linguistics-and-philosophy.scss */
+.statement p {
+  text-indent: 0;
+}
+/* line 104, sass/modules/_07-maths-logic-linguistics-and-philosophy.scss */
+.statement p + p {
+  text-indent: 1em;
+}
+
+/*------------------------------------*\
+08 CONTAINER MARKERS
+\*------------------------------------*/
+/* line 65, sass/modules/_08-container-markers.scss */
+.part .sec .boxed-text .caption .title {
+  margin: 0 0 0 0;
+}
+
+/* line 73, sass/modules/_08-container-markers.scss */
+.boxed-text {
+  margin: 1em 0.5em 1em 0.5em;
+  padding: 1em 0 1em 0;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -o-border-radius: 0.25em;
+  -ms-border-radius: 0.25em;
+  border-radius: 0.25em;
+  border: 1px solid #b7b2ad;
+  background-color: #ffffff;
+  page-break-inside: avoid;
+}
+/* line 82, sass/modules/_08-container-markers.scss */
+.boxed-text .table-wrap {
+  margin: 1em 1em 1em 1em;
+}
+/* line 85, sass/modules/_08-container-markers.scss */
+.boxed-text .table-wrap .caption {
+  background-color: transparent;
+  line-height: 1.5;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+/* line 101, sass/modules/_08-container-markers.scss */
+.boxed-text .caption {
+  line-height: 1.3;
+  padding: 0.5em 1em 0.5em 1em;
+  margin: -1.05em 0 1em 0;
+  text-align: left;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  -o-border-radius: 0.2em;
+  -ms-border-radius: 0.2em;
+  border-radius: 0.2em;
+}
+/* line 109, sass/modules/_08-container-markers.scss */
+.boxed-text .caption p {
+  padding: 0 0 0 0;
+}
+/* line 113, sass/modules/_08-container-markers.scss */
+.boxed-text .caption + p {
+  text-indent: 0;
+}
+/* line 117, sass/modules/_08-container-markers.scss */
+.boxed-text .caption .label {
+  margin: 0 0.29em 0 0;
+}
+/* line 120, sass/modules/_08-container-markers.scss */
+.boxed-text .caption .label + .title,
+.boxed-text .caption .label + p {
+  font-weight: normal;
+  padding: 0 0 0 0;
+}
+/* line 126, sass/modules/_08-container-markers.scss */
+.boxed-text .caption .title {
+  margin: 0 0 0 0;
+}
+/* line 134, sass/modules/_08-container-markers.scss */
+.boxed-text .fig-group .caption {
+  background-color: transparent;
+  line-height: 1.5;
+  padding: 0 1em 0 1em;
+  margin: 1em 0 0 0;
+}
+/* line 142, sass/modules/_08-container-markers.scss */
+.boxed-text .fig {
+  padding: 0 1em 0 1em;
+}
+/* line 145, sass/modules/_08-container-markers.scss */
+.boxed-text .fig .caption {
+  background-color: transparent;
+  line-height: 1.5;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+/* line 151, sass/modules/_08-container-markers.scss */
+.boxed-text .fig .caption .attrib {
+  margin: 0 0 0 0;
+  font-size: 1em;
+}
+/* line 157, sass/modules/_08-container-markers.scss */
+.boxed-text .fig img {
+  max-width: 100%;
+  margin: 0 0 0.5em 0;
+}
+/* line 163, sass/modules/_08-container-markers.scss */
+.boxed-text .attrib {
+  text-align: right;
+  margin: 0.5em 1em 0 1em;
+  font-size: 0.9375em;
+  line-height: 1.5;
+}
+/* line 170, sass/modules/_08-container-markers.scss */
+.boxed-text p {
+  padding: 0 1em 0 1em;
+}
+/* line 175, sass/modules/_08-container-markers.scss */
+.boxed-text .list {
+  margin: 0.5em 2em 0.5em 2em;
+}
+/* line 178, sass/modules/_08-container-markers.scss */
+.boxed-text .list .list {
+  margin: 0.5em 1em 0.5em 1em;
+}
+/* line 183, sass/modules/_08-container-markers.scss */
+.boxed-text .bullet {
+  margin: 0.5em 1em 0.5em 1em;
+}
+/* line 189, sass/modules/_08-container-markers.scss */
+.boxed-text .list-item p,
+.boxed-text .disp-quote p {
+  padding: 0 0 0 0;
+}
+/* line 194, sass/modules/_08-container-markers.scss */
+.boxed-text .verse-group {
+  margin: 1em 1em 1em 2em;
+}
+/* line 198, sass/modules/_08-container-markers.scss */
+.boxed-text .disp-quote {
+  margin: 1em 2em 1em 2em;
+}
+/* line 201, sass/modules/_08-container-markers.scss */
+.boxed-text .disp-quote .list {
+  margin: 0.5em 0 0.5em 0;
+}
+/* line 209, sass/modules/_08-container-markers.scss */
+.boxed-text .disp-quote .p.numbered .list {
+  margin: 0.5em 0 0.5em 2em;
+}
+/* line 217, sass/modules/_08-container-markers.scss */
+.boxed-text .sec {
+  margin: 1em 0 0 0;
+}
+/* line 221, sass/modules/_08-container-markers.scss */
+.boxed-text .A,
+.boxed-text .A-plus {
+  margin: 1em 1em 0 1em;
+  line-height: 1.6;
+  font-size: 1em;
+  text-align: left;
+  font-family: inherit;
+}
+/* line 228, sass/modules/_08-container-markers.scss */
+.boxed-text .A:first-child,
+.boxed-text .A-plus:first-child {
+  margin: 0 1em 0 1em;
+}
+/* line 233, sass/modules/_08-container-markers.scss */
+.boxed-text .B {
+  font-style: italic;
+  margin: 1em 1em 0 1em;
+  line-height: 1.6;
+  font-size: 1em;
+  text-align: left;
+  font-family: inherit;
+}
+/* line 243, sass/modules/_08-container-markers.scss */
+.boxed-text .xref.fig {
+  padding: 0;
+}
+/* line 248, sass/modules/_08-container-markers.scss */
+.boxed-text .def-list {
+  margin: 1em 1em 1em 1em;
+}
+/* line 253, sass/modules/_08-container-markers.scss */
+.boxed-text .def-list .def p {
+  padding: 0 0 0 0;
+}
+/* line 260, sass/modules/_08-container-markers.scss */
+.boxed-text .code {
+  padding: 0 1em 0 1em;
+}
+/* line 265, sass/modules/_08-container-markers.scss */
+.boxed-text .ref-list {
+  margin: 1em 1em 0 1em;
+}
+/* line 268, sass/modules/_08-container-markers.scss */
+.boxed-text .ref-list .BOXm {
+  font-weight: bold;
+}
+/* line 274, sass/modules/_08-container-markers.scss */
+.boxed-text .speech {
+  margin: 0.5em 1em 0.5em 2em;
+}
+
+/* line 283, sass/modules/_08-container-markers.scss */
+.disp-quote .list-item {
+  font-size: 0.9375em;
+}
+/* line 286, sass/modules/_08-container-markers.scss */
+.disp-quote .list-item p {
+  font-size: 1em;
+}
+/* line 292, sass/modules/_08-container-markers.scss */
+.disp-quote .list-item .list .list-item {
+  font-size: 1em;
+}
+
+/* line 331, sass/modules/_08-container-markers.scss */
+.answer-set .answer {
+  margin: 0.5em 0 0.5em 1em;
+}
+
+/*------------------------------------*\
+09 LINKING ELEMENTS
+\*------------------------------------*/
+/* line 24, sass/modules/_09-linking-elements.scss */
+a.xref {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+/* line 30, sass/modules/_09-linking-elements.scss */
+a.xref.boxed-text {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+  background-color: transparent;
+  page-break-inside: auto;
+}
+
+/* line 39, sass/modules/_09-linking-elements.scss */
+a.xref.fn,
+a.xref.footnote,
+a.xref.endnote {
+  text-decoration: underline;
+  font-weight: bold;
+  border-top: 0;
+}
+
+/* line 48, sass/modules/_09-linking-elements.scss */
+a.xref.uri,
+a.xref.ext-link {
+  word-wrap: break-word;
+}
+
+/* line 57, sass/modules/_09-linking-elements.scss */
+a.xref.page {
+  display: inline;
+}
+
+/* line 62, sass/modules/_09-linking-elements.scss */
+a.xref.list {
+  margin: 0 0 0 0;
+}
+
+/*------------------------------------*\
+10 MEDIA
+\*------------------------------------*/
+/* line 24, sass/modules/_10-media.scss */
+.fig.video,
+.fig.audio,
+.fig.animation,
+.fig.assessment,
+.fig.q-and-a,
+.fig.pop-up,
+.fig.slideshow {
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -o-border-radius: 0.25em;
+  -ms-border-radius: 0.25em;
+  border-radius: 0.25em;
+  border: 0.25em solid #b7b2ad;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: 4em 4em;
+}
+/* line 37, sass/modules/_10-media.scss */
+.fig.video .title,
+.fig.audio .title,
+.fig.animation .title,
+.fig.assessment .title,
+.fig.q-and-a .title,
+.fig.pop-up .title,
+.fig.slideshow .title {
+  margin: 0.5em 0 0 0;
+}
+/* line 43, sass/modules/_10-media.scss */
+.fig.video .caption .title,
+.fig.audio .caption .title,
+.fig.animation .caption .title,
+.fig.assessment .caption .title,
+.fig.q-and-a .caption .title,
+.fig.pop-up .caption .title,
+.fig.slideshow .caption .title {
+  font-weight: normal;
+  margin: 0 0 0 0.29em;
+}
+/* line 50, sass/modules/_10-media.scss */
+.fig.video {
+  background-image: url(../Images/icon_video_32x32.png);
+}
+/* line 54, sass/modules/_10-media.scss */
+.fig.audio {
+  background-image: url(../Images/icon_audio_32x32.png);
+}
+/* line 58, sass/modules/_10-media.scss */
+.fig.animation {
+  background-image: url(../Images/icon_animation_32x32.png);
+}
+/* line 62, sass/modules/_10-media.scss */
+.fig.assessment {
+  background-image: url(../Images/icon_assessment_32x32.png);
+}
+/* line 66, sass/modules/_10-media.scss */
+.fig.q-and-a {
+  background-image: url(../Images/icon_qanda_32x32.png);
+}
+/* line 70, sass/modules/_10-media.scss */
+.fig.pop-up {
+  background-image: url(../Images/icon_popup_32x32.png);
+}
+/* line 74, sass/modules/_10-media.scss */
+.fig.slideshow {
+  background-image: url(../Images/icon_slideshow_32x32.png);
+}
+
+/*------------------------------------*\
+11 COVERS AND FRONTMATTER
+\*------------------------------------*/
+/* The following styles are FIXES for incorrect markup from typesetters. I inlcude them for the sake of stability. */
+/* line 76, sass/modules/_11-covers-and-frontmatter.scss */
+.preface header h1,
+.preface .header h1,
+.foreword header h1,
+.foreword .header h1,
+.ack header h1,
+.ack .header h1,
+.dedication header h1,
+.dedication .header h1,
+.other header h1,
+.other .header h1 {
+  font-size: 1.75em;
+  text-align: center;
+  line-height: 1.3;
+  color: #000000;
+  font-weight: normal;
+  font-style: italic;
+  margin: 3em 0 1em 0;
+  padding: 0 0 0 0;
+}
+/* line 87, sass/modules/_11-covers-and-frontmatter.scss */
+.preface header h1 + .subtitle,
+.preface .header h1 + .subtitle,
+.foreword header h1 + .subtitle,
+.foreword .header h1 + .subtitle,
+.ack header h1 + .subtitle,
+.ack .header h1 + .subtitle,
+.dedication header h1 + .subtitle,
+.dedication .header h1 + .subtitle,
+.other header h1 + .subtitle,
+.other .header h1 + .subtitle {
+  margin: -1em 0 1em 0;
+}
+/* line 92, sass/modules/_11-covers-and-frontmatter.scss */
+.preface header .subtitle,
+.preface .header .subtitle,
+.foreword header .subtitle,
+.foreword .header .subtitle,
+.ack header .subtitle,
+.ack .header .subtitle,
+.dedication header .subtitle,
+.dedication .header .subtitle,
+.other header .subtitle,
+.other .header .subtitle {
+  text-align: center;
+  font-style: italic;
+}
+/* line 99, sass/modules/_11-covers-and-frontmatter.scss */
+.preface .contrib-group,
+.foreword .contrib-group,
+.ack .contrib-group,
+.dedication .contrib-group,
+.other .contrib-group {
+  text-align: center;
+  margin: 0 0 1em 0;
+}
+/* line 105, sass/modules/_11-covers-and-frontmatter.scss */
+.preface .contrib-group.authors .x,
+.foreword .contrib-group.authors .x,
+.ack .contrib-group.authors .x,
+.dedication .contrib-group.authors .x,
+.other .contrib-group.authors .x {
+  margin: 0 0.29em 0 0;
+}
+/* line 112, sass/modules/_11-covers-and-frontmatter.scss */
+.preface .contrib-group .contrib .name,
+.foreword .contrib-group .contrib .name,
+.ack .contrib-group .contrib .name,
+.dedication .contrib-group .contrib .name,
+.other .contrib-group .contrib .name {
+  font-weight: bold;
+}
+/* line 117, sass/modules/_11-covers-and-frontmatter.scss */
+.preface .contrib-group .contrib .name .surname + .suffix,
+.foreword .contrib-group .contrib .name .surname + .suffix,
+.ack .contrib-group .contrib .name .surname + .suffix,
+.dedication .contrib-group .contrib .name .surname + .suffix,
+.other .contrib-group .contrib .name .surname + .suffix {
+  padding: 0 0 0 0.29em;
+}
+/* line 122, sass/modules/_11-covers-and-frontmatter.scss */
+.preface .contrib-group .contrib .name + .degrees,
+.foreword .contrib-group .contrib .name + .degrees,
+.ack .contrib-group .contrib .name + .degrees,
+.dedication .contrib-group .contrib .name + .degrees,
+.other .contrib-group .contrib .name + .degrees {
+  padding: 0 0 0 0.29em;
+}
+
+/* END FIX */
+/* GENERAL FRONT MATTER */
+/* line 135, sass/modules/_11-covers-and-frontmatter.scss */
+.blurb {
+  text-indent: 0;
+}
+/* line 138, sass/modules/_11-covers-and-frontmatter.scss */
+.blurb + .blurb {
+  text-indent: 1em;
+}
+
+/* line 145, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part p {
+  text-indent: 0;
+}
+/* line 150, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part header,
+.front-matter-part .header {
+  padding: 3em 0 1em 0;
+}
+/* line 155, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part header .FMT,
+.front-matter-part header .FMS,
+.front-matter-part .header .FMT,
+.front-matter-part .header .FMS {
+  font-size: 1.75em;
+  text-align: center;
+  line-height: 1.3;
+  font-weight: normal;
+  font-style: italic;
+  padding: 0 0 0 0;
+}
+/* line 167, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part header .FMT-subtitle,
+.front-matter-part .header .FMT-subtitle {
+  text-align: center;
+  font-style: italic;
+}
+/* line 173, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part header .ST,
+.front-matter-part .header .ST {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin: 1em 0 0 0;
+  font-weight: bold;
+  line-height: 1.3;
+  text-align: left;
+  text-indent: 0;
+}
+/* line 184, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part header .author,
+.front-matter-part .header .author {
+  text-align: center;
+}
+/* line 190, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part .edition {
+  margin: 0.5em 0 0.5em 0;
+  font-weight: bold;
+}
+/* line 196, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part .volume {
+  margin: 0.5em 0 0.5em 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+/* line 203, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part .edited-by {
+  margin: 1em 0 0 0;
+  font-style: italic;
+}
+/* line 210, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part .author {
+  font-weight: bold;
+}
+/* line 215, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part .aff {
+  font-style: italic;
+  font-size: 0.9375em;
+  line-height: 1.3;
+}
+/* line 222, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part .bio {
+  margin: 1em 0 0.5em 0;
+}
+/* line 229, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part.other p,
+.front-matter-part.introduction p {
+  text-indent: 2em;
+}
+/* line 233, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part.other .def p,
+.front-matter-part.other .def .p,
+.front-matter-part.introduction .def p,
+.front-matter-part.introduction .def .p {
+  text-indent: 0;
+}
+/* line 240, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part.other .fn p,
+.front-matter-part.introduction .fn p {
+  text-indent: 0;
+}
+/* line 243, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part.other .fn p + p,
+.front-matter-part.introduction .fn p + p {
+  text-indent: 1em;
+}
+/* line 252, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part.other header + p,
+.front-matter-part.other .header + p,
+.front-matter-part.introduction header + p,
+.front-matter-part.introduction .header + p {
+  text-indent: 0;
+}
+/* line 259, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part.other h1 + p,
+.front-matter-part.other h2 + p,
+.front-matter-part.other h3 + p,
+.front-matter-part.other h4 + p,
+.front-matter-part.other h5 + p,
+.front-matter-part.other h6 + p,
+.front-matter-part.introduction h1 + p,
+.front-matter-part.introduction h2 + p,
+.front-matter-part.introduction h3 + p,
+.front-matter-part.introduction h4 + p,
+.front-matter-part.introduction h5 + p,
+.front-matter-part.introduction h6 + p {
+  text-indent: 0;
+}
+/* line 268, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part.other .disp-quote p,
+.front-matter-part.other .footnote p,
+.front-matter-part.other .list-item p,
+.front-matter-part.introduction .disp-quote p,
+.front-matter-part.introduction .footnote p,
+.front-matter-part.introduction .list-item p {
+  text-indent: 0;
+}
+/* line 271, sass/modules/_11-covers-and-frontmatter.scss */
+.front-matter-part.other .disp-quote p + p,
+.front-matter-part.other .footnote p + p,
+.front-matter-part.other .list-item p + p,
+.front-matter-part.introduction .disp-quote p + p,
+.front-matter-part.introduction .footnote p + p,
+.front-matter-part.introduction .list-item p + p {
+  text-indent: 1em;
+}
+
+/* line 283, sass/modules/_11-covers-and-frontmatter.scss */
+.editorial-procedures p + p {
+  text-indent: 2em;
+}
+
+/* HALF TITLE PAGE */
+/* line 293, sass/modules/_11-covers-and-frontmatter.scss */
+.half-title-page .half-title-title {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin: 1em 0 0 0;
+  font-weight: bold;
+  line-height: 1.3;
+  text-align: left;
+}
+/* line 302, sass/modules/_11-covers-and-frontmatter.scss */
+.half-title-page .half-title-title + .half-title-subtitle {
+  margin: 0 0 0.5em 0;
+}
+/* line 306, sass/modules/_11-covers-and-frontmatter.scss */
+.half-title-page .half-title-title:first-child {
+  margin: 0 0 1em 0;
+}
+/* line 312, sass/modules/_11-covers-and-frontmatter.scss */
+.half-title-page .half-title-subtitle {
+  margin: 0 0 0.5em 0;
+  font-style: italic;
+  line-height: 1.3;
+}
+/* line 319, sass/modules/_11-covers-and-frontmatter.scss */
+.half-title-page .half-title-edition {
+  margin: 0.5em 0 0.5em 0;
+  font-weight: bold;
+}
+/* line 325, sass/modules/_11-covers-and-frontmatter.scss */
+.half-title-page .half-title-volume {
+  margin: 0.5em 0 0.5em 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+/* line 332, sass/modules/_11-covers-and-frontmatter.scss */
+.half-title-page .half-title-edited-by {
+  margin: 1em 0 0 0;
+  font-style: italic;
+}
+/* line 338, sass/modules/_11-covers-and-frontmatter.scss */
+.half-title-page .half-title-author {
+  font-weight: bold;
+}
+
+/* SERIES PAGE */
+/* line 347, sass/modules/_11-covers-and-frontmatter.scss */
+.series-page p {
+  text-indent: 0;
+  text-align: left;
+}
+/* line 352, sass/modules/_11-covers-and-frontmatter.scss */
+.series-page img {
+  margin: 0.5em 0 0.5em 0;
+}
+/* line 357, sass/modules/_11-covers-and-frontmatter.scss */
+.series-page h1,
+.series-page h2,
+.series-page h3 {
+  text-align: left;
+}
+/* line 361, sass/modules/_11-covers-and-frontmatter.scss */
+.series-page header,
+.series-page .header {
+  padding: 0 0 0 0;
+}
+/* line 365, sass/modules/_11-covers-and-frontmatter.scss */
+.series-page header .FMS,
+.series-page header .EMT,
+.series-page header .EMS,
+.series-page .header .FMS,
+.series-page .header .EMT,
+.series-page .header .EMS {
+  font-size: 1em;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin: 1em 0 0 0;
+  font-weight: bold;
+  line-height: 1.3;
+  text-align: left;
+  text-indent: 0;
+  font-family: inherit;
+}
+/* line 382, sass/modules/_11-covers-and-frontmatter.scss */
+.series-page .series-page-subtitle {
+  text-indent: 0;
+  margin: 0 0 0.5em 0;
+  font-style: italic;
+  line-height: 1.3;
+}
+/* line 390, sass/modules/_11-covers-and-frontmatter.scss */
+.series-page .series-blurb {
+  margin: 0.5em 0 0.5em 0;
+}
+/* line 395, sass/modules/_11-covers-and-frontmatter.scss */
+.series-page .series-page-edited-by {
+  margin: 1em 0 0 0;
+  font-style: italic;
+}
+/* line 401, sass/modules/_11-covers-and-frontmatter.scss */
+.series-page .list {
+  margin: 1em 0 0 0;
+  text-align: left;
+}
+/* line 405, sass/modules/_11-covers-and-frontmatter.scss */
+.series-page .list h1.list-title {
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 1.6;
+}
+/* line 413, sass/modules/_11-covers-and-frontmatter.scss */
+.series-page .list-item {
+  margin: 0 0 0 0;
+}
+/* line 422, sass/modules/_11-covers-and-frontmatter.scss */
+.series-page .A,
+.series-page .A-plus {
+  font-family: inherit;
+  margin: 1em 0 0.5em 0;
+  font-size: 1em;
+}
+/* line 434, sass/modules/_11-covers-and-frontmatter.scss */
+.series-page .ref-list .EMS {
+  font-size: 1em;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin: 1em 0 0 0;
+  font-weight: bold;
+  line-height: 1.3;
+  text-align: left;
+  text-indent: 0;
+  font-family: inherit;
+}
+/* line 447, sass/modules/_11-covers-and-frontmatter.scss */
+.series-page .ref-list .edition {
+  font-weight: normal;
+}
+/* line 452, sass/modules/_11-covers-and-frontmatter.scss */
+.series-page .ref {
+  border-top: 0;
+  text-align: left;
+}
+/* line 456, sass/modules/_11-covers-and-frontmatter.scss */
+.series-page .ref .label {
+  padding-right: 0.29em;
+}
+
+/* TITLE PAGE */
+/* line 478, sass/modules/_11-covers-and-frontmatter.scss */
+.title-page {
+  padding: 0 1em 0 1em;
+}
+/* line 481, sass/modules/_11-covers-and-frontmatter.scss */
+.title-page p {
+  text-align: center;
+  -ms-word-break: normal;
+  word-break: normal;
+  word-break: break-word;
+  -webkit-hyphens: none;
+  -epub-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+/* line 487, sass/modules/_11-covers-and-frontmatter.scss */
+.title-page .title-page-title {
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 0.5em 0;
+  font-weight: bold;
+  line-height: 1.3;
+}
+/* line 498, sass/modules/_11-covers-and-frontmatter.scss */
+.title-page .title-page-subtitle {
+  font-size: 2em;
+  margin: 0.5em 0 0.5em 0;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1.3;
+}
+/* line 507, sass/modules/_11-covers-and-frontmatter.scss */
+.title-page .title-page-subtitle + .title-page-subtitle {
+  margin: -0.5em 1em 0.5em 1em;
+}
+/* line 513, sass/modules/_11-covers-and-frontmatter.scss */
+.title-page .title-page-edition {
+  font-size: 2em;
+  margin: 0.5em 0 0.5em 0;
+  line-height: 1.3;
+}
+/* line 522, sass/modules/_11-covers-and-frontmatter.scss */
+.title-page .title-page-volume {
+  font-size: 2em;
+  margin: 0.5em 0 0.5em 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 1.3;
+}
+/* line 533, sass/modules/_11-covers-and-frontmatter.scss */
+.title-page .title-page-series {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin: 1em 0 0 0;
+  font-weight: bold;
+  line-height: 1.3;
+}
+/* line 543, sass/modules/_11-covers-and-frontmatter.scss */
+.title-page .title-page-series-editor {
+  font-weight: bold;
+  margin: 0.5em 0 0 0;
+}
+/* line 549, sass/modules/_11-covers-and-frontmatter.scss */
+.title-page .title-page-author {
+  font-weight: bold;
+  margin: 0.5em 0 0 0;
+}
+/* line 555, sass/modules/_11-covers-and-frontmatter.scss */
+.title-page .title-page-edited-by {
+  margin: 1em 0 0.5em 0;
+  font-style: italic;
+}
+/* line 561, sass/modules/_11-covers-and-frontmatter.scss */
+.title-page .title-page-address-line {
+  margin: 0 0 1em 0;
+  font-style: italic;
+  font-size: 0.9375em;
+  line-height: 1.3;
+}
+/* line 569, sass/modules/_11-covers-and-frontmatter.scss */
+.title-page .title-page-text {
+  margin: 0 0 1em 0;
+}
+/* line 578, sass/modules/_11-covers-and-frontmatter.scss */
+.title-page .logo-wrap {
+  margin: 4em auto 0 auto;
+  text-align: center;
+}
+
+/* IMPRINTS PAGE */
+/* line 585, sass/modules/_11-covers-and-frontmatter.scss */
+.imprint-page {
+  padding: 2em 1em 0 1em;
+}
+/* line 589, sass/modules/_11-covers-and-frontmatter.scss */
+.imprint-page p {
+  text-align: center;
+  -ms-word-break: normal;
+  word-break: normal;
+  word-break: break-word;
+  -webkit-hyphens: none;
+  -epub-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+/* line 595, sass/modules/_11-covers-and-frontmatter.scss */
+.imprint-page .logo-wrap {
+  margin: 1em auto 1em auto;
+  text-align: center;
+  display: block;
+}
+/* line 603, sass/modules/_11-covers-and-frontmatter.scss */
+.imprint-page .disclaimer {
+  font-size: 0.875em;
+  margin: 0.5em 1em;
+}
+/* line 609, sass/modules/_11-covers-and-frontmatter.scss */
+.imprint-page .catalog-data {
+  font-style: italic;
+}
+/* line 614, sass/modules/_11-covers-and-frontmatter.scss */
+.imprint-page .list {
+  font-size: 0.875em;
+}
+/* line 617, sass/modules/_11-covers-and-frontmatter.scss */
+.imprint-page .list h1.list-title {
+  font-weight: normal;
+  font-style: italic;
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 1.6;
+  text-align: center;
+}
+/* line 626, sass/modules/_11-covers-and-frontmatter.scss */
+.imprint-page .list .list {
+  margin: 0.5em 0 0.5em 0;
+  font-size: 1em;
+  text-align: center;
+}
+/* line 634, sass/modules/_11-covers-and-frontmatter.scss */
+.imprint-page .list .list-item p {
+  margin: 0.5em 1em;
+}
+/* line 637, sass/modules/_11-covers-and-frontmatter.scss */
+.imprint-page .list .list-item p + p {
+  text-indent: 0;
+}
+
+/* DEDICATION PAGE */
+/* line 647, sass/modules/_11-covers-and-frontmatter.scss */
+.dedication {
+  padding: 3.5em 0 0 0;
+}
+/* line 655, sass/modules/_11-covers-and-frontmatter.scss */
+.dedication p {
+  text-align: left;
+  margin: 0.5em 0 0.5em 0;
+}
+/* line 661, sass/modules/_11-covers-and-frontmatter.scss */
+.dedication .attrib {
+  margin: 0.5em 1em 0 1em;
+  font-size: 0.9375em;
+}
+/* line 665, sass/modules/_11-covers-and-frontmatter.scss */
+.dedication .attrib p {
+  text-align: right;
+}
+/* line 670, sass/modules/_11-covers-and-frontmatter.scss */
+.dedication .verse-group {
+  display: inline-block;
+}
+/* line 675, sass/modules/_11-covers-and-frontmatter.scss */
+.dedication .verse-group .verse-line p {
+  margin: 0 0 0 0;
+}
+
+/* EPIGRAPH PAGE */
+/* line 684, sass/modules/_11-covers-and-frontmatter.scss */
+body.epigraph {
+  padding: 3.5em 0 0 0;
+}
+/* line 687, sass/modules/_11-covers-and-frontmatter.scss */
+body.epigraph .disp-quote {
+  margin: 0 0 0 0;
+}
+/* line 690, sass/modules/_11-covers-and-frontmatter.scss */
+body.epigraph .disp-quote p {
+  font-size: 1em;
+  text-align: left;
+  margin: 0.5em 0 0.5em 0;
+}
+/* line 695, sass/modules/_11-covers-and-frontmatter.scss */
+body.epigraph .disp-quote p + p {
+  text-indent: 0;
+}
+/* line 701, sass/modules/_11-covers-and-frontmatter.scss */
+body.epigraph .epigraph {
+  padding: 0 0 0 0;
+  text-align: left;
+}
+/* line 705, sass/modules/_11-covers-and-frontmatter.scss */
+body.epigraph .epigraph p {
+  margin: 0 0 0 0;
+}
+/* line 708, sass/modules/_11-covers-and-frontmatter.scss */
+body.epigraph .epigraph p + p {
+  text-indent: 1em;
+}
+/* line 715, sass/modules/_11-covers-and-frontmatter.scss */
+body.epigraph .attrib {
+  margin: 0.5em 1em 0 1em;
+  font-size: 0.9375em;
+}
+
+/* TOC PAGE */
+/* line 724, sass/modules/_11-covers-and-frontmatter.scss */
+.toc header,
+.toc .header {
+  padding: 3em 0 1em 0;
+}
+/* line 729, sass/modules/_11-covers-and-frontmatter.scss */
+.toc header .FMT,
+.toc .header .FMT {
+  font-size: 1.75em;
+  text-align: center;
+  line-height: 1.3;
+  font-weight: normal;
+  font-style: italic;
+  padding: 0 0 0 0;
+}
+/* line 742, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .title-group .title {
+  margin: 1em 0 0.5em 0;
+  font-weight: bold;
+}
+/* line 748, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .toc-entry {
+  clear: both;
+}
+/* line 756, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .toc-div .toc-entry.other {
+  margin: 0.25em 0 0.25em 0;
+}
+/* line 764, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .frontmatter,
+.toc .endmatter {
+  font-style: italic;
+  padding: 0 0 0 0;
+  margin: 0.25em 0 0.25em 0;
+}
+/* line 770, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .frontmatter .label,
+.toc .endmatter .label {
+  width: auto;
+  text-align: left;
+  float: none;
+  display: inline;
+}
+/* line 777, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .frontmatter .title,
+.toc .endmatter .title {
+  padding: 0 0 0 0;
+  display: inline;
+}
+/* line 782, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .frontmatter .subtitle,
+.toc .endmatter .subtitle {
+  display: inline;
+  margin: 0 0 0 0.29em;
+}
+/* line 787, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .frontmatter .toc-entry,
+.toc .endmatter .toc-entry {
+  padding: 0 0 0 1em;
+  margin: 0.25em 0 0.25em 0;
+}
+/* line 792, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .frontmatter p,
+.toc .frontmatter .toc-author,
+.toc .endmatter p,
+.toc .endmatter .toc-author {
+  text-indent: 1em;
+}
+/* line 797, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .frontmatter .italic,
+.toc .endmatter .italic {
+  font-style: normal;
+}
+/* line 802, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .label {
+  /*width: 3em; // CBT-359
+  text-align: right;
+  float: left;
+  display: block;*/
+  line-height: 1.3;
+  margin: 0 0.5em 0 0;
+  text-decoration: none;
+}
+/* line 814, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .title {
+  font-weight: normal;
+  margin: 0 0 0 0;
+  /*display: block;*/
+  line-height: 1.3;
+  /*padding: 0 0 0 3.5em;*/
+  text-align: left;
+}
+/* line 824, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .secAplus .title {
+  font-weight: bold;
+  margin: 0.5em 0 0.25em 0;
+}
+/* line 830, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .part {
+  margin: 0 0 0 0;
+  padding: 1em 0 1em 0;
+  text-align: left;
+  font-size: 1.25em;
+  line-height: 1.3;
+}
+/* line 838, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .part .label {
+  width: auto;
+  /*display: block;*/
+  display: inline;
+  text-align: left;
+  float: none;
+  text-decoration: none;
+}
+/* line 847, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .part .title {
+  /*display: block;*/
+  display: inline;
+  padding: 0 0 0 0;
+}
+/* line 853, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .part .subtitle {
+  display: block;
+  padding: 0 0 0 0;
+}
+/* line 858, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .part .toc-entry {
+  font-size: 0.8em;
+}
+/* line 862, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .part .toc-entry .label {
+  /*width: 3em; // CBT-359
+  text-align: right;
+  float: left;
+  display: block;*/
+}
+/* line 869, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .part .toc-entry .title {
+  /*display: block;
+  padding: 0 0 0 3.5em;*/
+}
+/* line 874, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .part .toc-entry .toc-entry {
+  font-size: 1em;
+}
+/* line 880, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .part .part {
+  border-top: 0;
+  text-align: left;
+  margin: 0 0 0 2em;
+}
+/* line 885, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .part .part .toc-entry {
+  font-size: 1em;
+  margin: 0 0 0 0;
+}
+/* line 889, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .part .part .toc-entry .label {
+  /*width: 3em; // CBT-359
+  text-align: right;
+  float: left;
+  display: block;*/
+}
+/* line 896, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .part .part .toc-entry .title {
+  /*display: block;
+  padding: 0 0 0 3.5em;*/
+}
+/* line 902, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .part .part .label {
+  width: auto;
+  display: inline;
+  text-align: left;
+  float: none;
+}
+/* line 909, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .part .part .title {
+  display: inline;
+  padding: 0 0 0 0;
+}
+/* line 917, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .chapter {
+  padding: 1em 0 0 0;
+  margin: 0.25em 0 0.25em 0;
+}
+/* line 921, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .chapter .label,
+.toc .chapter .title {
+  font-weight: bold;
+}
+/* line 928, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .toc-entry {
+  margin: 0.25em 0 0.25em 3.5em;
+}
+/* line 931, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .toc-entry .label,
+.toc .toc-entry .title {
+  width: auto;
+  text-align: left;
+  display: inline;
+  float: none;
+  padding: 0 0.29em 0 0;
+  margin: 0 0 0 0;
+}
+/* line 943, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .toc-entry .toc-entry {
+  margin: 0.25em 0 0.25em 1em;
+}
+/* line 947, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .toc-entry .title {
+  font-weight: normal;
+}
+/* line 952, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .toc-entry .subtitle {
+  padding: 0 0 0 1em;
+  font-style: italic;
+  text-align: left;
+}
+/* line 960, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .toc-entry.chapter .subtitle {
+  margin: 0 0 0 0;
+}
+/* line 968, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .toc-author {
+  /*padding: 0 0 0 3.5em;*/
+  padding: 0 0 0 0;
+  text-align: left;
+  text-indent: 0;
+}
+/* line 975, sass/modules/_11-covers-and-frontmatter.scss */
+.toc > .endmatter {
+  margin: 1em 0 0.25em 0;
+}
+/* line 978, sass/modules/_11-covers-and-frontmatter.scss */
+.toc > .endmatter ~ .endmatter {
+  margin: 0.25em 0 0.25em 0;
+}
+/* line 983, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .figure,
+.toc .map,
+.toc .table,
+.toc .plate,
+.toc .box {
+  padding: 0.25em 0 0.25em 0;
+  text-align: left;
+}
+/* line 992, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .toc-div {
+  /* CBT-406 */
+  margin: 1em 0;
+}
+/* line 995, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .toc-div .title-group {
+  padding-top: 1em;
+}
+/* line 999, sass/modules/_11-covers-and-frontmatter.scss */
+.toc .toc-div .figure,
+.toc .toc-div .map,
+.toc .toc-div .table,
+.toc .toc-div .plate,
+.toc .toc-div .box {
+  margin-left: 0;
+}
+
+/* GLOSSARY PAGE */
+/* line 1014, sass/modules/_11-covers-and-frontmatter.scss */
+.glossary p {
+  text-align: left;
+}
+/* line 1022, sass/modules/_11-covers-and-frontmatter.scss */
+.glossary .sec p:first-child {
+  text-indent: 0;
+}
+
+/* CONTRIBUTORS PAGE */
+/* line 1032, sass/modules/_11-covers-and-frontmatter.scss */
+.contributors .list-item {
+  margin: 1em 0 1em 0;
+}
+/* line 1036, sass/modules/_11-covers-and-frontmatter.scss */
+.contributors p {
+  line-height: 1.5;
+  text-indent: 0;
+}
+/* line 1040, sass/modules/_11-covers-and-frontmatter.scss */
+.contributors p + p {
+  text-indent: 0;
+}
+/* line 1045, sass/modules/_11-covers-and-frontmatter.scss */
+.contributors .author,
+.contributors .name {
+  font-weight: bold;
+}
+/* line 1054, sass/modules/_11-covers-and-frontmatter.scss */
+.contributors .bio {
+  margin: 0 0 0 0;
+  text-indent: 0;
+}
+
+/* line 1064, sass/modules/_11-covers-and-frontmatter.scss */
+.named-book-part-body p:first-child {
+  text-indent: 0;
+}
+
+/* line 1076, sass/modules/_11-covers-and-frontmatter.scss */
+.review {
+  margin: 1em 0;
+}
+/* line 1079, sass/modules/_11-covers-and-frontmatter.scss */
+.review p {
+  text-indent: 0;
+}
+/* line 1082, sass/modules/_11-covers-and-frontmatter.scss */
+.review p + p {
+  text-indent: 2em;
+}
+/* line 1087, sass/modules/_11-covers-and-frontmatter.scss */
+.review .attrib {
+  font-size: 0.9375em;
+}
+
+/*------------------------------------*\
+12 PART OPENERS
+\*------------------------------------*/
+/* line 21, sass/modules/_12-part-openers.scss */
+.part header,
+.part .header {
+  padding: 6em 1em 1em 1em;
+}
+/* line 26, sass/modules/_12-part-openers.scss */
+.part header h1,
+.part .header h1 {
+  font-size: 1.75em;
+  text-align: center;
+  line-height: 1.3;
+  font-weight: bold;
+  font-style: normal;
+  margin: 0 0 0.5em 0;
+  padding: 0 0 0 0;
+}
+/* line 38, sass/modules/_12-part-openers.scss */
+.part header h1 .label,
+.part .header h1 .label {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.9375em;
+  display: block;
+  margin: 0.5em 0 0.5em 0;
+}
+/* line 45, sass/modules/_12-part-openers.scss */
+.part header h1 .label:after,
+.part .header h1 .label:after {
+  text-align: center;
+  margin: 1em 0 1em 0;
+  font-size: 0.5625em;
+  display: block;
+}
+/* line 57, sass/modules/_12-part-openers.scss */
+.part header h2,
+.part header .PST,
+.part .header h2,
+.part .header .PST {
+  font-size: 1em;
+  text-align: center;
+  line-height: 1.3;
+  font-style: italic;
+}
+/* line 67, sass/modules/_12-part-openers.scss */
+.part .contrib-group {
+  text-align: center;
+  margin: 0 0 1em 0;
+}
+/* line 73, sass/modules/_12-part-openers.scss */
+.part .abstract {
+  margin: 0 1em 0 1em;
+}
+/* line 76, sass/modules/_12-part-openers.scss */
+.part .abstract p {
+  text-align: left;
+  text-indent: 0;
+}
+/* line 80, sass/modules/_12-part-openers.scss */
+.part .abstract p + p {
+  text-indent: 1em;
+}
+/* line 89, sass/modules/_12-part-openers.scss */
+.part .sec .title {
+  text-align: center;
+  margin: 1em 1em 0 1em;
+}
+/* line 95, sass/modules/_12-part-openers.scss */
+.part .sec .subtitle {
+  text-align: center;
+  font-style: italic;
+  margin: 0.5em 1em 0 1em;
+}
+/* line 102, sass/modules/_12-part-openers.scss */
+.part .sec p {
+  text-align: left;
+  text-indent: 0;
+}
+/* line 106, sass/modules/_12-part-openers.scss */
+.part .sec p + p {
+  text-indent: 1em;
+}
+/* line 115, sass/modules/_12-part-openers.scss */
+.part .chapter p {
+  text-align: justify;
+}
+/* line 118, sass/modules/_12-part-openers.scss */
+.part .chapter p + p {
+  text-indent: 2em;
+}
+
+/*------------------------------------*\
+13 CHAPTER OPENERS
+\*------------------------------------*/
+/* line 24, sass/modules/_13-chapter-openers.scss */
+.chapter header,
+.chapter .header {
+  padding: 6em 1em 0 1em;
+}
+/* line 29, sass/modules/_13-chapter-openers.scss */
+.chapter header h1,
+.chapter header .CT,
+.chapter .header h1,
+.chapter .header .CT {
+  font-size: 1.75em;
+  text-align: center;
+  line-height: 1.3;
+  font-weight: bold;
+  font-style: normal;
+  margin: 0 0 0.5em 0;
+  padding: 0 0 0 0;
+}
+/* line 41, sass/modules/_13-chapter-openers.scss */
+.chapter header h1 .label,
+.chapter header .CT .label,
+.chapter .header h1 .label,
+.chapter .header .CT .label {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.9375em;
+  display: block;
+  margin: 0.5em 0 0.5em 0;
+}
+/* line 51, sass/modules/_13-chapter-openers.scss */
+.chapter header .CST,
+.chapter .header .CST {
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0 0 0.5em 0;
+  font-size: 1em;
+}
+/* line 60, sass/modules/_13-chapter-openers.scss */
+.chapter header:after,
+.chapter .header:after {
+  text-align: center;
+  margin: 1em 0 1em 0;
+  display: block;
+}
+/* line 70, sass/modules/_13-chapter-openers.scss */
+.chapter .subtitle {
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0 0 0.5em 0;
+  font-size: 1em;
+  display: block;
+}
+/* line 81, sass/modules/_13-chapter-openers.scss */
+.chapter .alt-title {
+  font-size: 0.875em;
+  text-align: center;
+  margin: 1em 1em 1em 1em;
+}
+/* line 88, sass/modules/_13-chapter-openers.scss */
+.chapter .chapter-author-affiliation {
+  font-weight: normal;
+  font-size: 1em;
+  text-transform: none;
+  letter-spacing: 0;
+  font-style: italic;
+}
+/* line 100, sass/modules/_13-chapter-openers.scss */
+.chapter .chapter-intro,
+.chapter .editors-note,
+.chapter .abstract,
+.chapter .kwd-group {
+  margin: 0.5em 1em 0.5em 1em;
+  padding: 0.5em 0 1em 0;
+  text-align: left;
+  text-indent: 0;
+}
+/* line 110, sass/modules/_13-chapter-openers.scss */
+.chapter .chapter-intro p,
+.chapter .editors-note p,
+.chapter .abstract p,
+.chapter .kwd-group p {
+  text-align: left;
+  text-indent: 0;
+}
+/* line 114, sass/modules/_13-chapter-openers.scss */
+.chapter .chapter-intro p + p,
+.chapter .editors-note p + p,
+.chapter .abstract p + p,
+.chapter .kwd-group p + p {
+  text-indent: 1em;
+}
+/* line 121, sass/modules/_13-chapter-openers.scss */
+.chapter .contrib-group {
+  text-align: center;
+  margin: 0 0 1em 0;
+}
+/* line 134, sass/modules/_13-chapter-openers.scss */
+.chapter .contrib-group .contrib .name {
+  font-weight: bold;
+}
+/* line 139, sass/modules/_13-chapter-openers.scss */
+.chapter .contrib-group .contrib .name .surname + .suffix {
+  padding: 0 0 0 0.29em;
+}
+/* line 144, sass/modules/_13-chapter-openers.scss */
+.chapter .contrib-group .contrib .name + .degrees {
+  padding: 0 0 0 0.29em;
+}
+/* line 151, sass/modules/_13-chapter-openers.scss */
+.chapter .abstract,
+.chapter .kwd-group,
+.chapter .dedication {
+  -ms-word-break: normal;
+  word-break: normal;
+  word-break: break-word;
+  -webkit-hyphens: none;
+  -epub-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+/* line 160, sass/modules/_13-chapter-openers.scss */
+.chapter .toc {
+  margin: 0 0 1em 0;
+}
+/* line 164, sass/modules/_13-chapter-openers.scss */
+.chapter .toc .abstract {
+  margin: 1em 0 0 0;
+  padding: 0 0 0 0;
+  border-bottom: 0;
+}
+/* line 172, sass/modules/_13-chapter-openers.scss */
+.chapter .dedication {
+  font-size: 1em;
+  line-height: 1.6;
+  text-indent: 0;
+  text-align: center;
+  padding: 1em 0 1em 0;
+}
+/* line 185, sass/modules/_13-chapter-openers.scss */
+.chapter .sub-chapter header .title {
+  font-size: 1.75em;
+  text-align: center;
+  line-height: 1.3;
+  font-weight: normal;
+  color: #333;
+}
+
+/*------------------------------------*\
+14 ENDMATTER
+\*------------------------------------*/
+/* line 47, sass/modules/_14-endmatter.scss */
+.EMS,
+.EMT,
+.AT {
+  font-size: 1.75em;
+  text-align: center;
+  line-height: 1.3;
+  color: #000000;
+  font-weight: normal;
+  font-style: italic;
+  margin: 3em 0 1em 0;
+  padding: 0 0 0 0;
+}
+
+/* line 63, sass/modules/_14-endmatter.scss */
+.back .EMS,
+.back .EMT,
+.back .AT,
+.back .title,
+.back .notes {
+  font-size: 1.2222em;
+  margin: 2em 0 1em 0;
+}
+/* line 72, sass/modules/_14-endmatter.scss */
+.back .H {
+  margin: 2em 0 1em 0;
+  text-align: left;
+  font-family: inherit;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1em;
+}
+
+/* The following styles are FIXES for incorrect markup from typesetters. I inlcude them for the sake of stability. */
+/* line 84, sass/modules/_14-endmatter.scss */
+.endmatter h1.title,
+.glossary h1,
+.backmatter h1.EMT,
+.conclusion h1.EMT,
+.ref-list h1 {
+  font-size: 1.75em;
+  text-align: center;
+  line-height: 1.3;
+  color: #000000;
+  font-weight: normal;
+  font-style: italic;
+  margin: 3em 0 1em 0;
+  padding: 0 0 0 0;
+}
+
+/* line 101, sass/modules/_14-endmatter.scss */
+h2.EMT {
+  text-align: center;
+  margin: 2em 1em 0.5em 1em;
+  font-weight: bold;
+  font-weight: 900;
+  font-size: 1.375em;
+  font-style: normal;
+}
+/* line 107, sass/modules/_14-endmatter.scss */
+h2.EMT + .ref-list h3.EMT {
+  margin: 0.5em 0 1em 0;
+}
+
+/* line 112, sass/modules/_14-endmatter.scss */
+h3.EMT {
+  font-weight: bold;
+  margin: 1em 0 0 0;
+  text-align: left;
+  font-size: 1em;
+  font-family: inherit;
+  font-style: normal;
+}
+/* line 120, sass/modules/_14-endmatter.scss */
+h3.EMT + .ref-list h4.EMT,
+h3.EMT + .def-list h4.EMT {
+  margin: 0 0 0 0;
+}
+
+/* line 126, sass/modules/_14-endmatter.scss */
+h4.EMT {
+  font-style: italic;
+  text-align: left;
+  font-size: 1em;
+  font-family: inherit;
+  margin: 1em 0 0 0;
+}
+/* line 133, sass/modules/_14-endmatter.scss */
+h4.EMT + .def-list {
+  margin: 0 0 1em 0;
+}
+
+/* END FIX */
+/* line 145, sass/modules/_14-endmatter.scss */
+.AT .label {
+  font-weight: bold;
+  font-style: normal;
+  display: block;
+}
+
+/* line 156, sass/modules/_14-endmatter.scss */
+.index header + p,
+.index .header + p {
+  text-indent: 0;
+}
+
+/* line 162, sass/modules/_14-endmatter.scss */
+.index-div {
+  margin: 1em 0 1em 4em;
+}
+/* line 165, sass/modules/_14-endmatter.scss */
+.index-div .title-group {
+  margin-left: -4em;
+}
+/* line 169, sass/modules/_14-endmatter.scss */
+.index-div .index-div {
+  margin: 1em 0 1em 0;
+}
+/* line 174, sass/modules/_14-endmatter.scss */
+.index-div .index-entry {
+  font-size: 0.9375em;
+  line-height: 1.5;
+  text-indent: -4em;
+  text-align: left;
+}
+/* line 183, sass/modules/_14-endmatter.scss */
+.index-div .index-entry > .index-entry {
+  margin: 0 0 0 1em;
+  font-size: 1em;
+}
+/* line 187, sass/modules/_14-endmatter.scss */
+.index-div .index-entry > .index-entry + .x {
+  margin-left: -3em;
+}
+/* line 219, sass/modules/_14-endmatter.scss */
+.index-div .index-entry + .x {
+  margin-left: -4em;
+}
+
+/* line 237, sass/modules/_14-endmatter.scss */
+.ref-list .EMT + .ref,
+.ref-list .EMS + .ref {
+  border-top: 0;
+}
+/* line 242, sass/modules/_14-endmatter.scss */
+.ref-list .ref {
+  text-align: left !important;
+  font-size: 0.9375em;
+  line-height: 1.5;
+  margin: 0.5em 0 0.5em 0;
+  padding: 0.5em 0 0 0;
+  text-indent: 0;
+}
+/* line 251, sass/modules/_14-endmatter.scss */
+.ref-list .ref:first-child {
+  border-top: 0;
+}
+/* line 259, sass/modules/_14-endmatter.scss */
+.ref-list .ref .label + a + .mixed-citation {
+  padding: 0 0 0 0.29em;
+}
+/* line 264, sass/modules/_14-endmatter.scss */
+.ref-list .ref .label + .mixed-citation {
+  padding: 0 0 0 0.29em;
+}
+/* line 273, sass/modules/_14-endmatter.scss */
+.ref-list .ref .title {
+  font-weight: bold;
+  margin: 1em 0.5em 0.5em 0.5em;
+  font-size: 1em;
+}
+/* line 283, sass/modules/_14-endmatter.scss */
+.ref-list header + .ref,
+.ref-list .header + .ref {
+  border-top: 0;
+}
+
+/* line 294, sass/modules/_14-endmatter.scss */
+.mixed-citation .source,
+.citation .source {
+  font-style: italic;
+}
+/* line 299, sass/modules/_14-endmatter.scss */
+.mixed-citation .volume,
+.citation .volume {
+  font-weight: bold;
+  margin: 0 0 0 0;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+/* line 314, sass/modules/_14-endmatter.scss */
+.endmatter header .title,
+.endmatter .header .title,
+.end-matter-part header .title,
+.end-matter-part .header .title {
+  text-align: left;
+  margin: 1em 1em 1em 1em;
+  font-size: 0.9375em;
+}
+
+/* line 326, sass/modules/_14-endmatter.scss */
+.app .contrib-group,
+.backmatter .contrib-group {
+  text-align: center;
+  margin: 0 0 1em 0;
+}
+/* line 337, sass/modules/_14-endmatter.scss */
+.app .contrib-group .contrib,
+.backmatter .contrib-group .contrib {
+  display: inline;
+}
+/* line 340, sass/modules/_14-endmatter.scss */
+.app .contrib-group .contrib .name,
+.backmatter .contrib-group .contrib .name {
+  font-weight: bold;
+  display: inline;
+}
+
+/*------------------------------------*\
+15 EDITIONS
+\*------------------------------------*/
+/* line 44, sass/modules/_15-editions.scss */
+.original-text .ST {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin: 1em 0 0 0;
+  font-weight: bold;
+  line-height: 1.3;
+  text-align: left;
+  text-indent: 0;
+}
+
+/* line 61, sass/modules/_15-editions.scss */
+.document-group header,
+.document-group .header {
+  padding: 6em 1em 0 1em;
+}
+/* line 66, sass/modules/_15-editions.scss */
+.document-group header h1,
+.document-group header .CT,
+.document-group .header h1,
+.document-group .header .CT {
+  font-size: 1.75em;
+  text-align: center;
+  line-height: 1.3;
+  font-weight: bold;
+  font-style: normal;
+  margin: 0 0 0.5em 0;
+  padding: 0 0 0 0;
+}
+/* line 77, sass/modules/_15-editions.scss */
+.document-group header h1 .label,
+.document-group header .CT .label,
+.document-group .header h1 .label,
+.document-group .header .CT .label {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.9375em;
+  display: block;
+  margin: 0.5em 0 0.5em 0;
+}
+/* line 86, sass/modules/_15-editions.scss */
+.document-group header .subtitle,
+.document-group .header .subtitle {
+  text-align: center;
+  line-height: 1.3;
+}
+
+/* line 96, sass/modules/_15-editions.scss */
+.document .DOCT {
+  text-align: left;
+  font-weight: bold;
+  margin: 2em 0 0.5em 0;
+}
+/* line 102, sass/modules/_15-editions.scss */
+.document .DOCT .label {
+  font-weight: normal;
+}
+/* line 106, sass/modules/_15-editions.scss */
+.document .DOCT .title {
+  margin: 0 0 0 0;
+}
+/* line 111, sass/modules/_15-editions.scss */
+.document .DOCT + .subtitle {
+  margin: -0.5em 0 0.5em 0;
+}
+/* line 116, sass/modules/_15-editions.scss */
+.document .subtitle {
+  margin: 0 0 0 0;
+}
+/* line 121, sass/modules/_15-editions.scss */
+.document .doc-date {
+  text-indent: 0;
+}
+
+/* line 133, sass/modules/_15-editions.scss */
+.sec .letter {
+  margin: 1em;
+}
+/* line 136, sass/modules/_15-editions.scss */
+.sec .letter p,
+.sec .letter .sim-p {
+  font-size: 0.9375em;
+}
+
+/* line 147, sass/modules/_15-editions.scss */
+.letter p {
+  font-size: 1em;
+}
+/* line 150, sass/modules/_15-editions.scss */
+.letter p.letter-date,
+.letter p.letter-yours,
+.letter p.letter-signatory,
+.letter p.letter-attrib {
+  text-align: right;
+  margin: 0.5em 0;
+}
+/* line 158, sass/modules/_15-editions.scss */
+.letter p.letter-address {
+  text-indent: 0;
+  text-align: right;
+}
+/* line 163, sass/modules/_15-editions.scss */
+.letter p.letter-salutation {
+  margin: 1em 0 0 0;
+  text-indent: 0;
+}
+/* line 168, sass/modules/_15-editions.scss */
+.letter p.letter-ps {
+  margin: 1em 0 0 0;
+  text-indent: 0;
+}
+/* line 178, sass/modules/_15-editions.scss */
+.letter .disp-quote,
+.letter .list-item,
+.letter .verse-line {
+  font-size: 1em;
+}
+
+/* line 187, sass/modules/_15-editions.scss */
+.doc-text {
+  margin-top: 1em;
+}
+
+/* line 195, sass/modules/_15-editions.scss */
+.doc-trans p {
+  font-style: italic;
+}
+
+/* line 203, sass/modules/_15-editions.scss */
+.doc-source p {
+  font-size: 0.9375em;
+  margin: 0.5em 0 1em 0;
+  font-weight: bold;
+}
+
+/* line 249, sass/modules/_15-editions.scss */
+.doc-commentary p {
+  font-size: 0.9375em;
+  margin: 1em 1em 1em 1em;
+  text-align: left;
+}
+
+/*------------------------------------*\
+16 DICTIONARIES
+\*------------------------------------*/
+/* line 17, sass/modules/_16-dictionaries.scss */
+.dictionary-letter {
+  border-top: 1px solid #333;
+}
+/* line 20, sass/modules/_16-dictionaries.scss */
+.dictionary-letter .title,
+.dictionary-letter .DICm {
+  font-size: 3em;
+  margin: 1em 0 0 0;
+}
+/* line 26, sass/modules/_16-dictionaries.scss */
+.dictionary-letter .dictionary-entry {
+  margin: 1em 0;
+  padding: 1em 0 0 0;
+}
+/* line 32, sass/modules/_16-dictionaries.scss */
+.dictionary-letter .dictionary-entry .dictionary-content .dict-p {
+  text-indent: 0;
+  text-align: justify;
+}
+/* line 36, sass/modules/_16-dictionaries.scss */
+.dictionary-letter .dictionary-entry .dictionary-content .dict-p + .dict-p {
+  text-indent: 1em;
+}
+/* line 44, sass/modules/_16-dictionaries.scss */
+.dictionary-letter
+  .dictionary-entry
+  .dictionary-content
+  .dict-p
+  .list
+  .list-item
+  .dict-p {
+  display: inline;
+}
+/* line 50, sass/modules/_16-dictionaries.scss */
+.dictionary-letter .dictionary-entry .dictionary-content .dict-p .preformat {
+  text-align: left;
+}
+/* line 58, sass/modules/_16-dictionaries.scss */
+.dictionary-letter .dictionary-entry .dict-sec .title {
+  font-style: italic;
+  margin: 1em 0 0 0;
+}
+/* line 66, sass/modules/_16-dictionaries.scss */
+.dictionary-letter .dictionary-entry .title {
+  margin: 0 0 0.5em 0;
+  display: block;
+  line-height: 1.6;
+  font-size: medium;
+  color: #000000;
+}
+/* line 75, sass/modules/_16-dictionaries.scss */
+.dictionary-letter .dictionary-entry .subtitle {
+  font-weight: bold;
+}
+/* line 79, sass/modules/_16-dictionaries.scss */
+.dictionary-letter .dictionary-entry p {
+  text-indent: 0;
+  text-align: left;
+}
+/* line 83, sass/modules/_16-dictionaries.scss */
+.dictionary-letter .dictionary-entry p + p {
+  text-indent: 1em;
+}
+
+/* line 99, sass/modules/_16-dictionaries.scss */
+.dictionary-entry .contrib-group {
+  text-align: right;
+  margin-top: 1em;
+}
+
+/*------------------------------------*\
+17 ILR
+\*------------------------------------*/
+/* EPUB3 specific styles
+========================================================================== */
+/*------------------------------------*\
+ FONTS
+\*------------------------------------*/
+@font-face {
+  font-family: "PT-Serif";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../Fonts/PT_Serif-Web-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PT-Serif";
+  font-weight: normal;
+  font-style: italic;
+  src: url("../Fonts/PT_Serif-Web-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PT-Serif";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../Fonts/PT_Serif-Web-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PT-Serif";
+  font-weight: bold;
+  font-style: italic;
+  src: url("../Fonts/PT_Serif-Web-BoldItalic.ttf") format("truetype");
+}
+/*------------------------------------*\
+VARIABLES
+\*------------------------------------*/
+/*------------------------------------*\
+BITS EPUB3 MIXINS
+\*------------------------------------*/
+/* line 3, sass/bits-epub3/_bits-epub3.scss */
+.nav-pointer-group .nav-pointer {
+  padding-right: 0;
+}
+
+/*------------------------------------*\
+GLOBAL
+\*------------------------------------*/
+/* line 12, sass/bits-epub3/_bits-epub3.scss */
+a {
+  color: #5d6ceb;
+  -webkit-text-fill-color: #5d6ceb;
+  /* Necessary for iBooks */
+}
+
+/*------------------------------------*\
+01 BASIC TEXT STYLES
+\*------------------------------------*/
+/* line 26, sass/bits-epub3/_bits-epub3.scss */
+.disp-quote p,
+.disp-quote .p {
+  line-height: 1.5;
+}
+/* line 30, sass/bits-epub3/_bits-epub3.scss */
+.disp-quote .attrib {
+  line-height: 1.5;
+}
+
+/* line 36, sass/bits-epub3/_bits-epub3.scss */
+p.source {
+  text-align: right;
+  margin: 0.5em 1em 0 0;
+}
+
+/* line 41, sass/bits-epub3/_bits-epub3.scss */
+.marginal-number {
+  margin: 0 0 0 1em;
+}
+
+/* line 45, sass/bits-epub3/_bits-epub3.scss */
+.para-number {
+  float: left;
+  display: block;
+  width: 5em;
+  text-align: left;
+  text-indent: 0;
+}
+
+/* line 53, sass/bits-epub3/_bits-epub3.scss */
+div .case-study {
+  border: 2px solid #cccccc;
+  -webkit-border-radius: 0.625em;
+  -moz-border-radius: 0.625em;
+  -o-border-radius: 0.625em;
+  -ms-border-radius: 0.625em;
+  border-radius: 0.625em;
+  margin: 1em;
+  padding: 2em;
+}
+
+/*------------------------------------*\
+02 HEADINGS
+\*------------------------------------*/
+/* line 65, sass/bits-epub3/_bits-epub3.scss */
+.A,
+.A-plus,
+.def-list h1,
+h1.list-title {
+  font-family: "PT-Serif", serif;
+}
+
+/* line 73, sass/bits-epub3/_bits-epub3.scss */
+.sec {
+  margin-top: 1em;
+}
+
+/* line 77, sass/bits-epub3/_bits-epub3.scss */
+.sec .A + .sec .B,
+.sec .A-plus + .sec .B {
+  margin: 0.1em 1em 0.1em 0em;
+}
+
+/* line 81, sass/bits-epub3/_bits-epub3.scss */
+.sec .A-plus + .sec .B {
+  margin: 0.1em 1em 0.1em 0em;
+}
+
+/* line 85, sass/bits-epub3/_bits-epub3.scss */
+.title.run-in {
+  display: inline-block;
+  float: left;
+  margin: 0.2em 1em 0 0 !important;
+}
+
+/* line 91, sass/bits-epub3/_bits-epub3.scss */
+.title.run-in:after {
+  content: none;
+}
+
+/*------------------------------------*\
+03 LISTS
+\*------------------------------------*/
+/* line 103, sass/bits-epub3/_bits-epub3.scss */
+ul.bullet {
+  margin: 0.5em 1em 0.5em 1em;
+}
+/* line 106, sass/bits-epub3/_bits-epub3.scss */
+ul.bullet li.list-item {
+  list-style-type: disc;
+}
+/* line 109, sass/bits-epub3/_bits-epub3.scss */
+ul.bullet li.list-item:before {
+  content: none;
+  top: auto;
+  left: auto;
+  font-weight: normal;
+}
+/* line 117, sass/bits-epub3/_bits-epub3.scss */
+ul.bullet li.list-item .disp-formula .label {
+  float: right;
+  font-weight: normal;
+  display: block;
+  width: 6em;
+  margin: 0 -5em 0 1em;
+  text-align: right;
+}
+/* line 129, sass/bits-epub3/_bits-epub3.scss */
+ul.bullet li.list-item .simple .list-item {
+  list-style-type: none;
+}
+/* line 132, sass/bits-epub3/_bits-epub3.scss */
+ul.bullet li.list-item .simple .list-item:before {
+  content: none;
+  top: auto;
+  left: auto;
+  font-weight: normal;
+}
+/* line 146, sass/bits-epub3/_bits-epub3.scss */
+ul.bullet .order .list-item:before {
+  content: none;
+  top: auto;
+  left: auto;
+  font-weight: normal;
+}
+
+/* line 159, sass/bits-epub3/_bits-epub3.scss */
+.def-list .def {
+  border-bottom: 0.075em dotted #c3bfbb;
+}
+
+/*------------------------------------*\
+04 NOTES
+\*------------------------------------*/
+/* line 169, sass/bits-epub3/_bits-epub3.scss */
+.fn {
+  border-top: 0.075em dotted #c3bfbb;
+}
+/* line 172, sass/bits-epub3/_bits-epub3.scss */
+.fn p {
+  line-height: 1.4;
+}
+
+/* line 180, sass/bits-epub3/_bits-epub3.scss */
+.textual-notes .margin-note {
+  border-left: 0.25em solid #cfccc8;
+}
+
+/* line 186, sass/bits-epub3/_bits-epub3.scss */
+.boxed-text.update {
+  border-top: 0.25em solid #cfccc8;
+}
+
+/* line 191, sass/bits-epub3/_bits-epub3.scss */
+.ack-fn {
+  border-top: 0.075em dotted #c3bfbb;
+}
+
+/*------------------------------------*\
+05 FIGURES AND IMAGES
+\*------------------------------------*/
+/* line 200, sass/bits-epub3/_bits-epub3.scss */
+.fig-group {
+  padding: 0 0.5em 0 0.5em;
+  margin: 1em 0 0 0;
+  page-break-inside: avoid;
+}
+
+/* line 210, sass/bits-epub3/_bits-epub3.scss */
+.fig .fn {
+  border-top: 0.075em dotted #c3bfbb;
+}
+
+/* line 215, sass/bits-epub3/_bits-epub3.scss */
+img.case-study-banner {
+  width: 100%;
+}
+
+/*------------------------------------*\
+06 TABLES
+\*------------------------------------*/
+/* line 223, sass/bits-epub3/_bits-epub3.scss */
+.table-wrap-group {
+  margin: 1em 0;
+}
+
+/* line 230, sass/bits-epub3/_bits-epub3.scss */
+table th {
+  border-bottom: 0.075em solid #c3bfbb;
+}
+
+/*------------------------------------*\
+07 MATHS, LOGIC, LINGUISTICS AND PHILOSOPHY
+\*------------------------------------*/
+/* line 240, sass/bits-epub3/_bits-epub3.scss */
+.disp-formula {
+  margin: 1em 4em 2em 1em;
+}
+
+/* line 246, sass/bits-epub3/_bits-epub3.scss */
+.theorem,
+.definition,
+.proof {
+  border-left: 0.25em solid #cfccc8;
+}
+
+/* line 252, sass/bits-epub3/_bits-epub3.scss */
+.chem-struct-wrap,
+.chem-struct {
+  margin: 1em 4em 1em 1em;
+}
+/* line 256, sass/bits-epub3/_bits-epub3.scss */
+.chem-struct-wrap p,
+.chem-struct p {
+  text-indent: 0;
+  margin: 0 2em 0 0;
+}
+/* line 261, sass/bits-epub3/_bits-epub3.scss */
+.chem-struct-wrap .label,
+.chem-struct .label {
+  float: right;
+  font-weight: normal;
+  display: block;
+  width: 6em;
+  margin: 0 -4em 0 1em;
+  text-align: right;
+}
+
+/*------------------------------------*\
+08 CONTAINER MARKERS
+\*------------------------------------*/
+/* line 277, sass/bits-epub3/_bits-epub3.scss */
+.boxed-text {
+  border: 0.075em solid #b7b2ad;
+  background-color: #faf9f9;
+}
+/* line 282, sass/bits-epub3/_bits-epub3.scss */
+.boxed-text .table-wrap-group {
+  margin: 1em 1em 1em 1em;
+}
+/* line 285, sass/bits-epub3/_bits-epub3.scss */
+.boxed-text .table-wrap-group .caption {
+  background-color: transparent;
+  line-height: 1.5;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+/* line 297, sass/bits-epub3/_bits-epub3.scss */
+.boxed-text .table-wrap .table-wrap-foot .fn {
+  border-bottom: 1px dotted #b7b2ad;
+}
+/* line 303, sass/bits-epub3/_bits-epub3.scss */
+.boxed-text .contrib-group {
+  text-align: left;
+  margin: 0 0 1em 1em;
+}
+/* line 309, sass/bits-epub3/_bits-epub3.scss */
+.boxed-text .caption {
+  background-color: #dbd8d6;
+}
+/* line 315, sass/bits-epub3/_bits-epub3.scss */
+.boxed-text .sec-meta + p {
+  text-indent: 0;
+}
+/* line 326, sass/bits-epub3/_bits-epub3.scss */
+.boxed-text .disp-quote .list .list {
+  margin: 0.5em 0 0.5em 1em;
+}
+/* line 341, sass/bits-epub3/_bits-epub3.scss */
+.boxed-text .sec .sec .B {
+  margin: 0 0 0 1em;
+}
+
+/*------------------------------------*\
+09 LINKING ELEMENTS
+\*------------------------------------*/
+/* line 362, sass/bits-epub3/_bits-epub3.scss */
+a.xref {
+  color: #5d6ceb;
+  -webkit-text-fill-color: #5d6ceb;
+  /* Necessary for iBooks */
+}
+
+/*------------------------------------*\
+10 MEDIA
+\*------------------------------------*/
+/* line 380, sass/bits-epub3/_bits-epub3.scss */
+.fig.video,
+.fig.audio,
+.fig.animation,
+.fig.assessment,
+.fig.q-and-a,
+.fig.pop-up,
+.fig.slideshow {
+  border: 0.25em solid #b7b2ad;
+}
+
+/*------------------------------------*\
+11 COVERS AND FRONTMATTER
+\*------------------------------------*/
+/* line 404, sass/bits-epub3/_bits-epub3.scss */
+.preface header h1,
+.preface .header h1,
+.foreword header h1,
+.foreword .header h1,
+.ack header h1,
+.ack .header h1,
+.chronology header h1,
+.chronology .header h1,
+.dedication header h1,
+.dedication .header h1 {
+  font-family: "PT-Serif", serif;
+}
+/* line 407, sass/bits-epub3/_bits-epub3.scss */
+.preface header .subtitle,
+.preface .header .subtitle,
+.foreword header .subtitle,
+.foreword .header .subtitle,
+.ack header .subtitle,
+.ack .header .subtitle,
+.chronology header .subtitle,
+.chronology .header .subtitle,
+.dedication header .subtitle,
+.dedication .header .subtitle {
+  text-align: center;
+  font-style: italic;
+}
+
+/* line 420, sass/bits-epub3/_bits-epub3.scss */
+.front-matter-part header .FMT,
+.front-matter-part header .FMS,
+.front-matter-part .header .FMT,
+.front-matter-part .header .FMS {
+  font-family: "PT-Serif", serif;
+}
+
+/* TITLE PAGE */
+/* line 431, sass/bits-epub3/_bits-epub3.scss */
+.title-page .title-page-title {
+  font-family: "PT-Serif", serif;
+}
+/* line 436, sass/bits-epub3/_bits-epub3.scss */
+.title-page .title-page-subtitle {
+  font-family: "PT-Serif", serif;
+  color: #877f77;
+}
+/* line 442, sass/bits-epub3/_bits-epub3.scss */
+.title-page .title-page-edition {
+  font-family: "PT-Serif", serif;
+  color: #877f77;
+}
+/* line 448, sass/bits-epub3/_bits-epub3.scss */
+.title-page .title-page-volume {
+  font-family: "PT-Serif", serif;
+  color: #877f77;
+}
+/* line 453, sass/bits-epub3/_bits-epub3.scss */
+.title-page .logo {
+  width: 250px;
+  height: auto;
+}
+
+/* ABSTRACT PAGE */
+/* line 460, sass/bits-epub3/_bits-epub3.scss */
+.abstract-page {
+  padding: 2em 1em 0 1em;
+}
+/* line 463, sass/bits-epub3/_bits-epub3.scss */
+.abstract-page .abstract-page-title {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin: 1em 0 0 0;
+  font-weight: bold;
+  line-height: 1.3;
+}
+/* line 472, sass/bits-epub3/_bits-epub3.scss */
+.abstract-page .abstract-page-subtitle {
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  margin: 1em 0 0 0;
+  font-style: italic;
+  line-height: 1.3;
+}
+/* line 480, sass/bits-epub3/_bits-epub3.scss */
+.abstract-page .abstract {
+  margin: 1em 0.5em 1em 0.5em;
+  padding: 1em 0 1em 0;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -o-border-radius: 0.25em;
+  -ms-border-radius: 0.25em;
+  border-radius: 0.25em;
+  border: 1px solid #b7b2ad;
+  background-color: #ffffff;
+  page-break-inside: avoid;
+}
+/* line 489, sass/bits-epub3/_bits-epub3.scss */
+.abstract-page p {
+  text-align: center;
+  -ms-word-break: normal;
+  word-break: normal;
+  word-break: break-word;
+  -webkit-hyphens: none;
+  -epub-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+/* line 494, sass/bits-epub3/_bits-epub3.scss */
+.abstract-page .list {
+  font-size: 0.875em;
+}
+/* line 497, sass/bits-epub3/_bits-epub3.scss */
+.abstract-page .list .list {
+  margin: 0.5em 0 0.5em 0;
+  font-size: 1em;
+  text-align: center;
+}
+/* line 505, sass/bits-epub3/_bits-epub3.scss */
+.abstract-page .list .list-item p {
+  margin: 0.5em 1em;
+}
+/* line 508, sass/bits-epub3/_bits-epub3.scss */
+.abstract-page .list .list-item p + p {
+  text-indent: 0;
+}
+
+/* TOC PAGE */
+/* line 523, sass/bits-epub3/_bits-epub3.scss */
+.toc header .FMT,
+.toc .header .FMT {
+  font-family: "PT-Serif", serif;
+}
+/* line 528, sass/bits-epub3/_bits-epub3.scss */
+.toc .label {
+  color: #877f77;
+  -webkit-text-fill-color: #877f77;
+}
+/* line 534, sass/bits-epub3/_bits-epub3.scss */
+.toc .part {
+  border-top: 0.075em dotted #c3bfbb;
+}
+/* line 537, sass/bits-epub3/_bits-epub3.scss */
+.toc .part .part .toc-entry {
+  margin: 0 0 0 1em;
+}
+/* line 543, sass/bits-epub3/_bits-epub3.scss */
+.toc > .endmatter {
+  margin: 1em 0 0.25em 3.5em;
+}
+/* line 546, sass/bits-epub3/_bits-epub3.scss */
+.toc > .endmatter ~ .endmatter {
+  margin: 0.25em 0 0.25em 3.5em;
+}
+/* line 553, sass/bits-epub3/_bits-epub3.scss */
+.toc .chapter + .app {
+  margin: 1em 0 0.25em 3.5em;
+}
+/* line 560, sass/bits-epub3/_bits-epub3.scss */
+.toc .app + .endmatter {
+  margin: 1em 0 0.25em 3.5em;
+}
+
+/*------------------------------------*\
+12 PART OPENERS
+\*------------------------------------*/
+/* line 572, sass/bits-epub3/_bits-epub3.scss */
+.part header,
+.part .header {
+  padding: 6em 1em 1em 1em;
+}
+/* line 577, sass/bits-epub3/_bits-epub3.scss */
+.part header h1,
+.part .header h1 {
+  font-family: "PT-Serif", serif;
+  color: #877f77;
+}
+/* line 585, sass/bits-epub3/_bits-epub3.scss */
+.part header h1 .label:after,
+.part .header h1 .label:after {
+  content: "\25C8";
+  /* Diamond divider */
+  color: #9f9992;
+}
+/* line 593, sass/bits-epub3/_bits-epub3.scss */
+.part header .PST,
+.part .header .PST {
+  color: #877f77;
+}
+
+/*------------------------------------*\
+13 CHAPTER OPENERS
+\*------------------------------------*/
+/* line 605, sass/bits-epub3/_bits-epub3.scss */
+.chapter header,
+.chapter .header {
+  padding: 6em 1em 0 1em;
+}
+/* line 610, sass/bits-epub3/_bits-epub3.scss */
+.chapter header h1,
+.chapter header .CT,
+.chapter .header h1,
+.chapter .header .CT {
+  font-family: "PT-Serif", serif;
+  color: #877f77;
+}
+/* line 616, sass/bits-epub3/_bits-epub3.scss */
+.chapter header .CST,
+.chapter .header .CST {
+  color: #877f77;
+}
+/* line 620, sass/bits-epub3/_bits-epub3.scss */
+.chapter header:after,
+.chapter .header:after {
+  content: "\25C8";
+  /* Diamond divider */
+  color: #9f9992;
+}
+/* line 627, sass/bits-epub3/_bits-epub3.scss */
+.chapter .subtitle {
+  color: #877f77;
+}
+/* line 635, sass/bits-epub3/_bits-epub3.scss */
+.chapter .chapter-intro,
+.chapter .editors-note,
+.chapter .abstract,
+.chapter .kwd-group {
+  border-bottom: 0.075em dotted #c3bfbb;
+}
+/* line 642, sass/bits-epub3/_bits-epub3.scss */
+.chapter .abstract h1 {
+  font-size: 1.375em;
+  text-align: center;
+  margin: 2em 1em 0.5em 1em;
+  font-weight: bold;
+  font-weight: 900;
+}
+/* line 650, sass/bits-epub3/_bits-epub3.scss */
+.chapter .author-comment p {
+  text-align: center;
+  text-indent: 0;
+  margin: 0.5em 0 0.5em 0;
+}
+
+/*------------------------------------*\
+14 ENDMATTER
+\*------------------------------------*/
+/* line 664, sass/bits-epub3/_bits-epub3.scss */
+.EMS,
+.EMT,
+.AT {
+  font-family: "PT-Serif", serif;
+}
+
+/* line 670, sass/bits-epub3/_bits-epub3.scss */
+.endmatter h1.title,
+.glossary h1,
+.backmatter h1.EMT,
+.conclusion h1.EMT,
+.ref-list h1 {
+  font-family: "PT-Serif", serif;
+}
+
+/* line 679, sass/bits-epub3/_bits-epub3.scss */
+h5.EMT {
+  font-style: normal;
+  text-align: left;
+  font-size: 1em;
+  font-family: inherit;
+  margin: 1em 0 0 0;
+}
+/* line 686, sass/bits-epub3/_bits-epub3.scss */
+h5.EMT + .def-list {
+  margin: 0 0 1em 0;
+}
+
+/* line 694, sass/bits-epub3/_bits-epub3.scss */
+.ref-list .ref {
+  border-top: 0.075em dotted #c3bfbb;
+}
+
+/* line 706, sass/bits-epub3/_bits-epub3.scss */
+.app header h1 .label,
+.backmatter header h1 .label {
+  display: block;
+}
+/* line 711, sass/bits-epub3/_bits-epub3.scss */
+.app header .subtitle,
+.backmatter header .subtitle {
+  text-align: center;
+  font-weight: bold;
+  margin: 0 1em 1em 1em;
+  -ms-word-break: normal;
+  word-break: normal;
+  word-break: break-word;
+  -webkit-hyphens: none;
+  -epub-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* line 724, sass/bits-epub3/_bits-epub3.scss */
+.index .title-group h1 {
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+}
+
+/*------------------------------------*\
+15 EDITIONS
+\*------------------------------------*/
+/* line 743, sass/bits-epub3/_bits-epub3.scss */
+.document-group header h1,
+.document-group header .CT,
+.document-group .header h1,
+.document-group .header .CT {
+  font-family: "PT-Serif", serif;
+  color: #877f77;
+}
+
+/* line 753, sass/bits-epub3/_bits-epub3.scss */
+.document .sec {
+  border-top: 1px dotted #c3bfbb;
+}
+
+/*------------------------------------*\
+16 DICTIONARIES
+\*------------------------------------*/
+/* line 764, sass/bits-epub3/_bits-epub3.scss */
+.dictionary-entry {
+  border-top: 1px dotted #c3bfbb;
+}
+
+/*------------------------------------*\
+17 ILR
+\*------------------------------------*/
+/*------------------------------------*\
+MEDIA QUERIES
+\*------------------------------------*/
+@media amzn-kf8, amzn-mobi7 {
+  /* line 8, sass/bits-epub3/_bits-epub3-media-queries.scss */
+  .title.run-in:after {
+    content: "  ";
+    margin-right: 1em;
+  }
+}
+@media amzn-kf8, amzn-mobi7 {
+  /* CSS for Amazon devices */
+  /* line 16, sass/bits-epub3/_bits-epub3-media-queries.scss */
+  .disp-formula {
+    margin: 1em 4em 2em 1em;
+  }
+  /* line 19, sass/bits-epub3/_bits-epub3-media-queries.scss */
+  .disp-formula p {
+    text-indent: 0;
+    margin: 0 2em 0 0;
+  }
+  /* line 25, sass/bits-epub3/_bits-epub3-media-queries.scss */
+  .disp-formula .label {
+    float: right;
+    font-weight: normal;
+    display: block;
+    width: 6em;
+    margin: 0 -4em 0 1em;
+    text-align: right;
+  }
+}
+@media amzn-kf8 {
+  /* CSS for KF8 devices */
+  /* line 39, sass/bits-epub3/_bits-epub3-media-queries.scss */
+  .sc {
+    font-size: 0.6875em;
+  }
+
+  /* line 43, sass/bits-epub3/_bits-epub3-media-queries.scss */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    -ms-word-break: normal;
+    word-break: normal;
+    word-break: break-word;
+    -webkit-hyphens: none;
+    -epub-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  /* line 51, sass/bits-epub3/_bits-epub3-media-queries.scss */
+  .index-div > .index-entry + .x {
+    margin-left: 2em !important;
+  }
+  /* line 58, sass/bits-epub3/_bits-epub3-media-queries.scss */
+  .index-div .index-entry + .x {
+    margin-left: 1em !important;
+  }
+}
+@media amzn-mobi7 {
+  /* CSS for Mobi7 devices */
+  /* line 67, sass/bits-epub3/_bits-epub3-media-queries.scss */
+  body {
+    font-size: 100%;
+  }
+
+  /* line 75, sass/bits-epub3/_bits-epub3-media-queries.scss */
+  .index-div > .index-entry + .x {
+    margin-left: 2em !important;
+  }
+  /* line 82, sass/bits-epub3/_bits-epub3-media-queries.scss */
+  .index-div .index-entry + .x {
+    margin-left: 1em !important;
+  }
+}
+/* Cambridge University Press EPUB/mobi CSS */
+/* generated 2021-03-02+05:30-17:17:22.733+05:30 */
+@font-face {
+  font-family: DejaVuSans;
+  font-weight: normal;
+  font-style: normal;
+  src: url(../Fonts/DejaVuSans.ttf);
+}
+@font-face {
+  font-family: DejaVuSans;
+  font-weight: bold;
+  font-style: normal;
+  src: url(../Fonts/DejaVuSans-Bold.ttf);
+}
+@font-face {
+  font-family: DejaVuSans;
+  font-weight: normal;
+  font-style: italic;
+  src: url(../Fonts/DejaVuSans-Italic.ttf);
+}
+@font-face {
+  font-family: GFSNeohellenicStd;
+  font-weight: normal;
+  font-style: normal;
+  src: url(../Fonts/GFSNeohellenicStd.otf);
+}
+@font-face {
+  font-family: CUPFreeSerif;
+  font-weight: normal;
+  font-style: normal;
+  src: url(../Fonts/CUPFreeSerif.ttf);
+}
+.unicode-altfont-DejaVuSans {
+  font-family: "DejaVuSans";
+}
+.unicode-altfont-GFSNeohellenicStd {
+  font-family: "GFSNeohellenicStd";
+}
+.unicode-altfont-CUPFreeSerif {
+  font-family: "CUPFreeSerif";
+}
