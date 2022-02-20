@@ -15,6 +15,7 @@
   text-align: center;
   text-decoration: none;
   color: #888;
+  padding-left: 3px;
 }
 #mulu > a:hover {
   color: #9c9;
