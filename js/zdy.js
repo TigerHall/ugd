@@ -14,9 +14,9 @@ link.rel = "shortcut icon";
 document.addEventListener("visibilitychange", function () {
   var t = 0;
   if (document.visibilityState == "hidden") {
-    link.href = "../../../js/2.svg";
+    link.href = "../../js/2.svg";
   } else {
-    link.href = "../../../js/1.svg";
+    link.href = "../../js/1.svg";
   }
   document.getElementsByTagName("head")[0].appendChild(link);
 });
@@ -49,4 +49,4 @@ setInterval("showLogin()", "1000");
 
 // 添加元素
 
-document.write("<div id=zhanwei><div id=mulu><a href=./OEBPS/Text/coverpage.xhtml>封面</a><a href=./OEBPS/Text/toc.xhtml>目录</a><a href=./OEBPS/Text/book-part1.xhtml>第1章</a><a href=./OEBPS/Text/book-part2.xhtml>第2章</a><a href=./OEBPS/Text/book-part3.xhtml>第3章</a><a href=./OEBPS/Text/book-part4.xhtml>第4章</a><a href=./OEBPS/Text/book-part5.xhtml>第5章</a><a href=./OEBPS/Text/book-part6.xhtml>第6章</a><a href=./OEBPS/Text/book-part7.xhtml>第7章</a></div></div>")
+// document.write("<div id=zhanwei><div id=mulu><a href=./OEBPS/Text/coverpage.xhtml>封面</a><a href=./OEBPS/Text/toc.xhtml>目录</a><a href=./OEBPS/Text/book-part1.xhtml>第1章</a><a href=./OEBPS/Text/book-part2.xhtml>第2章</a><a href=./OEBPS/Text/book-part3.xhtml>第3章</a><a href=./OEBPS/Text/book-part4.xhtml>第4章</a><a href=./OEBPS/Text/book-part5.xhtml>第5章</a><a href=./OEBPS/Text/book-part6.xhtml>第6章</a><a href=./OEBPS/Text/book-part7.xhtml>第7章</a></div></div>")

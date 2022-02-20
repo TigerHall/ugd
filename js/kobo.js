@@ -211,9 +211,9 @@ link.rel = "shortcut icon";
 document.addEventListener("visibilitychange", function () {
   var d = new Date();
   if (document.visibilityState == "hidden") {
-    link.href = "../../../js/2.svg";
+    link.href = "../../js/2.svg";
   } else {
-    link.href = "../../../js/1.svg";
+    link.href = "../../js/1.svg";
   }
   document.getElementsByTagName("head")[0].appendChild(link);
 });
