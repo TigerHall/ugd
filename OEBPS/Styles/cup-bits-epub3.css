@@ -352,9 +352,9 @@ video {
 }
 
 body {
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-bottom: 2%;
+  margin: 0 auto;
+  padding: 2ch;
+  max-width: 80ch;
 }
 
 .navlink {
